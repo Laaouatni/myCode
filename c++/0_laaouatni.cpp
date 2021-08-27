@@ -2,6 +2,5 @@
 using namespace std;
 
 int main() {
-
-cout << "salam mama" << endl;
+cout << "ciao laaouatni" << endl;
 }
