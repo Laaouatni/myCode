@@ -1,4 +1,7 @@
-CODICE SORGENTE C++: https://raw.githubusercontent.com/Laaouatni/myCode/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/laa0_ciao-Nome.cpp
+# CODICE SORGENTE C++: 
+
+https://github.com/Laaouatni/myCode/blob/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/ciao-nome-laaouatni/laa0_ciao-Nome.cpp
+
 
 # INTRODUZIONE:
 
