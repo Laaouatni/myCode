@@ -1,4 +1,4 @@
-CODICE SORGENTE C++: [laa0_ciao-Nome.cpp] (https://raw.githubusercontent.com/Laaouatni/myCode/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/laa0_ciao-Nome.cpp)
+CODICE SORGENTE C++: https://raw.githubusercontent.com/Laaouatni/myCode/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/laa0_ciao-Nome.cpp
 
 # INTRODUZIONE:
 
@@ -99,7 +99,7 @@ per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi
 
 # 
 
-### - `endl;`
+### - endl:
 `endl` , serve per andare a capo
 
 si può anche farlo con \n (caratteri escape) se volete!
