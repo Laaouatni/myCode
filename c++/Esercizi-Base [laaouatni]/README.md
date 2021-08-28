@@ -11,19 +11,25 @@ il programma è di livello semplice!
 
 senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose così)
 
+
 # cosa ho fatto?
 
-### - ho commentato il codice:
+## - ho commentato il codice:
+
 `/* il tuo commento */` e `//il tuo commento`
 
 Sono considerate commenti e non hanno alcun effetto sul comportamento del programma.
 
-### - ho utilizzato una libreria:
+
+## - ho utilizzato una libreria:
+
 La libreria utilizzata è `<iostream>`
 
 Mi è servita questa libreria, in questo caso per l' `output`.
 
-### - ho utilizzato namespace std:
+
+## - ho utilizzato namespace std:
+
 inizialmente ogni mio programma conteneva `namespace std`.
 
 ma adesso ho capito il vero significato teorico di `namespace std`, 
@@ -40,7 +46,9 @@ perchè è più facile per i begginer,
 
 ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::`
 
-##### ecco qui un esempio pratico di namespace:
+
+### ecco qui un esempio pratico di namespace:
+
 `std` è la libreria `standard` in C++, 
 
 che contiene la definizione di un insieme di classi, contenitori e funzioni che fanno parte del linguaggio C++ principale. 
@@ -90,19 +98,23 @@ in modo da non dover aggiungere `std::` prima di ogni classe/contenitore/funzion
 
 Il compilatore saprà che deve cercare le definizioni all'interno dello spazio dei nomi STD per impostazione predefinita, se non diversamente specificato.
 
-### - int main()
+
+## - int main()
+
 è una funzione che viene chiamata sempre per prima, quindi ogni cosa che ci metto all'interno, verrà eseguita.
 
 prima di `main` c'è `int` quindi abbiamo bisogno anche di fare un `return 0;`
 
-### - cout<<
+
+## - cout<<
+
 questa istruzione, deriva dalla libreria `standard` . e serve per l' `output` .
 
 per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi caratteri, che fanno una frase.
 
-# 
 
-### - endl:
+## - endl:
+
 `endl` , serve per andare a capo
 
 si può anche farlo con \n (caratteri escape) se volete!
