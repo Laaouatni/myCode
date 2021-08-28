@@ -1,97 +1,105 @@
-CODICE SORGENTE C++: <a>`laa0_ciao-Nome.cpp`</a>
+CODICE SORGENTE C++: [laa0_ciao-Nome.cpp] (https://raw.githubusercontent.com/Laaouatni/myCode/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/laa0_ciao-Nome.cpp)
 
-INTRODUZIONE:
-Il programma precedente è il tipico programma che gli apprendisti programmatori scrivono per la prima volta,
+# INTRODUZIONE:
 
-e il suo risultato è vedere sul tuo schermo la frase “Hello World!” oppure Italianizzato “il Tuo Nome“.
+Il risultato di questo programma, è per appunto: `ciao + Nome`
 
-È uno dei programmi più semplici che possono essere scritti in C++, ma contiene già i componenti fondamentali che ogni programma C++ ha.
+il programma è di livello semplice!
 
-Guarderemo linea per linea… così da capire insieme facilmente le basi del C++, cioè il codice che abbiamo appena scritto:
+senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose così)
 
-//copyright
-Questa è una linea di commento.
+# cosa ho fatto?
 
-Tutte le linee che iniziano con:
+### - ho commentato il codice:
+`/* il tuo commento */` e `//il tuo commento`
 
-iniziano con due slash //
-iniziano con un slash e un asterisco /* e finiscono con un asterisco e un slash */
-sono considerate commenti e non hanno alcun effetto sul comportamento del programma.
+Sono considerate commenti e non hanno alcun effetto sul comportamento del programma.
 
-Il programmatore può usarle per includere brevi spiegazioni o osservazioni all’interno del codice sorgente stesso...
+### - ho utilizzato una libreria:
+La libreria utilizzata è `<iostream>`
 
-#include <iostream>
-Le linee che iniziano con un segno hash # sono direttive per il preprocessore.
+Mi è servita questa libreria, in questo caso per l' `output`.
 
-Non sono linee di codice regolare con espressioni / comandi...
+### - ho utilizzato namespace std:
+inizialmente ogni mio programma conteneva `namespace std`.
 
-ma indicazioni per il preprocessore del compilatore.
+ma adesso ho capito il vero significato teorico di `namespace std`, 
 
-In questo caso la direttiva #include dice al preprocessore di includere il file standard iostream.
+è veramente grave utilizzare `using namespace std;` perchè a volte rende difficile il debbuging. 
 
-Questo specifico file iostream include le dichiarazioni della libreria standard di base di input-output in C++,
+è meglio sostituirlo con `std::`. 
 
-ed è incluso perché la sua funzionalità sarà usata più avanti nel programma.
+nei tutorial che troverete su internet, 
 
-usando namespace std; , tradotto in italiano sarà qualcosa come “lo spazio dei nomi standard”
+vi diranno di mettere `using namespace std` senza nemmeno sapere il significato. 
 
-Tutti gli elementi della libreria standard C++ sono dichiarati all’interno di quello che è chiamato uno spazio dei nomi:
+perchè è più facile per i begginer, 
 
-namespace std;
-Quindi per accedere alla sua funzionalità std dichiariamo using namespace std;
+ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::`
 
-Questa riga è molto frequente nei programmi C++ che usano la libreria standard, e infatti sarà inclusa, nella maggior parte dei codici sorgenti, inclusi in questo tutorial.
+##### ecco qui un esempio pratico di namespace:
+`std` è la libreria `standard` in C++, 
 
-int main ( )
-Questa linea corrisponde all’inizio della definizione della funzione main .
+che contiene la definizione di un insieme di classi, contenitori e funzioni che fanno parte del linguaggio C++ principale. 
 
-La funzione main() è il punto iniziale da cui tutti i programmi C++, iniziano la loro esecuzione,
 
-indipendentemente dalla sua posizione all’interno del codice sorgente.
+Nel tuo programma C++, quando usi identificatori o oggetti o metodi, il compilatore deve sapere dove sono definiti.
 
-non importa se ci sono altre funzioni con altri nomi definite prima o dopo di essa…
+Deve sapere a quale `namespace` appartengono
 
-le istruzioni contenute nella definizione di questa funzione saranno sempre le PRIME ad essere eseguite in qualsiasi programma C++.
+(cioè provengono dalla libreria standard? O sono definiti dall'utente?)
 
-Per questa stessa ragione, è essenziale che tutti i programmi C++, abbiano una funzione main() .
 
-La parola main è seguita nel codice da una coppia di parentesi ( ) .
+Ora, diciamo che stai creando il tuo gioco. 
 
-Questo perché è una funzione:
+Nel tuo gioco, hai una classe per gestire una raccolta di oggetti. 
 
-In C++, ciò che differenzia una dichiarazione di funzione da altri tipi di espressioni, che sono queste parentesi ( ) che seguono il suo nome.
+Quella classe ha una funzione chiamata `begin()` . 
 
-Opzionalmente, queste parentesi ( ) possono racchiudere una lista di parametri al loro interno.
 
-Subito dopo queste parentesi possiamo trovare il corpo della funzione principale racchiuso tra parentesi graffe { } .
+Il suo obiettivo è "iniziare" una serie di operazioni sulla raccolta. 
 
-Ciò che è contenuto in queste parentesi ( ) è ciò che la funzione, utilizza quando viene eseguita.
+Va tutto bene, ma il fatto è che, nel C++ standard, c'è anche la funzione `begin()` ,
 
-cout<<"nome";
-Questa riga è un'istruzione C++.
+che può essere chiamata sui contenitori per ottenere un iteratore che punta al loro primo elemento. 
 
-Un'istruzione è un'espressione semplice o composta, che può effettivamente produrre qualche effetto.
 
-In effetti, questa affermazione esegue l'unica azione che genera un effetto visibile nel nostro primo programma.
+Quindi, nel tuo programma, ogni volta che usi la funzione `begin()` , 
 
-cout rappresenta il flusso di output standard in C++ ...
+il compilatore deve sapere a quale delle funzioni `begin()` esistenti/disponibili ti stai riferendo. 
 
-e il significato dell'intera istruzione è: 
 
-inserire una sequenza di caratteri
+È quello della libreria C++ standard,
 
-(in questo caso la sequenza di caratteri IL_TUO_NOME)
+a cui puoi accedere tramite std::begin()? O è quello del tuo gioco?
 
-nello standard output stream (che di solito è lo schermo / terminale).
 
-cout è dichiarato nel file standard iostream all'interno dello spazio dei nomi std,
+È una buona cosa includere sempre lo namespace std per ogni cosa nel tuo programma 
 
-ecco perché dovevamo includere quel file specifico e dichiarare che avremmo usato questo spazio dei nomi specifico. (in precedenza) nel nostro codice C++.
+per essere specifico ed evitare conflitti che potrebbero essere difficili da eseguire il debug. 
 
-Se si nota bene... ogni istruzione termina con un punto e virgola ;.
 
-Questo carattere è usato per segnare la fine di qualsiasi istruzione
+Tuttavia, se stai lavorando su un programma semplice e sei sicuro al 100% che non ci sia alcun conflitto, 
 
-e infatti deve essere inclusa alla fine di tutte le istruzioni di espressione in tutti i programmi C++.
+puoi aggiungere la riga `using namespace std` nella parte superiore dei tuoi file, 
 
-(uno degli errori di sintassi più comuni è infatti quello di dimenticare di includere un punto e virgola ; dopo un'istruzione).
+in modo da non dover aggiungere `std::` prima di ogni classe/contenitore/funzione che usi. 
+
+Il compilatore saprà che deve cercare le definizioni all'interno dello spazio dei nomi STD per impostazione predefinita, se non diversamente specificato.
+
+### - int main()
+è una funzione che viene chiamata sempre per prima, quindi ogni cosa che ci metto all'interno, verrà eseguita.
+
+prima di `main` c'è `int` quindi abbiamo bisogno anche di fare un `return 0;`
+
+### - cout<<
+questa istruzione, deriva dalla libreria `standard` . e serve per l' `output` .
+
+per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi caratteri, che fanno una frase.
+
+# 
+
+### - `endl;`
+`endl` , serve per andare a capo
+
+si può anche farlo con \n (caratteri escape) se volete!
