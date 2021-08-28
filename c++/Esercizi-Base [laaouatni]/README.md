@@ -11,6 +11,19 @@ il programma è di livello semplice!
 
 senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose così)
 
+# Come eseguire il programma?
+## vscode code editor
+
+in VSCODE, visto che è solo un text-editor. 
+
+è meglio installare gcc, e seguire l'installazione.
+
+- se hai già il compilatore, basta digitare nel terminale:
+
+1. `g++ nome-programma-con-anche-la-directory -o nome-programma-del-file-exe`
+2. `./nome-programma-del-file-exe.exe`
+
+----------------------------------------------------------------
 
 # cosa ho fatto?
 
