@@ -4,11 +4,11 @@
 
 int main() {
 
-std::cout << "Boungiorno... \n inserisci il tuo nome: ";    //inizio
-std::string nomeUtente;
-std::cin >> nomeUtente;
+std::cout << "Boungiorno... \n inserisci il tuo nome: ";    //inizio.
+std::string nomeUtente;                                     
+std::cin >> nomeUtente;                                     
 
-std::cout << "\nciao " << nomeUtente;
+std::cout << "\nciao " << nomeUtente;                       // fine.
 
 return 0;
 }
