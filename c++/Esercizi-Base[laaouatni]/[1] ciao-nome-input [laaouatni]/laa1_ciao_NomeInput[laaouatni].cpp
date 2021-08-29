@@ -9,4 +9,6 @@ std::string nomeUtente;
 std::cin >> nomeUtente;
 
 std::cout << "\nciao " << nomeUtente;
+
+return 0;
 }

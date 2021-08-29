@@ -3,5 +3,6 @@
 #include <iostream> 
 
 int main() {
-std::cout << "ciao laaouatni" << std::endl;     //cambia 'laaouatni' con il tuo nome :)
+std::cout << "ciao laaouatni" << std::endl;     //cambia 'laaouatni' con il tuo nome.
+return 0;
 }
