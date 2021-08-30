@@ -60,58 +60,6 @@ perchè è più facile per i begginer,
 ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::`
 
 
-### ecco qui un esempio pratico di namespace:
-
-`std` è la libreria `standard` in C++, 
-
-che contiene la definizione di un insieme di classi, contenitori e funzioni che fanno parte del linguaggio C++ principale. 
-
-
-Nel tuo programma C++, quando usi identificatori o oggetti o metodi, il compilatore deve sapere dove sono definiti.
-
-Deve sapere a quale `namespace` appartengono
-
-(cioè provengono dalla libreria standard? O sono definiti dall'utente?)
-
-
-Ora, diciamo che stai creando il tuo gioco. 
-
-Nel tuo gioco, hai una classe per gestire una raccolta di oggetti. 
-
-Quella classe ha una funzione chiamata `begin()` . 
-
-
-Il suo obiettivo è "iniziare" una serie di operazioni sulla raccolta. 
-
-Va tutto bene, ma il fatto è che, nel C++ standard, c'è anche la funzione `begin()` ,
-
-che può essere chiamata sui contenitori per ottenere un iteratore che punta al loro primo elemento. 
-
-
-Quindi, nel tuo programma, ogni volta che usi la funzione `begin()` , 
-
-il compilatore deve sapere a quale delle funzioni `begin()` esistenti/disponibili ti stai riferendo. 
-
-
-È quello della libreria C++ standard,
-
-a cui puoi accedere tramite std::begin()? O è quello del tuo gioco?
-
-
-È una buona cosa includere sempre lo namespace std per ogni cosa nel tuo programma 
-
-per essere specifico ed evitare conflitti che potrebbero essere difficili da eseguire il debug. 
-
-
-Tuttavia, se stai lavorando su un programma semplice e sei sicuro al 100% che non ci sia alcun conflitto, 
-
-puoi aggiungere la riga `using namespace std` nella parte superiore dei tuoi file, 
-
-in modo da non dover aggiungere `std::` prima di ogni classe/contenitore/funzione che usi. 
-
-Il compilatore saprà che deve cercare le definizioni all'interno dello spazio dei nomi STD per impostazione predefinita, se non diversamente specificato.
-
-
 ## - int main()
 
 è una funzione che viene chiamata sempre per prima, quindi ogni cosa che ci metto all'interno, verrà eseguita.
