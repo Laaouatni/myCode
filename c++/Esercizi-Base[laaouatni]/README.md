@@ -15,8 +15,8 @@ senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose più com
 ----------------------------------------------------------------
 
 # Come eseguire il programma?
-
-### vscode code editor
+ 
+## vscode code editor
 
 in VSCODE, visto che è solo un text-editor... 
 
@@ -85,3 +85,5 @@ per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi
 si può anche farlo con \n (caratteri escape) se volete!
 
 ----------------------------------------------------------------
+
+# Laaouatni Anas - (c)copyright 2021 .
