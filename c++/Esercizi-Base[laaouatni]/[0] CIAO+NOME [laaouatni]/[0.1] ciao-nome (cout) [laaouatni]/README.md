@@ -38,14 +38,14 @@ in VSCODE, visto che è solo un text-editor...
 Sono considerate commenti e non hanno alcun effetto sul comportamento del programma.
 
 
-## - ho utilizzato una libreria:
+## - ho utilizzato una libreria C++:
 
 La libreria utilizzata è `<iostream>`
 
 Mi è servita questa libreria, in questo caso per l' `output`.
 
 
-## - ho utilizzato namespace std:
+## - ho utilizzato `using namespace std;`
 
 inizialmente ogni mio programma conteneva `namespace std`.
 
@@ -64,7 +64,7 @@ perchè è più facile per i begginer,
 ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::` :)
 
 
-## - int main()
+## - int main();
 
 è una funzione che viene chiamata sempre per prima, quindi ogni cosa che ci metto all'interno, verrà eseguita.
 
@@ -78,7 +78,7 @@ questa istruzione, deriva dalla libreria `standard` . e serve per l' `output` .
 per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi caratteri, che fanno una frase.
 
 
-## - endl:
+## - endl;
 
 `endl` , serve per andare a capo
 
