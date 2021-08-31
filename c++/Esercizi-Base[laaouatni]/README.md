@@ -2,6 +2,7 @@
 
 https://github.com/Laaouatni/myCode/blob/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/ciao-nome-laaouatni/laa0_ciao-Nome.cpp
 
+----------------------------------------------------------------
 
 # INTRODUZIONE:
 
@@ -9,19 +10,22 @@ Il risultato di questo programma, è per appunto: `ciao + Nome`
 
 il programma è di livello semplice!
 
-senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose così)
+senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose più complicate)
+
+----------------------------------------------------------------
 
 # Come eseguire il programma?
-## vscode code editor
 
-in VSCODE, visto che è solo un text-editor. 
+### vscode code editor
 
-è meglio installare gcc, e seguire l'installazione.
+in VSCODE, visto che è solo un text-editor... 
+
+è meglio installare gcc, e seguire l'installazione. (GCC è un compilatore)
 
 - se hai già il compilatore, basta digitare nel terminale:
 
-1. `g++ nome-programma-con-anche-la-directory -o nome-programma-del-file-exe`
-2. `./nome-programma-del-file-exe.exe`
+    1. `g++ nome-programma-con-anche-la-directory -o nome-programma-del-file-exe`
+    2. `./nome-programma-del-file-exe.exe`
 
 ----------------------------------------------------------------
 
@@ -57,7 +61,7 @@ vi diranno di mettere `using namespace std` senza nemmeno sapere il significato.
 
 perchè è più facile per i begginer, 
 
-ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::`
+ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::` :)
 
 
 ## - int main()
@@ -79,3 +83,5 @@ per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi
 `endl` , serve per andare a capo
 
 si può anche farlo con \n (caratteri escape) se volete!
+
+----------------------------------------------------------------
