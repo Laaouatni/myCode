@@ -4,6 +4,22 @@ https://github.com/Laaouatni/myCode/blob/main/c%2B%2B/Esercizi-Base%20%5Blaaouat
 
 ----------------------------------------------------------------
 
+# indice dei contenuti:
+- [CODICE SORGENTE C++:](#codice-sorgente-c)
+- [indice dei contenuti:](#indice-dei-contenuti)
+- [INTRODUZIONE:](#introduzione)
+- [Come eseguire il programma?](#come-eseguire-il-programma)
+  - [vscode code editor](#vscode-code-editor)
+- [cosa ho fatto?](#cosa-ho-fatto)
+  - [- ho commentato il codice:](#--ho-commentato-il-codice)
+  - [- ho utilizzato una libreria C++:](#--ho-utilizzato-una-libreria-c)
+  - [- ho utilizzato `using namespace std;`](#--ho-utilizzato-using-namespace-std)
+  - [- int main();](#--int-main)
+  - [- cout<<](#--cout)
+  - [- endl;](#--endl)
+- [Laaouatni Anas - (c)copyright 2021 .](#laaouatni-anas---ccopyright-2021-)
+
+----------------------------------------------------------------
 # INTRODUZIONE:
 
 Il risultato di questo programma, è per appunto: `ciao + Nome`
