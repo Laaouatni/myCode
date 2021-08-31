@@ -55,13 +55,7 @@ ma adesso ho capito il vero significato teorico di `namespace std`,
 
 è meglio sostituirlo con `std::`. 
 
-nei tutorial che troverete su internet, 
-
-vi diranno di mettere `using namespace std` senza nemmeno sapere il significato. 
-
-perchè è più facile per i begginer, 
-
-ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::` :)
+ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi già da adesso a `std::` 
 
 
 ## - int main();
