@@ -1,6 +1,6 @@
 # CODICE SORGENTE C++: 
 
-https://github.com/Laaouatni/myCode/blob/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/ciao-nome-laaouatni/laa0_ciao-Nome.cpp
+https://github.com/Laaouatni/myCode/tree/main/c%2B%2B/Esercizi-Base%5Blaaouatni%5D/%5B0%5D%20CIAO%2BNOME%20%5Blaaouatni%5D/%5B0.2%5D%20ciao-nome%20(printf)%20%5Blaaouatni%5D
 
 ----------------------------------------------------------------
 
