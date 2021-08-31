@@ -2,6 +2,20 @@
 
 https://github.com/Laaouatni/myCode/tree/main/c%2B%2B/Esercizi-Base%5Blaaouatni%5D/%5B0%5D%20CIAO%2BNOME%20%5Blaaouatni%5D/%5B0.2%5D%20ciao-nome%20(printf)%20%5Blaaouatni%5D
 
+------
+- [CODICE SORGENTE C++:](#codice-sorgente-c)
+- [INTRODUZIONE:](#introduzione)
+- [Come eseguire il programma?](#come-eseguire-il-programma)
+  - [vscode code editor](#vscode-code-editor)
+- [cosa ho fatto?](#cosa-ho-fatto)
+  - [- ho commentato il codice:](#--ho-commentato-il-codice)
+  - [- ho utilizzato una libreria C++:](#--ho-utilizzato-una-libreria-c)
+  - [- ho utilizzato `using namespace std;`](#--ho-utilizzato-using-namespace-std)
+  - [- int main();](#--int-main)
+  - [- printf();](#--printf)
+  - [- endl;](#--endl)
+- [Laaouatni Anas - (c)copyright 2021 .](#laaouatni-anas---ccopyright-2021-)
+  
 ----------------------------------------------------------------
 
 # INTRODUZIONE:
