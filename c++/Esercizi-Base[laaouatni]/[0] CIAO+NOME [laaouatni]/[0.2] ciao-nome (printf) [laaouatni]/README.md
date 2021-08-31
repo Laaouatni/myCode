@@ -1,0 +1,89 @@
+# CODICE SORGENTE C++: 
+
+https://github.com/Laaouatni/myCode/blob/main/c%2B%2B/Esercizi-Base%20%5Blaaouatni%5D/ciao-nome-laaouatni/laa0_ciao-Nome.cpp
+
+----------------------------------------------------------------
+
+# INTRODUZIONE:
+
+Il risultato di questo programma, è per appunto: `ciao + Nome`
+
+il programma è di livello semplice!
+
+senza nessun algoritmo o variabile (nei altri esercizi, ci saranno cose più complicate)
+
+----------------------------------------------------------------
+
+# Come eseguire il programma?
+ 
+## vscode code editor
+
+in VSCODE, visto che è solo un text-editor... 
+
+è meglio installare gcc, e seguire l'installazione. (GCC è un compilatore)
+
+- se hai già il compilatore, basta digitare nel terminale:
+
+    1. `g++ nome-programma-con-anche-la-directory -o nome-programma-del-file-exe`
+    2. `./nome-programma-del-file-exe.exe`
+
+----------------------------------------------------------------
+
+# cosa ho fatto?
+
+## - ho commentato il codice:
+
+`/* il tuo commento */` e `//il tuo commento`
+
+Sono considerate commenti e non hanno alcun effetto sul comportamento del programma.
+
+
+## - ho utilizzato una libreria:
+
+La libreria utilizzata è `<iostream>`
+
+Mi è servita questa libreria, in questo caso per l' `output`.
+
+
+## - ho utilizzato namespace std:
+
+inizialmente ogni mio programma conteneva `namespace std`.
+
+ma adesso ho capito il vero significato teorico di `namespace std`, 
+
+è veramente grave utilizzare `using namespace std;` perchè a volte rende difficile il debbuging. 
+
+è meglio sostituirlo con `std::`. 
+
+nei tutorial che troverete su internet, 
+
+vi diranno di mettere `using namespace std` senza nemmeno sapere il significato. 
+
+perchè è più facile per i begginer, 
+
+ed sinceramente non serve nei programmi così semplici, ma è meglio abbituarsi a `std::` :)
+
+
+## - int main()
+
+è una funzione che viene chiamata sempre per prima, quindi ogni cosa che ci metto all'interno, verrà eseguita.
+
+prima di `main` c'è `int` quindi abbiamo bisogno anche di fare un `return 0;`
+
+
+## - printf()
+
+questa istruzione, deriva dalla libreria `standard` . e serve per l' `output` .
+
+per tutto l'altro lo sapete già, cioè metti la tua stringa che contiene i tuoi caratteri, che fanno una frase.
+
+
+## - endl:
+
+`endl` , serve per andare a capo
+
+si può anche farlo con \n (caratteri escape) se volete!
+
+----------------------------------------------------------------
+
+# Laaouatni Anas - (c)copyright 2021 .
