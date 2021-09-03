@@ -1,17 +1,29 @@
 #include <iostream>
 #include <string>
 
+//per commentare ALT+SHIFT+A
+
+/* namespace anas {
+
+    void PasswordGeneratore() {
+        int NumeroCarattere = rand() % sizeof(CharAlfabeto);
+    }
+} */
+
+
 int main()
 {
     std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
     
-    char CharAlfabeto[ElencoAlfabeto.length()];
+    char CharAlfabeto    [ElencoAlfabeto.length()];
+    int  LunghezzaArray = ElencoAlfabeto.length();
 
-    for (int NumeroVolte = 0; NumeroVolte < sizeof(CharAlfabeto); NumeroVolte++) {
-       
-        CharAlfabeto[NumeroVolte] = ElencoAlfabeto[NumeroVolte];
-        std::cout << CharAlfabeto[NumeroVolte] << " ";
-    }
+    std::cout << "CharAlfabeto[LunghezzaArray]"   << CharAlfabeto[LunghezzaArray]   << "\n";
+    std::cout << "ElencoAlfabeto[LunghezzaArray]" << ElencoAlfabeto[LunghezzaArray] << "\n";
+
+/*     int NumeroCarattere = rand() % sizeof(CharAlfabeto);
+    std::cout << CharAlfabeto[NumeroVolte] << "\n"; */
+    
 
     return 0;
 }
