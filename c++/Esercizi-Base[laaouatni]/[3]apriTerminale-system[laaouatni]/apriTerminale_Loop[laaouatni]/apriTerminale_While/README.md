@@ -4,7 +4,25 @@
 
 ----------------------------------------------------------------
 
-
+# CONTENUTI DELLA PAGINA:
+- [CODICE SORGENTE C++:](#codice-sorgente-c)
+- [CONTENUTI DELLA PAGINA:](#contenuti-della-pagina)
+- [INTRODUZIONE:](#introduzione)
+  - [⚠ ATTENZIONE:](#-attenzione)
+  - [sì, ho provato a eseguirlo 🤦‍♂️:](#sì-ho-provato-a-eseguirlo-️)
+  - [unico modo per uscire da questo casino:](#unico-modo-per-uscire-da-questo-casino)
+- [Come eseguire il programma?](#come-eseguire-il-programma)
+  - [vscode code editor](#vscode-code-editor)
+- [cosa ho fatto?](#cosa-ho-fatto)
+  - [- ho commentato il codice:](#--ho-commentato-il-codice)
+  - [- ho utilizzato una libreria C++:](#--ho-utilizzato-una-libreria-c)
+  - [- ho utilizzato `using namespace std;`](#--ho-utilizzato-using-namespace-std)
+  - [- int main();](#--int-main)
+  - [-  while();](#---while)
+  - [- system()](#--system)
+  - [- printf();](#--printf)
+  - [- endl;](#--endl)
+- [Laaouatni Anas - (c)copyright 2021 .](#laaouatni-anas---ccopyright-2021-)
 
 ----------------------------------------------------------------
 # INTRODUZIONE:
@@ -28,8 +46,8 @@ se vuoi eseguirlo lo stesso, perfavore apri **"GESTIONE ATTIVITA"** così puoi c
 ## sì, ho provato a eseguirlo 🤦‍♂️:
 
 **EDIT:** ho provato con il mio PC, ed è veramente **pericoloso**: 
-- utilizza 99% della CPU (ho l'ultima generazione intel 11th)
-- utilizza 99% della RAM (8GB DDR4 ram)
+- utilizza **99%** della CPU (ho l'ultima generazione intel 11th)
+- utilizza **99%** della RAM (8GB DDR4 ram)
 - GESTIONE ATTIVITA non risponde.
 - mouse laga un casino
 
