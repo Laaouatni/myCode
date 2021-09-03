@@ -15,8 +15,10 @@ int main()
 {
     std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
     
-    char CharAlfabeto    [ElencoAlfabeto.length()];
-    int  LunghezzaArray = ElencoAlfabeto.length();
+    CharAlfabeto[] = ElencoAlfabeto[];
+
+    char CharAlfabeto
+    int  LunghezzaArray = sizeof(CharAlfabeto);
 
     std::cout << "CharAlfabeto[LunghezzaArray]"   << CharAlfabeto[LunghezzaArray]   << "\n";
     std::cout << "ElencoAlfabeto[LunghezzaArray]" << ElencoAlfabeto[LunghezzaArray] << "\n";
