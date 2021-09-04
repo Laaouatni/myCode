@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
+    const std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
     
     char CharAlfabeto[ElencoAlfabeto.length()];
 
