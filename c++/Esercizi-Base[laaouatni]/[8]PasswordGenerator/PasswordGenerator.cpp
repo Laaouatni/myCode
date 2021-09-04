@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 //per commentare ALT+SHIFT+A
 
 /* namespace anas {
@@ -13,22 +15,37 @@
 
 int main()
 {
-    std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
+    string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
     
-    CharAlfabeto[] = ElencoAlfabeto[];
+    char CharAlfabeto[ElencoAlfabeto.length()];
 
-    char CharAlfabeto
-    int  LunghezzaArray = sizeof(CharAlfabeto);
-
-    std::cout << "CharAlfabeto[LunghezzaArray]"   << CharAlfabeto[LunghezzaArray]   << "\n";
-    std::cout << "ElencoAlfabeto[LunghezzaArray]" << ElencoAlfabeto[LunghezzaArray] << "\n";
-
-/*     int NumeroCarattere = rand() % sizeof(CharAlfabeto);
-    std::cout << CharAlfabeto[NumeroVolte] << "\n"; */
-    
+    while(1) {
+        int NumeroCarattere = rand() % sizeof(CharAlfabeto);
+        CharAlfabeto[NumeroCarattere] = ElencoAlfabeto[NumeroCarattere];
+        cout << CharAlfabeto[NumeroCarattere] << "\n"; 
+        system("pause");
+        system("cls");
+    }
 
     return 0;
 }
+
+/*
+int main()
+{
+    std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
+    
+    char CharAlfabeto[ElencoAlfabeto.length()];
+
+    for (int NumeroVolte = 0; NumeroVolte < sizeof(CharAlfabeto); NumeroVolte++) {
+       
+        CharAlfabeto[NumeroVolte] = ElencoAlfabeto[NumeroVolte];
+        std::cout << CharAlfabeto[NumeroVolte] << " ";
+    }
+
+    return 0;
+}
+*/
 
 /* 
 MIT License
