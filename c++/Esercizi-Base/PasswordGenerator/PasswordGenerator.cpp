@@ -1,20 +1,18 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 //per commentare ALT+SHIFT+A
 
 int main()
 {
-    string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
+    std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
     
     char CharAlfabeto[ElencoAlfabeto.length()];
 
     while(1) {
         int NumeroCarattere = rand() % sizeof(CharAlfabeto);
         CharAlfabeto[NumeroCarattere] = ElencoAlfabeto[NumeroCarattere];
-        cout << CharAlfabeto[NumeroCarattere] << "\n"; 
+        std::cout << CharAlfabeto[NumeroCarattere] << "\n"; 
         system("pause");
         system("cls");
     }
