@@ -13,7 +13,7 @@ namespace anas
         char CharAlfabeto[ElencoAlfabeto.length()];
 
         for(int Numero_Volte = 0; Numero_Volte > 8; Numero_Volte++)  
-        { 
+        {
             int NumeroCarattere = rand() % sizeof(CharAlfabeto);
             CharAlfabeto[NumeroCarattere] = ElencoAlfabeto[NumeroCarattere];
             std::cout << CharAlfabeto[NumeroCarattere]; 
@@ -28,7 +28,7 @@ namespace anas
 
         if(LetteraInput != 27)
         {
-            void passGenRepeater();
+        anas::passGenRepeater();
         } 
 
         else 
