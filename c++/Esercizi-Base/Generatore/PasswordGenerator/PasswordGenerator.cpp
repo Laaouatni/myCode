@@ -50,6 +50,7 @@ namespace anas
 
 int main()
 {
+    std::printf("the program is started... \n \n");
 anas::passGenRepeater();
 }
 
