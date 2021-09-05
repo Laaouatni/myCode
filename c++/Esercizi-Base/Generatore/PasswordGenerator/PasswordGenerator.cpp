@@ -26,18 +26,6 @@ namespace anas
         anas::passwordGenerator();
         char LetteraInput = 'a';
 
-/*         if(LetteraInput != 27)
-        {
-        anas::passGenRepeater();
-        break;
-        } 
-
-        else 
-        { 
-        std::cout << std::endl << "finish";
-        break;
-        } */
-
         _getch();
 
         switch  (
@@ -45,7 +33,7 @@ namespace anas
                         LetteraInput = _getch()
                     )
                 ) 
-                
+
         {
             case ESC:
                 printf("Finished\n");
@@ -55,6 +43,7 @@ namespace anas
                 anas::passGenRepeater();
                 break;
         }
+    }
     
 }
 
