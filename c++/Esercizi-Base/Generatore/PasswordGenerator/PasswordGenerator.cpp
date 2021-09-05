@@ -42,7 +42,7 @@ namespace anas
 
 int main()
 {
-void passGenRepeater();
+anas::passGenRepeater();
 }
 
 /* 
