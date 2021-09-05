@@ -29,11 +29,13 @@ namespace anas
         if(LetteraInput != 27)
         {
         anas::passGenRepeater();
+        break;
         } 
 
         else 
         { 
         std::cout << std::endl << "finish";
+        break;
         }
     }
     
