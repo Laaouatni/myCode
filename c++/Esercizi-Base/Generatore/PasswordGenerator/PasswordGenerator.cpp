@@ -1,23 +1,23 @@
 #include <iostream>
 #include <stdio.h>
+#include <conio.h>
 #include <string>
 
 #define ESC 27
 
 namespace anas 
-{
-    
+{  
     void passwordGenerator() 
     {
         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
         char CharAlfabeto[ElencoAlfabeto.length()];
 
-        for(int Numero_Volte = 1; Numero_Volte => 8; Numero_Volte++)  
+        for(int Numero_Volte = 0; Numero_Volte > 8; Numero_Volte++)  
         { 
             int NumeroCarattere = rand() % sizeof(CharAlfabeto);
             CharAlfabeto[NumeroCarattere] = ElencoAlfabeto[NumeroCarattere];
             std::cout << CharAlfabeto[NumeroCarattere]; 
-            cout << std::endl;
+            std::cout << std::endl;
         }
     }
 
@@ -33,7 +33,7 @@ namespace anas
 
         else 
         { 
-            return 0;
+        std::cout << std::endl << "finish";
         }
     }
     
