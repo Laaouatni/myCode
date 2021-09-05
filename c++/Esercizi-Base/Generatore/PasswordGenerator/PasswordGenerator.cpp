@@ -1,33 +1,48 @@
 #include <iostream>
+#include <stdio.h>
 #include <string>
 
+#define ESC 27
 
-namespace anas {
+namespace anas 
+{
     
-    void passwordGen(std::string ElencoAlfabeto[], char CharAlfabeto[]) {
-        
-        for (int Numero_Volte = 1; Numero_Volte <= 8; Numero_Volte++) {
+    void passwordGenerator() 
+    {
+        std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
+        char CharAlfabeto[ElencoAlfabeto.length()];
+
+        for(int Numero_Volte = 1; Numero_Volte => 8; Numero_Volte++)  
+        { 
             int NumeroCarattere = rand() % sizeof(CharAlfabeto);
             CharAlfabeto[NumeroCarattere] = ElencoAlfabeto[NumeroCarattere];
-            std::cout << CharAlfabeto[NumeroCarattere];    
+            std::cout << CharAlfabeto[NumeroCarattere]; 
+            cout << std::endl;
         }
-
     }
+
+    void passGenRepeater() 
+    {
+        anas::passwordGenerator();
+        char LetteraInput = getch();
+
+        if(LetteraInput != 27)
+        {
+            void passGenRepeater();
+        } 
+
+        else 
+        { 
+            return 0;
+        }
+    }
+    
 }
 
 
 int main()
 {
-    std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
-    char CharAlfabeto[ElencoAlfabeto.length()];
-
-    while(1) { 
-        anas::passwordGen(std::string ElencoAlfabeto, char CharAlfabeto[]);
-        std::printf("\n");
-        system("pause");
-    }
-
-    return 0;
+void passGenRepeater();
 }
 
 /* 
