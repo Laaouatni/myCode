@@ -41,6 +41,7 @@ namespace anas
                 break;
 
             case SOTTO:
+                printf("SOTTO clicked\n");
                 anas::passGenRepeater();
         }
     }
