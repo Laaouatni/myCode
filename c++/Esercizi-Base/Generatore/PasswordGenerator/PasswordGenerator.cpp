@@ -4,7 +4,7 @@
 #include <string>
 
 #define ESC 27
-#define DESTRA 77
+#define SOTTO 80
 
 namespace anas 
 {  
@@ -40,12 +40,8 @@ namespace anas
                 printf("Finished\n");
                 break;
 
-            case DESTRA:
+            case SOTTO:
                 anas::passGenRepeater();
-                break;
-
-            default:
-                break;
         }
     }
     
