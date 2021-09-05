@@ -4,6 +4,7 @@
 #include <string>
 
 #define ESC 27
+#define DESTRA 77
 
 namespace anas 
 {  
@@ -39,8 +40,11 @@ namespace anas
                 printf("Finished\n");
                 break;
 
-            default:
+            case DESTRA:
                 anas::passGenRepeater();
+                break;
+
+            default:
                 break;
         }
     }
@@ -51,7 +55,7 @@ namespace anas
 int main()
 {
     std::printf("the program is started... \n \n");
-anas::passGenRepeater();
+    anas::passGenRepeater();
 }
 
 /* 
