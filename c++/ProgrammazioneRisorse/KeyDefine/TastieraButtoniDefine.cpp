@@ -103,18 +103,18 @@
 #define VK_SEPARATOR	            0x6C                //Separator
 #define VK_SPACE	            0x20                //Space
 #define VK_SUBTRACT	            0x6D                //Num -
-#define VK_TAB	                    0x09                //Tab
-#define VK_ZOOM	                    0xFB                //Zoom
-#define VK__none_                   0xFF               //no VK mapping
+#define VK_TAB	                        0x09                //Tab
+#define VK_ZOOM	                        0xFB                //Zoom
+#define VK__none_                       0xFF               //no VK mapping
 #define VK_ACCEPT	            0x1E                // Accept
-#define VK_APPS	                    0x5D                //Context Menu
-#define VK_BROWSER_BACK	            0xA6                //Browser Back
-#define VK_BROWSER_FAVORITES	    0xAB                //Browser Favorites
+#define VK_APPS	                        0x5D                //Context Menu
+#define VK_BROWSER_BACK	                0xA6                //Browser Back
+#define VK_BROWSER_FAVORITES	        0xAB                //Browser Favorites
 #define VK_BROWSER_FORWARD	    0xA7                //Browser Forward
-#define VK_BROWSER_HOME	            0xAC                //Browser Home
+#define VK_BROWSER_HOME	                0xAC                //Browser Home
 #define VK_BROWSER_REFRESH	    0xA8                //Browser Refresh
 #define VK_BROWSER_SEARCH	    0xAA                //Browser Search
-#define VK_BROWSER_STOP	            0xA9                //Browser Stop
+#define VK_BROWSER_STOP	                0xA9                //Browser Stop
 #define VK_CAPITAL	            0x14                //Caps Lock
 #define VK_CONVERT	            0x1C                // Convert
 #define VK_DELETE	            0x2E                //Delete
@@ -144,7 +144,7 @@
 #define VK_F7	                    0x76                //F7
 #define VK_F8	                    0x77                //F8
 #define VK_F9	                    0x78                //F9
-#define VK_FINAL	            0x18                //Final
+#define VK_FINAL	                0x18                //Final
 #define VK_HELP	                    0x2F                //Help
 #define VK_HOME	                    0x24                //Home
 #define VK_ICO_00	            0xE4                //Ico00 *
