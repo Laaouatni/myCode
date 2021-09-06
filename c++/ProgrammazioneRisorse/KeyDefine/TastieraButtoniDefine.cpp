@@ -151,11 +151,11 @@
 #define VK_INSERT	            0x2D                //Insert
 #define VK_JUNJA	            0x17                //Junja
 #define VK_KANA	                    0x15                //Kana
-#define VK_KANJI	                0x19                //Kanji
-#define VK_LAUNCH_APP1	            0xB6                //App1
+#define VK_KANJI	            0x19                //Kanji
+#define VK_LAUNCH_APP1	        0xB6                //App1
 #define VK_LAUNCH_APP2	        0xB7                //App2
 #define VK_LAUNCH_MAIL	        0xB4                //Mail
-#define VK_LAUNCH_MEDIA_SELECT	    0xB5                //Media
+#define VK_LAUNCH_MEDIA_SELECT	0xB5                //Media
 #define VK_LBUTTON	            0x01                // Left Button **
 #define VK_LCONTROL	            0xA2                // Left Ctrl
 #define VK_LEFT	                0x25                //Arrow Left
