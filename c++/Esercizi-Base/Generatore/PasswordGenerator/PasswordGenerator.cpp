@@ -13,12 +13,11 @@ namespace anas
         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
         char CharAlfabeto[ElencoAlfabeto.length()];
 
-        for(int Numero_Volte = 0; Numero_Volte > 8; Numero_Volte++)  
+        for(int Numero_Volte = 0; Numero_Volte < 8; Numero_Volte++)  
         {
             int NumeroCarattere = rand() % sizeof(CharAlfabeto);
             CharAlfabeto[NumeroCarattere] = ElencoAlfabeto[NumeroCarattere];
             std::cout << CharAlfabeto[NumeroCarattere]; 
-            std::cout << std::endl;
         }
     }
 
@@ -37,12 +36,15 @@ namespace anas
 
         {
             case ESC:
+                std::cout << std::endl;
                 printf("Finished\n");
                 break;
 
             case SOTTO:
-                printf("SOTTO clicked\n");
+                /* printf("SOTTO clicked\n"); */
+                std::cout << std::endl;
                 anas::passGenRepeater();
+
         }
     }
     
@@ -51,6 +53,7 @@ namespace anas
 
 int main()
 {
+    system("cls");
     std::printf("the program is started... \n \n");
     anas::passGenRepeater();
 }
