@@ -103,19 +103,19 @@
 #define VK_SEPARATOR	            0x6C                //Separator
 #define VK_SPACE	            0x20                //Space
 #define VK_SUBTRACT	            0x6D                //Num -
-#define VK_TAB	                        0x09                //Tab
-#define VK_ZOOM	                        0xFB                //Zoom
-#define VK__none_                       0xFF               //no VK mapping
+#define VK_TAB	                    0x09                //Tab
+#define VK_ZOOM	                    0xFB                //Zoom
+#define VK__none_                   0xFF               //no VK mapping
 #define VK_ACCEPT	            0x1E                // Accept
-#define VK_APPS	                        0x5D                //Context Menu
-#define VK_BROWSER_BACK	                0xA6                //Browser Back
-#define VK_BROWSER_FAVORITES	        0xAB                //Browser Favorites
+#define VK_APPS	                    0x5D                //Context Menu
+#define VK_BROWSER_BACK	            0xA6                //Browser Back
+#define VK_BROWSER_FAVORITES	    0xAB                //Browser Favorites
 #define VK_BROWSER_FORWARD	    0xA7                //Browser Forward
-#define VK_BROWSER_HOME	                0xAC                //Browser Home
+#define VK_BROWSER_HOME	            0xAC                //Browser Home
 #define VK_BROWSER_REFRESH	    0xA8                //Browser Refresh
 #define VK_BROWSER_SEARCH	    0xAA                //Browser Search
 #define VK_BROWSER_STOP	                0xA9                //Browser Stop
-#define VK_CAPITAL	            0x14                //Caps Lock
+#define VK_CAPITAL	        0x14                //Caps Lock
 #define VK_CONVERT	            0x1C                // Convert
 #define VK_DELETE	            0x2E                //Delete
 #define VK_DOWN	                    0x28                //Arrow Down
@@ -144,7 +144,7 @@
 #define VK_F7	                    0x76                //F7
 #define VK_F8	                    0x77                //F8
 #define VK_F9	                    0x78                //F9
-#define VK_FINAL	                0x18                //Final
+#define VK_FINAL	            0x18                //Final
 #define VK_HELP	                    0x2F                //Help
 #define VK_HOME	                    0x24                //Home
 #define VK_ICO_00	            0xE4                //Ico00 *
@@ -152,26 +152,26 @@
 #define VK_JUNJA	            0x17                //Junja
 #define VK_KANA	                    0x15                //Kana
 #define VK_KANJI	            0x19                //Kanji
-#define VK_LAUNCH_APP1	        0xB6                //App1
-#define VK_LAUNCH_APP2	        0xB7                //App2
-#define VK_LAUNCH_MAIL	        0xB4                //Mail
-#define VK_LAUNCH_MEDIA_SELECT	0xB5                //Media
+#define VK_LAUNCH_APP1	            0xB6                //App1
+#define VK_LAUNCH_APP2	            0xB7                //App2
+#define VK_LAUNCH_MAIL	            0xB4                //Mail
+#define VK_LAUNCH_MEDIA_SELECT	    0xB5                //Media
 #define VK_LBUTTON	            0x01                // Left Button **
 #define VK_LCONTROL	            0xA2                // Left Ctrl
-#define VK_LEFT	                0x25                //Arrow Left
+#define VK_LEFT	                    0x25                //Arrow Left
 #define VK_LMENU	            0xA4                // Left Alt
 #define VK_LSHIFT	            0xA0                // Left Shift
-#define VK_LWIN	                0x5B                // Left Win
+#define VK_LWIN	                    0x5B                // Left Win
 #define VK_MBUTTON	            0x04                // Middle Button **
 #define VK_MEDIA_NEXT_TRACK	    0xB0                // Next Track
 #define VK_MEDIA_PLAY_PAUSE	    0xB3                // Play / Pause
 #define VK_MEDIA_PREV_TRACK	    0xB1                // Previous Track
-#define VK_MEDIA_STOP	        0xB2                //Stop
-#define VK_MODECHANGE	        0x1F                // Mode Change
-#define VK_NEXT	                0x22                // Page Down
-#define VK_NONCONVERT	        0x1D                // Non Convert
+#define VK_MEDIA_STOP	            0xB2                //Stop
+#define VK_MODECHANGE	            0x1F                // Mode Change
+#define VK_NEXT	                    0x22                // Page Down
+#define VK_NONCONVERT	            0x1D                // Non Convert
 #define VK_NUMLOCK	            0x90                //Num Lock
-#define VK_OEM_FJ_JISHO	        0x92                //Jisho
+#define VK_OEM_FJ_JISHO	            0x92                //Jisho
 #define VK_PAUSE	            0x13                //Pause
 #define VK_PRINT	            0x2A                //Print
 #define VK_PRIOR	            0x21                //Page Up
@@ -180,15 +180,15 @@
 #define VK_RIGHT	            0x27                // Arrow Right
 #define VK_RMENU	            0xA5                // Right Alt
 #define VK_RSHIFT	            0xA1                // Right Shift
-#define VK_RWIN	                0x5C                // Right Win
+#define VK_RWIN	                    0x5C                // Right Win
 #define VK_SCROLL	            0x91                // Scrol Lock
 #define VK_SLEEP	            0x5F                //Sleep
 #define VK_SNAPSHOT	            0x2C                // Print Screen
-#define VK_UP	                0x26                //Arrow Up
-#define VK_VOLUME_DOWN	        0xAE                // Volume Down
-#define VK_VOLUME_MUTE	        0xAD                // Volume Mute
-#define VK_VOLUME_UP	        0xAF                // Volume Up
+#define VK_UP	                    0x26                //Arrow Up
+#define VK_VOLUME_DOWN	            0xAE                // Volume Down
+#define VK_VOLUME_MUTE	            0xAD                // Volume Mute
+#define VK_VOLUME_UP	            0xAF                // Volume Up
 #define VK_XBUTTON1	            0x05                // X Button 1 **
 #define VK_XBUTTON2	            0x06                // X Button 2 **
-#define VK_ISDOWN               0x8000
-#define VK_TOGGELED             0x0001
+#define VK_ISDOWN                   0x8000
+#define VK_TOGGELED                 0x0001
