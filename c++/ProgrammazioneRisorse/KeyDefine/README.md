@@ -1,4 +1,4 @@
-| Nomi del Buttone  | Definizione   | SpegazioneCommento                            |
+| Nome del Buttone  | Definizione   | SpegazioneCommento                            |
 | -----------------                 | ---- | -------------------------------------- |
 | #define VK_ABNT_C1                | **0xC1** |                //Abnt C1               
 | #define VK_ABNT_C2                | **0xC2** |                //Abnt C2
