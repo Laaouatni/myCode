@@ -103,59 +103,59 @@
 #define VK_SEPARATOR	            0x6C                //Separator
 #define VK_SPACE	            0x20                //Space
 #define VK_SUBTRACT	            0x6D                //Num -
-#define VK_TAB	                0x09                //Tab
-#define VK_ZOOM	                0xFB                //Zoom
-#define VK__none_               0xFF               //no VK mapping
+#define VK_TAB	                    0x09                //Tab
+#define VK_ZOOM	                    0xFB                //Zoom
+#define VK__none_                   0xFF               //no VK mapping
 #define VK_ACCEPT	            0x1E                // Accept
-#define VK_APPS	                0x5D                //Context Menu
-#define VK_BROWSER_BACK	        0xA6                //Browser Back
-#define VK_BROWSER_FAVORITES	0xAB                //Browser Favorites
+#define VK_APPS	                    0x5D                //Context Menu
+#define VK_BROWSER_BACK	            0xA6                //Browser Back
+#define VK_BROWSER_FAVORITES	    0xAB                //Browser Favorites
 #define VK_BROWSER_FORWARD	    0xA7                //Browser Forward
-#define VK_BROWSER_HOME	        0xAC                //Browser Home
+#define VK_BROWSER_HOME	            0xAC                //Browser Home
 #define VK_BROWSER_REFRESH	    0xA8                //Browser Refresh
 #define VK_BROWSER_SEARCH	    0xAA                //Browser Search
-#define VK_BROWSER_STOP	        0xA9                //Browser Stop
+#define VK_BROWSER_STOP	            0xA9                //Browser Stop
 #define VK_CAPITAL	            0x14                //Caps Lock
 #define VK_CONVERT	            0x1C                // Convert
 #define VK_DELETE	            0x2E                //Delete
-#define VK_DOWN	                0x28                //Arrow Down
-#define VK_END	                0x23                //End
-#define VK_F1	                0x70                //F1
-#define VK_F10	                0x79                //F10
-#define VK_F11	                0x7A                //F11
-#define VK_F12	                0x7B                //F12
-#define VK_F13	                0x7C                //F13
-#define VK_F14	                0x7D                //F14
-#define VK_F15	                0x7E                //F15
-#define VK_F16	                0x7F                //F16
-#define VK_F17	                0x80                //F17
-#define VK_F18	                0x81                //F18
-#define VK_F19	                0x82                //F19
-#define VK_F2	                0x71                //F2
-#define VK_F20	                0x83                //F20
-#define VK_F21	                0x84                //F21
-#define VK_F22	                0x85                //F22
-#define VK_F23	                0x86                //F23
-#define VK_F24	                0x87                //F24
-#define VK_F3	                0x72                //F3
-#define VK_F4	                0x73                //F4
-#define VK_F5	                0x74                //F5
-#define VK_F6	                0x75                //F6
-#define VK_F7	                0x76                //F7
-#define VK_F8	                0x77                //F8
-#define VK_F9	                0x78                //F9
+#define VK_DOWN	                    0x28                //Arrow Down
+#define VK_END	                    0x23                //End
+#define VK_F1	                    0x70                //F1
+#define VK_F10	                    0x79                //F10
+#define VK_F11	                    0x7A                //F11
+#define VK_F12	                    0x7B                //F12
+#define VK_F13	                    0x7C                //F13
+#define VK_F14	                    0x7D                //F14
+#define VK_F15	                    0x7E                //F15
+#define VK_F16	                    0x7F                //F16
+#define VK_F17	                    0x80                //F17
+#define VK_F18	                    0x81                //F18
+#define VK_F19	                    0x82                //F19
+#define VK_F2	                    0x71                //F2
+#define VK_F20	                    0x83                //F20
+#define VK_F21	                    0x84                //F21
+#define VK_F22	                    0x85                //F22
+#define VK_F23	                    0x86                //F23
+#define VK_F24	                    0x87                //F24
+#define VK_F3	                    0x72                //F3
+#define VK_F4	                    0x73                //F4
+#define VK_F5	                    0x74                //F5
+#define VK_F6	                    0x75                //F6
+#define VK_F7	                    0x76                //F7
+#define VK_F8	                    0x77                //F8
+#define VK_F9	                    0x78                //F9
 #define VK_FINAL	            0x18                //Final
-#define VK_HELP	                0x2F                //Help
-#define VK_HOME	                0x24                //Home
+#define VK_HELP	                    0x2F                //Help
+#define VK_HOME	                    0x24                //Home
 #define VK_ICO_00	            0xE4                //Ico00 *
 #define VK_INSERT	            0x2D                //Insert
 #define VK_JUNJA	            0x17                //Junja
-#define VK_KANA	                0x15                //Kana
-#define VK_KANJI	            0x19                //Kanji
-#define VK_LAUNCH_APP1	        0xB6                //App1
+#define VK_KANA	                    0x15                //Kana
+#define VK_KANJI	                0x19                //Kanji
+#define VK_LAUNCH_APP1	            0xB6                //App1
 #define VK_LAUNCH_APP2	        0xB7                //App2
 #define VK_LAUNCH_MAIL	        0xB4                //Mail
-#define VK_LAUNCH_MEDIA_SELECT	0xB5                //Media
+#define VK_LAUNCH_MEDIA_SELECT	    0xB5                //Media
 #define VK_LBUTTON	            0x01                // Left Button **
 #define VK_LCONTROL	            0xA2                // Left Ctrl
 #define VK_LEFT	                0x25                //Arrow Left
