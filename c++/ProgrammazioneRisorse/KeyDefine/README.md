@@ -4,18 +4,18 @@
 | `#define VK_ABNT_C2            0xC2`      | **0xC2** |               //Abnt C2
 | `#define VK_ADD                0x6B`      | **0x6B** |               //Numpad +
 | `#define VK_ATTN	            0xF6 `      | **0xF6** |               //Attn
-| `#define VK_BACK	            0x08`       | **0x08** |               //Backspace
-| `#define VK_CANCEL	            0x03`   | **0x03** |               //Break
+| `#define VK_BACK	            0x08 `      | **0x08** |               //Backspace
+| `#define VK_CANCEL	        0x03 `      | **0x03** |               //Break
 | `#define VK_CLEAR	            0x0C `      | **0x0C** |               //Clear
 | `#define VK_CRSEL	            0xF7 `      | **0xF7** |               //Cr Sel
-| `#define VK_DECIMAL	        0x6E`       | **0x6E** |               //Numpad .
-| `#define VK_DIVIDE	            0x6F`   | **0x6F** |               //Numpad /
+| `#define VK_DECIMAL	        0x6E `      | **0x6E** |               //Numpad .
+| `#define VK_DIVIDE	        0x6F `      | **0x6F** |               //Numpad /
 | `#define VK_EREOF	            0xF9 `      | **0xF9** |               //Er Eof
-| `#define VK_ESCAPE	            0x1B`   | **0x1B** |               //Esc
-| `#define VK_EXECUTE	        0x2B  `     | **0x2B** |               //Execute
+| `#define VK_ESCAPE	        0x1B `      | **0x1B** |               //Esc
+| `#define VK_EXECUTE	        0x2B `      | **0x2B** |               //Execute
 | `#define VK_EXSEL	            0xF8 `      | **0xF8** |               //Ex Sel
 | `#define VK_ICO_CLEAR	        0xE6 `      | **0xE6** |               //IcoClr
-| `#define VK_ICO_HELP	        0xE3`       | **0xE3** |               //IcoHlp
+| `#define VK_ICO_HELP	        0xE3 `      | **0xE3** |               //IcoHlp
 | `#define VK_KEY_0	            0x30 `      | **0x30** |               //('0')	0
 | `#define VK_KEY_1	            0x31 `      | **0x31** |               //('1')	1
 | `#define VK_KEY_2	            0x32 `      | **0x32** |               //('2')	2
@@ -29,57 +29,57 @@
 | `#define VK_KEY_A	            0x41 `      | **0x41** |               //('A')	A
 | `#define VK_KEY_B	            0x42 `      | **0x42** |               //('B')	B
 | `#define VK_KEY_C	            0x43 `      | **0x43** |               //('C')	C
-| `#define VK_KEY_D	            0x44 `| **0x44** |               //('D')	D
-| `#define VK_KEY_E	            0x45 `| **0x45** |               //('E')	E
-| `#define VK_KEY_F	            0x46 `| **0x46** |               //('F')	F
-| `#define VK_KEY_G	            0x47 `| **0x47** |               //('G')	G
-| `#define VK_KEY_H	            0x48 `| **0x48** |               //('H')	H
-| `#define VK_KEY_I	            0x49 `| **0x49** |               //('I')	I
-| `#define VK_KEY_J	            0x4A `| **0x4A** |               //('J')	J
-| `#define VK_KEY_K	            0x4B `| **0x4B** |               //('K')	K
-| `#define VK_KEY_L	            0x4C `| **0x4C** |               //('L')	L
-| `#define VK_KEY_M	            0x4D `| **0x4D** |               //('M')	M
-| `#define VK_KEY_N	            0x4E `| **0x4E** |               //('N')	N
-| `#define VK_KEY_O	            0x4F `| **0x4F** |               //('O')	O
-| `#define VK_KEY_P	            0x50 `| **0x50** |               //('P')	P
-| `#define VK_KEY_Q	            0x51 `| **0x51** |               //('Q')	Q
-| `#define VK_KEY_R	            0x52 `| **0x52** |               //('R')	R
-| `#define VK_KEY_S	            0x53 `| **0x53** |               //('S')	S
-| `#define VK_KEY_T	            0x54 `| **0x54** |               //('T')	T
-| `#define VK_KEY_U	            0x55 `| **0x55** |               //('U')	U
-| `#define VK_KEY_V	            0x56 `| **0x56** |               //('V')	V
-| `#define VK_KEY_W	            0x57 `| **0x57** |               //('W')	W
-| `#define VK_KEY_X	            0x58 `| **0x58** |               //('X')	X
-| `#define VK_KEY_Y	            0x59 `| **0x59** |               //('Y')	Y
-| `#define VK_KEY_Z	            0x5A `| **0x5A** |               //('Z')	Z
-| `#define VK_MULTIPLY	        0x6A` | **0x6A** |               //Numpad *
-| `#define VK_NONAME	            0xFC` | **0xFC** |               //NoName
-| `#define VK_NUMPAD0	        0x60  `| **0x60** |               //Numpad 0
-| `#define VK_NUMPAD1	        0x61  `| **0x61** |               //Numpad 1
-| `#define VK_NUMPAD2	        0x62  `| **0x62** |               //Numpad 2
-| `#define VK_NUMPAD3	        0x63  `| **0x63** |               //Numpad 3
-| `#define VK_NUMPAD4	        0x64  `| **0x64** |               //Numpad 4
-| `#define VK_NUMPAD5	        0x65  `| **0x65** |               //Numpad 5
-| `#define VK_NUMPAD6	        0x66  `| **0x66** |               //Numpad 6
-| `#define VK_NUMPAD7	        0x67  `| **0x67** |               //Numpad 7
-| `#define VK_NUMPAD8	        0x68  `| **0x68** |               //Numpad 8
-| `#define VK_NUMPAD9	        0x69  `| **0x69** |               //Numpad 9
-| `#define VK_OEM_1	            0xBA `| **0xBA** |               //OEM_1 (: ;)
-| `#define VK_OEM_102	        0xE2  `| **0xE2** |               //OEM_102 (> <)
-| `#define VK_OEM_2	            0xBF `| **0xBF** |               //OEM_2 (? /)
-| `#define VK_OEM_3	            0xC0 `| **0xC0** |               //OEM_3 (~ `)
-| `#define VK_OEM_4	            0xDB `| **0xDB** |               //OEM_4 ({ [)
-| `#define VK_OEM_5	            0xDC `| **0xDC** |               //OEM_5 (| )
-| `#define VK_OEM_6	            0xDD `| **0xDD** |               //OEM_6 (} ])
-| `#define VK_OEM_7	            0xDE `| **0xDE** |               //OEM_7 (" ')
-| `#define VK_OEM_8	            0xDF `| **0xDF** |               //OEM_8 (§ !)
-| `#define VK_OEM_ATTN	        0xF0 ` | **0xF0** |               //Oem Attn
-| `#define VK_OEM_AUTO	        0xF3 ` | **0xF3** |               //Auto
-| `#define VK_OEM_AX	            0xE1` | **0xE1** |               //Ax
-| `#define VK_OEM_BACKTAB        0xF5` | **0xF5** |               //Back Tab
-| `#define VK_OEM_CLEAR	        0xFE `| **0xFE** |               //OemClr
-| `#define VK_OEM_COMMA	        0xBC `| **0xBC** |               //OEM_COMMA (< ,)
-| `#define VK_OEM_COPY	        0xF2 ` | **0xF2** |               //Copy
+| `#define VK_KEY_D	            0x44 `      | **0x44** |               //('D')	D
+| `#define VK_KEY_E	            0x45 `      | **0x45** |               //('E')	E
+| `#define VK_KEY_F	            0x46 `      | **0x46** |               //('F')	F
+| `#define VK_KEY_G	            0x47 `      | **0x47** |               //('G')	G
+| `#define VK_KEY_H	            0x48 `      | **0x48** |               //('H')	H
+| `#define VK_KEY_I	            0x49 `      | **0x49** |               //('I')	I
+| `#define VK_KEY_J	            0x4A `      | **0x4A** |               //('J')	J
+| `#define VK_KEY_K	            0x4B `      | **0x4B** |               //('K')	K
+| `#define VK_KEY_L	            0x4C `      | **0x4C** |               //('L')	L
+| `#define VK_KEY_M	            0x4D `      | **0x4D** |               //('M')	M
+| `#define VK_KEY_N	            0x4E `      | **0x4E** |               //('N')	N
+| `#define VK_KEY_O	            0x4F `      | **0x4F** |               //('O')	O
+| `#define VK_KEY_P	            0x50 `      | **0x50** |               //('P')	P
+| `#define VK_KEY_Q	            0x51 `      | **0x51** |               //('Q')	Q
+| `#define VK_KEY_R	            0x52 `      | **0x52** |               //('R')	R
+| `#define VK_KEY_S	            0x53 `      | **0x53** |               //('S')	S
+| `#define VK_KEY_T	            0x54 `      | **0x54** |               //('T')	T
+| `#define VK_KEY_U	            0x55 `      | **0x55** |               //('U')	U
+| `#define VK_KEY_V	            0x56 `      | **0x56** |               //('V')	V
+| `#define VK_KEY_W	            0x57 `      | **0x57** |               //('W')	W
+| `#define VK_KEY_X	            0x58 `      | **0x58** |               //('X')	X
+| `#define VK_KEY_Y	            0x59 `      | **0x59** |               //('Y')	Y
+| `#define VK_KEY_Z	            0x5A `      | **0x5A** |               //('Z')	Z
+| `#define VK_MULTIPLY	        0x6A `      | **0x6A** |               //Numpad *
+| `#define VK_NONAME	        0xFC `      | **0xFC** |               //NoName
+| `#define VK_NUMPAD0	        0x60  `     | **0x60** |               //Numpad 0
+| `#define VK_NUMPAD1	        0x61  `     | **0x61** |               //Numpad 1
+| `#define VK_NUMPAD2	        0x62  `     | **0x62** |               //Numpad 2
+| `#define VK_NUMPAD3	        0x63  `     | **0x63** |               //Numpad 3
+| `#define VK_NUMPAD4	        0x64  `     | **0x64** |               //Numpad 4
+| `#define VK_NUMPAD5	        0x65  `     | **0x65** |               //Numpad 5
+| `#define VK_NUMPAD6	        0x66  `     | **0x66** |               //Numpad 6
+| `#define VK_NUMPAD7	        0x67  `     | **0x67** |               //Numpad 7
+| `#define VK_NUMPAD8	        0x68  `     | **0x68** |               //Numpad 8
+| `#define VK_NUMPAD9	        0x69  `     | **0x69** |               //Numpad 9
+| `#define VK_OEM_1	            0xBA `      | **0xBA** |               //OEM_1 (: ;)
+| `#define VK_OEM_102	        0xE2  `     | **0xE2** |               //OEM_102 (> <)
+| `#define VK_OEM_2	            0xBF `      | **0xBF** |               //OEM_2 (? /)
+| `#define VK_OEM_3	            0xC0 `      | **0xC0** |               //OEM_3 (~ `)
+| `#define VK_OEM_4	            0xDB `      | **0xDB** |               //OEM_4 ({ [)
+| `#define VK_OEM_5	            0xDC `      | **0xDC** |               //OEM_5 (| )
+| `#define VK_OEM_6	            0xDD `      | **0xDD** |               //OEM_6 (} ])
+| `#define VK_OEM_7	            0xDE `      | **0xDE** |               //OEM_7 (" ')
+| `#define VK_OEM_8	            0xDF `      | **0xDF** |               //OEM_8 (§ !)
+| `#define VK_OEM_ATTN	        0xF0 `      | **0xF0** |               //Oem Attn
+| `#define VK_OEM_AUTO	        0xF3 `      | **0xF3** |               //Auto
+| `#define VK_OEM_AX	            0xE1`   | **0xE1** |               //Ax
+| `#define VK_OEM_BACKTAB        0xF5`      | **0xF5** |               //Back Tab
+| `#define VK_OEM_CLEAR	        0xFE `      | **0xFE** |               //OemClr
+| `#define VK_OEM_COMMA	        0xBC `      | **0xBC** |               //OEM_COMMA (< ,)
+| `#define VK_OEM_COPY	        0xF2 `      | **0xF2** |               //Copy
 | `#define VK_OEM_CUSEL	        0xEF `| **0xEF** |               //Cu Sel
 | `#define VK_OEM_ENLW	        0xF4 ` | **0xF4** |               //Enlw
 | `#define VK_OEM_FINISH	        0xF1` | **0xF1** |               //Finish
@@ -109,8 +109,8 @@
 | `#define VK_ZOOM	            0xFB ` | **0xFB** |               //Zoom
 | `#define VK__none_             0xFF` | **0xFF** |              //no VK mapping
 | `#define VK_ACCEPT	            0x1E` | **0x1E** |               // Accept
-| `#define VK_APPS	            0x5D |` **0x5D** |               //Context Menu
-| `#define VK_BROWSER_BACK	    0xA6 |` **0xA6** |               //Browser Back
+| `#define VK_APPS	            0x5D ` |**0x5D** |               //Context Menu
+| `#define VK_BROWSER_BACK	    0xA6 ` | **0xA6** |               //Browser Back
 | `#define VK_BROWSER_FAVORI     0xAB` | **0xAB** |               //Browser Favorites
 | `#define VK_BROWSER_FORW       0xA7` | **0xA7** |               //Browser Forward
 | `#define VK_BROWSER_HOME	    0xAC ` | **0xAC** |               //Browser Home
@@ -170,7 +170,7 @@
 | `#define VK_MEDIA_PREV_TR      0xB1` | **0xB1** |               // Previous Track
 | `#define VK_MEDIA_STOP	        0xB2` | **0xB2** |               //Stop
 | `#define VK_MODECHANGE	        0x1F` | **0x1F** |               // Mode Change
-| `#define VK_NEXT	            0x22 |` **0x22** |               // Page Down
+| `#define VK_NEXT	            0x22 ` | **0x22** |               // Page Down
 | `#define VK_NONCONVERT	        0x1D` | **0x1D** |               // Non Convert
 | `#define VK_NUMLOCK	        0x90  `| **0x90** |               //Num Lock
 | `#define VK_OEM_FJ_JISHO	    0x92 ` | **0x92** |               //Jisho
