@@ -114,8 +114,8 @@
 #define VK_BROWSER_HOME	            0xAC                //Browser Home
 #define VK_BROWSER_REFRESH	    0xA8                //Browser Refresh
 #define VK_BROWSER_SEARCH	    0xAA                //Browser Search
-#define VK_BROWSER_STOP	                0xA9                //Browser Stop
-#define VK_CAPITAL	        0x14                //Caps Lock
+#define VK_BROWSER_STOP	            0xA9                //Browser Stop
+#define VK_CAPITAL	            0x14                //Caps Lock
 #define VK_CONVERT	            0x1C                // Convert
 #define VK_DELETE	            0x2E                //Delete
 #define VK_DOWN	                    0x28                //Arrow Down
