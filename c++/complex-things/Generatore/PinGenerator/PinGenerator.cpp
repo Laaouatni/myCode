@@ -8,7 +8,7 @@
 
 namespace anas 
 {  
-    void passwordGenerator() 
+    void PinGenerator() 
     {
         std::string ElencoAlfabeto("0123456789");
         char CharAlfabeto[ElencoAlfabeto.length()];
@@ -21,9 +21,9 @@ namespace anas
         }
     }
 
-    void passGenRepeater() 
+    void PinGenRepeater() 
     {
-        anas::passwordGenerator();
+        anas::PinGenerator();
         char NumberInput = '0';
 
         _getch();
@@ -42,7 +42,7 @@ namespace anas
 
             case SOTTO:
                 std::cout << std::endl;
-                anas::passGenRepeater();
+                anas::PinGenRepeater();
             
             default:
                 std::cout << "/n/nERRORE: clicca SOTTO/n/n";
@@ -56,7 +56,7 @@ int main()
 {
     system("cls");
     std::printf("the program is started... \n \n");
-    anas::passGenRepeater();
+    anas::PinGenRepeater();
 }
 
 /* 
