@@ -45,7 +45,7 @@ namespace anas
                 anas::passGenRepeater();
             
             default:
-                std::cout << "/n/nERRORE: clicca SOTTO/n/n";
+                std::cout << "\n\nERRORE: clicca SOTTO\n\n";
         }
     }
     

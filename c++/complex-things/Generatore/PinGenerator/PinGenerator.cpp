@@ -45,7 +45,7 @@ namespace anas
                 anas::PinGenRepeater();
             
             default:
-                std::cout << "/n/nERRORE: clicca SOTTO/n/n";
+                std::cout << "\n\nERRORE: clicca SOTTO\n\n";
         }
     }
     
