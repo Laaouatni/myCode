@@ -46,6 +46,7 @@ namespace anas
             
             default:
                 std::cout << "\n\nERRORE: clicca SOTTO\n\n";
+                break;
         }
     }
     
