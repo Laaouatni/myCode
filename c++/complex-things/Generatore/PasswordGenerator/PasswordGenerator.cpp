@@ -37,14 +37,15 @@ namespace anas
         {
             case ESC:
                 std::cout << std::endl;
-                printf("Finished\n");
+                std::printf("\n\nFinished\n");
                 break;
 
             case SOTTO:
-                /* printf("SOTTO clicked\n"); */
                 std::cout << std::endl;
                 anas::passGenRepeater();
-
+            
+            default:
+                std::cout << "/n/nERRORE: clicca SOTTO/n/n";
         }
     }
     
