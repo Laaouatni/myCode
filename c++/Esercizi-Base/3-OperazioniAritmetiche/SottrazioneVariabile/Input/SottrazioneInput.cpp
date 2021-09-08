@@ -27,7 +27,6 @@ int main()
             }
             else
             {
-                printf ("\n");
                 anas::Errore();
             }
         }
