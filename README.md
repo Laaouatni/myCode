@@ -10,19 +10,19 @@
 
 -----
 
-▶️ Spero di Continuare questa Iniziativa, senza abbandonare. 
+▶️ Spero di Continuare questa Iniziativa, senza abbandonare.
 
 È difficile, ma è possibile!
 
 -----
 
-📈 per adesso sono alle BASI, 
+📈 per adesso sono alle BASI,
 
-ma con la il Tempo e la Costanza, 
+ma con la il Tempo e la Costanza,
 
 è possibile Imparare qualcosa di Interessante!
 
-------
+-----
 
 | Nel Futuro sicuramente...
 
