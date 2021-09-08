@@ -1,11 +1,13 @@
 # myCode
 
-sono un ragazzo, che vuole imparare a programmare...
+🕐 Recentemente ho Scoperto di aver un Hobby!
+✅ quindi A Settembre, finalmente ho iniziato a provare a creare dei mini-progetti.
 
-qui ci sarà il codice sorgente di tutti i miei progetti. (per adesso zero, ma ci proverò a riempire questa cartella)
+👨‍💻 GitHub: laaouatni
 
-NOTA BENE: sono un begginer, non insultatemi, anzi se volete aiutatemi se sbaglio qualcosa, grazie! 
+▶️ Spero di Continuare questa Iniziativa, senza abbandonare. È difficile, ma è possibile!
+📈 per adesso sono alle BASI, ma con la il Tempo e la Costanza, è possibile Imparare qualcosa di Interessante!
 
-tra qualche anno, inizierò l'università per imparare a programmare seriamente :)
-
-edit: testing se funziona il commit da vs code
+| Nel Futuro sicuramente...
+| "La Programmazione, sarà l'inglese del Futuro"
+| Sapere è Potere (una qualità)
