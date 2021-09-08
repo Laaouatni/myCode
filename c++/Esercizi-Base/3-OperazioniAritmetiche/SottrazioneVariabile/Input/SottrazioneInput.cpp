@@ -21,8 +21,8 @@ if (Numero_Variabile1 != 0 && Numero_Variabile2 != 0)
 
     else
     {
-        std::endl;
-        goto ERROR:
+        printf ("\n");
+        goto ERROR;
     }
 }
 
