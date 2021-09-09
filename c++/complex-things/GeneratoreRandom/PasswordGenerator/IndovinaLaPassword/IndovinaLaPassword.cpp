@@ -7,7 +7,7 @@
 #define SOTTO 80 */
 
 /* PasswordString.push_back()
-PasswordString.at(Numero_Volte); */
+PasswordString.at(Lettere_Scritte); */
 
 namespace anas 
 {  
@@ -18,7 +18,7 @@ namespace anas
         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
         char CharAlfabeto[ElencoAlfabeto.length()];
 
-        for (int Numero_Volte = 0; Numero_Volte < 8; Numero_Volte++)  
+        for (int Lettere_Create = 0; Lettere_Create < 8; Lettere_Create++)  
         {
             int             NumeroCarattere     = rand() % sizeof(CharAlfabeto);
             CharAlfabeto   [NumeroCarattere]    = ElencoAlfabeto[NumeroCarattere];
@@ -26,9 +26,9 @@ namespace anas
             PasswordString.push_back(CharAlfabeto[NumeroCarattere]); 
         }
 
-        for (Numero_Volte = 0; Numero_Volte < 8; Numero_Volte++)
+        for (int Lettere_Scritte = 0; Lettere_Scritte < 8; Lettere_Scritte++)
         {
-            printf (   PasswordString.at(Numero_Volte)    );
+            printf (   PasswordString.at(Lettere_Scritte)    );
         }
     }
 }
