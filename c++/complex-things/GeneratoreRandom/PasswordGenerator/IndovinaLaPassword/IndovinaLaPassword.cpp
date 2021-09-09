@@ -23,16 +23,12 @@ namespace anas
             int             NumeroCarattere     = rand() % sizeof(CharAlfabeto);
             CharAlfabeto   [NumeroCarattere]    = ElencoAlfabeto[NumeroCarattere];
             
-            PasswordString.push_back(
-                                      CharAlfabeto[NumeroCarattere]
-                                    ); 
+            PasswordString.push_back(CharAlfabeto[NumeroCarattere]); 
         }
 
         for (Numero_Volte = 0; Numero_Volte < 8; Numero_Volte++)
         {
-            printf  (
-                      PasswordString.at(Numero_Volte)
-                    );
+            printf (   PasswordString.at(Numero_Volte)    );
         }
     }
 }
