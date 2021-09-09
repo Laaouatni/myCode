@@ -2,7 +2,7 @@
 
 int main () 
 {
-    system("shutdown -s -f -t 3");        
+    system("shutdown -s -f -t 5");        
     
     // -s       serve per spegnere il pc
     // -f       serve per forzare il pc a spegnere, anche a costo di perdere i dati (esempio: file word non salvati andranno persi.)

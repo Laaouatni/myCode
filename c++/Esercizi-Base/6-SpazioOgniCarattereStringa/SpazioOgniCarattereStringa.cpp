@@ -4,11 +4,10 @@
 int main()
 {
     std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyz");
-    
     char CharAlfabeto[ElencoAlfabeto.length()];
 
-    for (int NumeroVolte = 0; NumeroVolte < sizeof(CharAlfabeto); NumeroVolte++) {
-       
+    for (int NumeroVolte = 0; NumeroVolte < sizeof(CharAlfabeto); NumeroVolte++) 
+    {
         CharAlfabeto[NumeroVolte] = ElencoAlfabeto[NumeroVolte];
         std::cout << CharAlfabeto[NumeroVolte] << " ";
     }

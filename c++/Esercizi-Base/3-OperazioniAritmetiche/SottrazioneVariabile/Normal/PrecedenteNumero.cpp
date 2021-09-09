@@ -3,10 +3,12 @@
 int main() 
 {
     int Numero_Variabile;
-    std::endl;
-    
-    std::cin >> Numero_Variabile;
-    std::printf ("il numero della Variabile è: %d",Numero_Variabile);
+    std::cout   << "scrivi il Primo Numero: \n";
+    std::cin    >> Numero_Variabile;
+
+    int AddizioneVariabile = Numero_Variabile - 1;
+
+    std::printf ("\nil Risultato: %d", AddizioneVariabile);
 }
 
 /* 
