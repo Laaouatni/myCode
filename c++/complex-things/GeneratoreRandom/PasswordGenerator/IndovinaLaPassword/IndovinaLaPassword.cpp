@@ -2,9 +2,7 @@
 #include <conio.h>
 #include <string>
 #include <vector>
-
-/* #define ESC 27
-#define SOTTO 80 */
+#include <iostream>
 
 /* PasswordString.push_back()
 PasswordString.at(Lettere_Scritte); */
@@ -13,22 +11,21 @@ namespace anas
 {  
     void passwordGenerator() 
     {
-        std::vector<std::string> PasswordString;
+        std::vector<std::string> PasswordString[7];
 
         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
-        char CharAlfabeto[ElencoAlfabeto.length()];
+
+        std::vector<char> CharAlfabeto;
 
         for (int Lettere_Create = 0; Lettere_Create < 8; Lettere_Create++)  
         {
-            int             NumeroCarattere     = rand() % sizeof(CharAlfabeto);
-            CharAlfabeto   [NumeroCarattere]    = ElencoAlfabeto[NumeroCarattere];
-            
-            PasswordString.push_back(CharAlfabeto[NumeroCarattere]); 
+            int num_car_rand  = rand() % sizeof(CharAlfabeto);
+            PasswordString.push_back(ElencoAlfabeto[num_car_rand]); 
         }
 
-        for (int Lettere_Scritte = 0; Lettere_Scritte < 8; Lettere_Scritte++)
+        for (int N_Lettere_Scritte = 0; N_Lettere_Scritte < 8; N_Lettere_Scritte++)
         {
-            printf (   PasswordString.at(Lettere_Scritte)    );
+            std::cout << PasswordString[N_Lettere_Scritte];
         }
     }
 }
