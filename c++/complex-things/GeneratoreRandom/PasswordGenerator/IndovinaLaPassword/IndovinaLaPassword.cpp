@@ -1,4 +1,3 @@
-#include <iostream>
 #include <stdio.h>
 #include <conio.h>
 #include <string>
@@ -14,7 +13,7 @@ namespace anas
 {  
     void passwordGenerator() 
     {
-        std::vector<string> PasswordString;
+        std::vector<std::string> PasswordString;
 
         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
         char CharAlfabeto[ElencoAlfabeto.length()];
