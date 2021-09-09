@@ -10,7 +10,6 @@
 /* PasswordString.push_back()
 PasswordString.at(Numero_Volte); */
 
-////////////////////////////////////////////////////////////////
 namespace anas 
 {  
     void passwordGenerator() 
@@ -25,57 +24,25 @@ namespace anas
             int             NumeroCarattere     = rand() % sizeof(CharAlfabeto);
             CharAlfabeto   [NumeroCarattere]    = ElencoAlfabeto[NumeroCarattere];
             
-            PasswordString.push_back(CharAlfabeto[NumeroCarattere])
-            
-            //std::cout << CharAlfabeto[NumeroCarattere]; 
+            PasswordString.push_back(
+                                      CharAlfabeto[NumeroCarattere]
+                                    ); 
         }
 
         for (Numero_Volte = 0; Numero_Volte < 8; Numero_Volte++)
         {
             printf  (
-                        PasswordString.at(Numero_Volte)
+                      PasswordString.at(Numero_Volte)
                     );
         }
     }
-
-    /* void passGenRepeater() 
-    {
-        anas::passwordGenerator();
-        char LetteraInput = 'a';
-
-        _getch();
-
-        switch  (
-                    (
-                        LetteraInput = _getch()
-                    )
-                ) 
-
-        {
-            case ESC:
-                std::cout << std::endl;
-                std::printf("\n\nFinished\n");
-                break;
-
-            case SOTTO:
-                std::cout << std::endl;
-                anas::passGenRepeater();
-            
-            default:
-                std::cout << "\n\nERRORE: clicca SOTTO\n\n";
-                break;
-        }
-    }
-    
-} */
 }
-
 
 int main()
 {
     system("cls");
-    std::printf("the program is started... \n \n");
-    anas::passGenRepeater();
+    std ::printf("the program is started... \n \n");
+    anas::passwordGenerator();
 }
 
 /* 
