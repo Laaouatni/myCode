@@ -3,29 +3,48 @@
 
 namespace anas 
 {
-/*     void SimpleAlgoritm (int InputUtente) 
-    {
-        std::cout << "scrivi il primo numero dell'algoritmo: ";
-        std::cin  >> InputUtente;
-        
-        std::cout << "OK. il Numero Scelto è: "  << InputUtente << std::endl;
-    } */
-
     void RecursiveAlgoritm (int InputUtente) 
     {
         if(InputUtente % 2 == 0)
         {
-            std::cout << InputUtente << " = PARI!" << std::endl;
             InputUtente = InputUtente / 2;
-            std::cout << "Ok. Adesso Numero DIVISO = \t" << InputUtente << std::endl;
-            Sleep(500);
+            std::cout << InputUtente << std::endl;
+                
+                for (int ForGrafico = InputUtente; ForGrafico > 0; ForGrafico--)
+                {
+                    std::cout << "#";
+
+                        if(ForGrafico == 0)
+                        {
+                            std::cout << "\n";
+                        } 
+                }
+
+                if(InputUtente == 4 || InputUtente == 2)
+                {
+                    Sleep(500);
+                }
         }
+
         else
         {
-            std::cout << InputUtente << " = DISPARI!" << std::endl;
             InputUtente = 3 * InputUtente + 1;
-            std::cout << "Ok. Adesso Numero 3x+1 = \t"  << InputUtente << std::endl;
-            Sleep(500);
+            std::cout << InputUtente << std::endl;
+            
+                for (int ForGrafico = InputUtente; ForGrafico > 0; ForGrafico--)
+                {
+                    std::cout << "#";
+
+                        if(ForGrafico == 0)
+                        {
+                            std::cout << "\n";
+                        }
+                }
+
+                if(InputUtente == 1)
+                    {
+                        Sleep(500);
+                    }
         }
 
         anas::RecursiveAlgoritm(InputUtente);
@@ -38,7 +57,7 @@ int main()
     
     std ::cout << "scrivi il primo numero dell'algoritmo: ";
     std ::cin  >> InputUtente;
-    std ::cout << "\n OK. il Numero Scelto è: "  << InputUtente << std::endl;
+    std ::cout << "\n OK. il Numero Scelto è: "  << InputUtente << "\n\n\n";
     
     anas::RecursiveAlgoritm (InputUtente);
 }
