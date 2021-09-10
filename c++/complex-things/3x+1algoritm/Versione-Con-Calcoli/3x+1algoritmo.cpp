@@ -41,7 +41,7 @@ int main()
     
     std ::cout << "scrivi il primo numero dell'algoritmo: ";
     std ::cin  >> InputUtente;
-    std ::cout << "\n OK. il Numero Scelto è: "  << InputUtente << "\n\n\n";
+    std ::cout << "\n OK. il Numero Scelto: "  << InputUtente << "\n\n\n\n\n";
     
     anas::RecursiveAlgoritm (InputUtente);
 }
