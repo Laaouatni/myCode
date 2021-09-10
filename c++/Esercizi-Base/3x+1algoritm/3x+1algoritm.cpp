@@ -3,13 +3,13 @@
 
 namespace anas 
 {
-    void SimpleAlgoritm (int InputUtente) 
+/*     void SimpleAlgoritm (int InputUtente) 
     {
         std::cout << "scrivi il primo numero dell'algoritmo: ";
         std::cin  >> InputUtente;
         
         std::cout << "OK. il Numero Scelto è: "  << InputUtente << std::endl;
-    }
+    } */
 
     void RecursiveAlgoritm (int InputUtente) 
     {
@@ -36,7 +36,10 @@ int main()
 {
     int InputUtente;
     
-    anas::SimpleAlgoritm    (InputUtente);
+    std ::cout << "scrivi il primo numero dell'algoritmo: ";
+    std ::cin  >> InputUtente;
+    std ::cout << "\n OK. il Numero Scelto è: "  << InputUtente << std::endl;
+    
     anas::RecursiveAlgoritm (InputUtente);
 }
 
