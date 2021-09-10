@@ -1,10 +1,32 @@
+#include <iostream>
+
+namespace anas 
+{
+    void SimpleAlgoritm () 
+    {
+        int  InputUtente;
+
+        std::cout << "scrivi il primo numero dell'algoritmo: ";
+        std::cin  >> InputUtente;
+        
+        std::cout << "OK. il Numero Scelto è: "  << InputUtente << std::endl;
+
+        switch (InputUtente % 2) 
+        {
+           case 0:
+                std::cout << "è pari" << std::endl;
+
+            default: 
+                std::cout << "default" << std::endl;
+        }
+    }
 
 
-
+}
 
 int main()
 {
-
+anas::SimpleAlgoritm();
 }
 
 /* 
