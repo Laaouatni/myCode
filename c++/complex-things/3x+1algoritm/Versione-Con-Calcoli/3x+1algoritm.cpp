@@ -7,7 +7,8 @@ namespace anas
     {
         if(InputUtente % 2 == 0)
         {
-            std::cout << InputUtente;
+            std::cout << InputUtente << " / 2 \t\t = ";
+
             InputUtente = InputUtente / 2;
             std::cout << "\t" << InputUtente << std::endl;
                 
@@ -16,12 +17,14 @@ namespace anas
                     Sleep(500);
                 }
         }
+
         else
         {
-            std::cout << InputUtente;
+            std::cout << "3 * " << InputUtente << " - 1 \t = ";
+
             InputUtente = 3 * InputUtente + 1;
             std::cout << "\t"  << InputUtente << std::endl;
-                
+            
                 if(InputUtente == 1)
                     {
                         Sleep(500);
