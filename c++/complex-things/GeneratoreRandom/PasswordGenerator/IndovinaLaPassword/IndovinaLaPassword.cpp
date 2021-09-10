@@ -7,6 +7,8 @@
 /* PasswordString.push_back()
 PasswordString.at(Lettere_Scritte); */
 
+
+// il programma per adesso è sospeso, dopo lo finirò
 namespace anas 
 {  
     void passwordGenerator() 
