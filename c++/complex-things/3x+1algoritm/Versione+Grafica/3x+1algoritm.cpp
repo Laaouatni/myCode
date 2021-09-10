@@ -12,11 +12,6 @@ namespace anas
             for (int ForGrafico = InputUtente; ForGrafico > 0; ForGrafico--)
             {
                 std::cout << "#";
-
-                if(ForGrafico == 0)
-                {
-                    std::cout << "\t";
-                }
             }
 
             std::cout << std::endl;
@@ -34,11 +29,6 @@ namespace anas
             for (int ForGrafico = InputUtente; ForGrafico > 0; ForGrafico--)
             {
                 std::cout << "#";
-
-                if(ForGrafico == 0)
-                {
-                    std::cout << "\t";
-                }
             }
                 
             std::cout << std::endl;
