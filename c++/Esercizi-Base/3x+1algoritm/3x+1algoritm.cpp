@@ -1,32 +1,43 @@
 #include <iostream>
+#include <windows.h>
 
 namespace anas 
 {
-    void SimpleAlgoritm () 
+    void SimpleAlgoritm (int InputUtente) 
     {
-        int  InputUtente;
-
         std::cout << "scrivi il primo numero dell'algoritmo: ";
         std::cin  >> InputUtente;
         
         std::cout << "OK. il Numero Scelto è: "  << InputUtente << std::endl;
-
-        switch (InputUtente % 2) 
-        {
-           case 0:
-                std::cout << "è pari" << std::endl;
-
-            default: 
-                std::cout << "default" << std::endl;
-        }
     }
 
+    void RecursiveAlgoritm (int InputUtente) 
+    {
+        if(InputUtente % 2 == 0)
+        {
+            std::cout << InputUtente << " = PARI!" << std::endl;
+            InputUtente = InputUtente / 2;
+            std::cout << "Ok. Adesso Numero DIVISO = \t" << InputUtente << std::endl;
+            Sleep(500);
+        }
+        else
+        {
+            std::cout << InputUtente << " = DISPARI!" << std::endl;
+            InputUtente = 3 * InputUtente + 1;
+            std::cout << "Ok. Adesso Numero 3x+1 = \t"  << InputUtente << std::endl;
+            Sleep(500);
+        }
 
+        anas::RecursiveAlgoritm(InputUtente);
+    }
 }
 
 int main()
 {
-anas::SimpleAlgoritm();
+    int InputUtente;
+    
+    anas::SimpleAlgoritm    (InputUtente);
+    anas::RecursiveAlgoritm (InputUtente);
 }
 
 /* 
