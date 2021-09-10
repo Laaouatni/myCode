@@ -18,7 +18,7 @@ namespace anas
 
             if(InputUtente == 4 || InputUtente == 2)
             {
-                Sleep(200);
+                Sleep(300);
             }
         }
 
@@ -35,7 +35,7 @@ namespace anas
 
             if(InputUtente == 1)
             {
-                Sleep(200);
+                Sleep(300);
             }
         }
 
