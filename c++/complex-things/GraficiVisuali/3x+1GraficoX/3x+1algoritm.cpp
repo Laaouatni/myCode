@@ -1,63 +1,57 @@
 #include <iostream>
-#include <stdio.h>
-#include <conio.h>
-#include <string>
-
-#define ESC 27
-#define SOTTO 80
+#include <windows.h>
 
 namespace anas 
-{  
-    void PinGenerator() 
+{
+    void RecursiveAlgoritm (int InputUtente) 
     {
-        std::string ElencoNumeri("0123456789");
-        char CharNumeri[ElencoNumeri.length()];
-
-        for(int Numero_Volte = 0; Numero_Volte < 4; Numero_Volte++)  
+        if(InputUtente % 2 == 0)
         {
-            int NumeroCarattere = rand() % sizeof(CharNumeri);
-            CharNumeri[NumeroCarattere] = ElencoNumeri[NumeroCarattere];
-            std::cout << CharNumeri[NumeroCarattere]; 
+            InputUtente = InputUtente / 2;
+
+            for (int ForGrafico = InputUtente; ForGrafico > 0; ForGrafico--)
+            {
+                std::cout << "#";
+            }
+
+            std::cout << std::endl;
+
+            if(InputUtente == 4 || InputUtente == 2)
+            {
+                Sleep(300);
+            }
         }
-    }
 
-    void PinGenRepeater() 
-    {
-        anas::PinGenerator();
-        char NumberInput = '0';
-
-        _getch();
-
-        switch  (
-                    (
-                        NumberInput = _getch()
-                    )
-                ) 
-
+        else
         {
-            case ESC:
-                std::cout << std::endl;
-                std::printf("\n\nFinished\n");
-                break;
+            InputUtente = 3 * InputUtente + 1;
 
-            case SOTTO:
-                std::cout << std::endl;
-                anas::PinGenRepeater();
-            
-            default:
-                std::cout << "\n\nERRORE: clicca SOTTO\n\n";
-                break;
+            for (int ForGrafico = InputUtente; ForGrafico > 0; ForGrafico--)
+            {
+                std::cout << "#";
+            }
+                
+            std::cout << std::endl;
+
+            if(InputUtente == 1)
+            {
+                Sleep(300);
+            }
         }
+
+        anas::RecursiveAlgoritm(InputUtente);
     }
-    
 }
-
 
 int main()
 {
-    system("cls");
-    std::printf("the program is started... \n \n");
-    anas::PinGenRepeater();
+    int InputUtente;
+    
+    std ::cout << "scrivi il primo numero dell'algoritmo: ";
+    std ::cin  >> InputUtente;
+    std ::cout << "\n OK. il Numero Scelto: "  << InputUtente << "\n\n\n";
+    
+    anas::RecursiveAlgoritm (InputUtente);
 }
 
 /* 
