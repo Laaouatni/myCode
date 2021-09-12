@@ -1,9 +1,36 @@
 #include <iostream>
+#include <conio.h>
+#define SOTTO 80
 
 int main()
 {
-    char GetchChar = GETCH
-    int NumeroRandom = rand() % 10;
+    std::cout <<"programma iniziato\n\n\n";
+
+    char LetteraInput = 'a';
+
+        _getch();
+
+        switch  (
+                    (
+                        LetteraInput = _getch()
+                    )
+                )
+    {
+
+    case SOTTO:
+    
+    while(1)
+    {
+        int NumeroRandom = rand() % 10;
+        
+        for (int NumeroVolte = NumeroRandom; NumeroVolte > 0; NumeroVolte--)
+        {
+            std::cout << "#";
+        }
+        std::cout << std::endl;
+    }
+    }
+    
 }
 
 /* 
