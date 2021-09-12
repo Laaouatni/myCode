@@ -27,7 +27,6 @@ import org.json.*;
 import android.widget.ScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Button;
 import java.util.Timer;
 import java.util.TimerTask;
 import android.content.Intent;
@@ -38,7 +37,6 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.BounceInterpolator;
-import android.view.View;
 import android.graphics.Typeface;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -48,10 +46,11 @@ public class MainActivity extends AppCompatActivity {
 	
 	private Timer _timer = new Timer();
 	
+	private boolean maDevoAprireActivity = false;
+	
 	private ScrollView ScroolBackground1;
 	private LinearLayout linear1;
 	private TextView logo_laaouatni_text;
-	private Button ApriAdhanOrari;
 	
 	private TimerTask TempoAprireNewActivity;
 	private Intent Aprire_OrariActivity = new Intent();
@@ -70,20 +69,9 @@ public class MainActivity extends AppCompatActivity {
 		ScroolBackground1 = findViewById(R.id.ScroolBackground1);
 		linear1 = findViewById(R.id.linear1);
 		logo_laaouatni_text = findViewById(R.id.logo_laaouatni_text);
-		ApriAdhanOrari = findViewById(R.id.ApriAdhanOrari);
-		
-		ApriAdhanOrari.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View _view) {
-				AnimazioneTestoLogo.setFloatValues((float)(0), (float)(200));
-				AnimazioneTestoLogo.setInterpolator(new AccelerateInterpolator());
-				AnimazioneTestoLogo.start();
-			}
-		});
 	}
 	
 	private void initializeLogic() {
-		ApriAdhanOrari.setVisibility(View.GONE);
 		//inserire il font per il logo laaouatni.
 		logo_laaouatni_text.setTextColor(0xFFFFFFFF);
 		ScroolBackground1.setBackgroundColor(0xFF3F51B5);
@@ -91,20 +79,24 @@ public class MainActivity extends AppCompatActivity {
 		//animazione testo Intro
 		AnimazioneTestoLogo.setTarget(logo_laaouatni_text);
 		AnimazioneTestoLogo.setPropertyName("translationY");
-		AnimazioneTestoLogo.setFloatValues((float)(-200), (float)(0));
-		AnimazioneTestoLogo.setDuration((int)(3000));
-		AnimazioneTestoLogo.setInterpolator(new DecelerateInterpolator());
+		AnimazioneTestoLogo.setFloatValues((float)(300), (float)(0));
+		AnimazioneTestoLogo.setDuration((int)(2500));
 		AnimazioneTestoLogo.start();
-		//far apparire il buttone ma invisibilmente
-		ApriAdhanOrari.setAlpha((float)(0));
-		ApriAdhanOrari.setVisibility(View.VISIBLE);
-		//faccio apparire il buttone, tramite un'animazione interessante!
-		TrasparenzaAnimazione_ButtoneOrariAdhan.setTarget(ApriAdhanOrari);
-		TrasparenzaAnimazione_ButtoneOrariAdhan.setPropertyName("alpha");
-		TrasparenzaAnimazione_ButtoneOrariAdhan.setFloatValues((float)(0), (float)(0.6d));
-		TrasparenzaAnimazione_ButtoneOrariAdhan.setDuration((int)(1000));
-		TrasparenzaAnimazione_ButtoneOrariAdhan.setInterpolator(new DecelerateInterpolator());
-		TrasparenzaAnimazione_ButtoneOrariAdhan.start();
+		//aprire ADHAN ACTIVITY XML
+		TempoAprireNewActivity = new TimerTask() {
+			@Override
+			public void run() {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						Aprire_OrariActivity.setAction(Intent.ACTION_VIEW);
+						Aprire_OrariActivity.setClass(getApplicationContext(), AdhanActivity.class);
+						startActivity(Aprire_OrariActivity);
+					}
+				});
+			}
+		};
+		_timer.schedule(TempoAprireNewActivity, (int)(3000));
 	}
 	
 	
