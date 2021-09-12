@@ -1,3 +1,10 @@
+#include <iostream>
+
+int main()
+{
+    char GetchChar = GETCH
+    int NumeroRandom = rand() % 10;
+}
 
 /* 
 MIT License
