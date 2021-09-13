@@ -10,16 +10,17 @@ int main()
     std::cout <<"programma iniziato\n\n\n";
 
     char LetteraInput = 'a';
+    int  NumeroRandom;
 
     _getch(); 
 
-     switch  (
-                    (
-                        LetteraInput = _getch()
-                    )
-                ) 
+    switch  (
+                (
+                    LetteraInput = _getch()
+                )
+            ) 
 
-        {
+    {
             case KEY_SOTTO:
             {
                 int NumeroRandom = rand() % 10;
@@ -31,13 +32,17 @@ int main()
             }
 
             case KEY_ESCI:
+            {
                 std::cout << "programma finito\n\n";
                 break;
+            }
 
             default:
+            {
                 std::cout << "\n\nERRORE: clicca RIPROVA\n\n";
                 break;
-        }
+            }
+    }
     
 }
 
