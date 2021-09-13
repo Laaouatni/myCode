@@ -20,14 +20,14 @@ namespace anas
             {
                 case KEY_SOTTO:
                 {
-                    int NumeroRandom = rand() % 10;
+                    int NumeroRandom = rand() % 30;
 
                     for (int NumeroVolte = NumeroRandom; NumeroVolte > 0; NumeroVolte--)
                     {
                         std::cout << "#";
                     }
 
-                    std::cout << std::endl;
+                    std::cout << "\n";
                 }
             }
             
