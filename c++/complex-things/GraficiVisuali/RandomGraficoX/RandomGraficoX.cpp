@@ -5,6 +5,36 @@
 #define KEY_SOTTO 80
 #define KEY_ESCI 27
 
+namespace anas
+{
+    void switchRepeater(char LetteraInput, int NumeroRandom)
+    {
+        _getch(); 
+
+            switch  (
+                        (
+                            LetteraInput = _getch()
+                        )
+                    ) 
+
+            {
+                case KEY_SOTTO:
+                {
+                    int NumeroRandom = rand() % 10;
+
+                    for (int NumeroVolte = NumeroRandom; NumeroVolte > 0; NumeroVolte--)
+                    {
+                        std::cout << "#";
+                    }
+
+                    std::cout << std::endl;
+                }
+            }
+            
+        anas::switchRepeater(LetteraInput, NumeroRandom);
+    }
+}
+
 int main()
 {
     std::cout <<"programma iniziato\n\n\n";
@@ -12,38 +42,8 @@ int main()
     char LetteraInput = 'a';
     int  NumeroRandom;
 
-    _getch(); 
+    anas::switchRepeater(LetteraInput, NumeroRandom);
 
-    switch  (
-                (
-                    LetteraInput = _getch()
-                )
-            ) 
-
-    {
-            case KEY_SOTTO:
-            {
-                int NumeroRandom = rand() % 10;
-                for (int NumeroVolte = NumeroRandom; NumeroVolte > 0; NumeroVolte--)
-                {
-                    std::cout << "#";
-                }
-                std::cout << std::endl;
-            }
-
-/*             case KEY_ESCI:
-            {
-                std::cout << "programma finito\n\n";
-                break;
-            }
-
-            default:
-            {
-                std::cout << "\n\nERRORE: clicca RIPROVA\n\n";
-                break;
-            } */
-    }
-    
 }
 
 /* 
