@@ -9,19 +9,17 @@ namespace anas
 {  
     void GetInputPassword()
     {
-      /*   std::cout << "\n\nInput Password: ";
-        std::string FirstPassword[7];
-        std::cin >> FirstPassword[7]; */
+        std::cout << "\n\nInput Password: ";
+        std::string FirstPassword[];
+        std::cin >> FirstPassword;
+        std::cout << "la password è... " << FirstPassword << "\nAdesso AI cercherè di trovare la password!";
     }
 
     void passwordGenerator() 
     {
-/*         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
+        std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
 
-        for (int Lettere_Create = 0; Lettere_Create < 8; Lettere_Create++)  
-        {
-            std::cout << Lettere_Create;
-        } */
+        if(FirstPassword[0] == )
     }
 }
 
