@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include <stdio.h>
 
 #define KEY_SOTTO 80
 #define KEY_ESCI 27
@@ -10,26 +11,33 @@ int main()
 
     char LetteraInput = 'a';
 
-    _getch();
+    _getch(); 
 
-    switch ((LetteraInput = _getch()))
-    {
-        case KEY_SOTTO:
-            int NumeroRandom = rand() % 10;
-            for (int NumeroVolte = NumeroRandom; NumeroVolte > 0; NumeroVolte--)
+     switch  (
+                    (
+                        LetteraInput = _getch()
+                    )
+                ) 
+
+        {
+            case KEY_SOTTO:
             {
-                std::cout << "#";
+                int NumeroRandom = rand() % 10;
+                for (int NumeroVolte = NumeroRandom; NumeroVolte > 0; NumeroVolte--)
+                {
+                    std::cout << "#";
+                }
+                std::cout << std::endl;
             }
-            std::cout << std::endl;
 
-        case KEY_ESCI:
-            std::cout << "programma finito\n\n";
-            break;
+            case KEY_ESCI:
+                std::cout << "programma finito\n\n";
+                break;
 
-        default:
-            std::cout << "\n\nERRORE: clicca RIPROVA\n\n";
-            break;
-    }
+            default:
+                std::cout << "\n\nERRORE: clicca RIPROVA\n\n";
+                break;
+        }
     
 }
 
