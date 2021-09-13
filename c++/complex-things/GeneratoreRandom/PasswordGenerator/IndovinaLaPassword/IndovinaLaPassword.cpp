@@ -4,31 +4,24 @@
 #include <vector>
 #include <iostream>
 
-/* PasswordString.push_back()
-PasswordString.at(Lettere_Scritte); */
-
-
 // il programma per adesso è sospeso, dopo lo finirò
 namespace anas 
 {  
+    void GetInputPassword()
+    {
+      /*   std::cout << "\n\nInput Password: ";
+        std::string FirstPassword[7];
+        std::cin >> FirstPassword[7]; */
+    }
+
     void passwordGenerator() 
     {
-        std::vector<std::string> PasswordString[7];
-
-        std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
-
-        std::vector<char> CharAlfabeto;
+/*         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
 
         for (int Lettere_Create = 0; Lettere_Create < 8; Lettere_Create++)  
         {
-            int num_car_rand  = rand() % sizeof(CharAlfabeto);
-            PasswordString.push_back(ElencoAlfabeto[num_car_rand]); 
-        }
-
-        for (int N_Lettere_Scritte = 0; N_Lettere_Scritte < 8; N_Lettere_Scritte++)
-        {
-            std::cout << PasswordString[N_Lettere_Scritte];
-        }
+            std::cout << Lettere_Create;
+        } */
     }
 }
 
@@ -36,6 +29,9 @@ int main()
 {
     system("cls");
     std ::printf("the program is started... \n \n");
+        std::cout << "\n\nInput Password: ";
+        std::string FirstPassword[7];
+        std::cin >> FirstPassword[7];
     anas::passwordGenerator();
 }
 
