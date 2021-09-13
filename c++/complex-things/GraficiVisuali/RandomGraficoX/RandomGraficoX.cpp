@@ -31,7 +31,7 @@ int main()
                 std::cout << std::endl;
             }
 
-            case KEY_ESCI:
+/*             case KEY_ESCI:
             {
                 std::cout << "programma finito\n\n";
                 break;
@@ -41,7 +41,7 @@ int main()
             {
                 std::cout << "\n\nERRORE: clicca RIPROVA\n\n";
                 break;
-            }
+            } */
     }
     
 }
