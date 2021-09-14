@@ -19,7 +19,23 @@ namespace anas
     {
         std::string ElencoAlfabeto("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
 
-        if(FirstPassword[0] == )
+
+            int NumeroCarattereDaTestare = 0;
+            int NumeroCarattereAttuale = 0;
+            /* if(FirstPassword[NumeroCarattereDaTestare] == ElencoAlfabeto[NumeroCarattereDaTestare]) */
+
+            switch  (
+                        (
+                            FirstPassword [NumeroCarattereDaTestare]
+                        )
+                    )
+            
+            {
+                case ElencoAlfabeto[NumeroCarattereAttuale]:
+                
+            }
+        }
+        
     }
 }
 
