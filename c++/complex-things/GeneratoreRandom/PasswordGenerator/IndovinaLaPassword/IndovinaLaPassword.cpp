@@ -31,8 +31,8 @@ namespace anas
                     )
             
             {
-                case ElencoAlfabeto[NumeroCarattereAttuale]:
-                
+                case FirstPassword[NumeroCarattereDaTestare]:
+                    std::cout<<FirstPassword[NumeroCarattereDaTestare];
             }
         }
         

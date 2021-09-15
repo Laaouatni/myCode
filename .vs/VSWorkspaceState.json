@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\C++",
+    "\\C++\\complex-things",
+    "\\C++\\complex-things\\GeneratoreRandom",
+    "\\C++\\complex-things\\GeneratoreRandom\\PasswordGenerator",
+    "\\C++\\complex-things\\GeneratoreRandom\\PasswordGenerator\\IndovinaLaPassword",
+    "\\C++\\complex-things\\GraficiVisuali",
+    "\\C++\\complex-things\\GraficiVisuali\\RandomGraficoX"
+  ],
+  "SelectedNode": "\\C++\\complex-things\\GeneratoreRandom\\PasswordGenerator\\IndovinaLaPassword\\IndovinaLaPassword.cpp",
+  "PreviewInSolutionExplorer": false
+}
