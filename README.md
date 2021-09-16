@@ -10,12 +10,6 @@
 
 -----
 
-▶️ Spero di Continuare questa Iniziativa, senza abbandonare.
-
-È difficile, ma è possibile!
-
------
-
 📈 per adesso sono alle BASI,
 
 ma con la il Tempo e la Costanza,
@@ -27,5 +21,3 @@ ma con la il Tempo e la Costanza,
 | Nel Futuro sicuramente...
 
 | "La Programmazione, sarà l'inglese del Futuro"
-
-| Sapere è Potere (una qualità)
