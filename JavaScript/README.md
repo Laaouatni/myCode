@@ -2,5 +2,4 @@
 
 il modo più semplice, è scrivere:
 
-```node ./NomeProgramma.js```
-
+```node ./NomeProgramma.js``
