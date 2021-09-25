@@ -1,39 +1,22 @@
-<h1 align="center">Hi 👋, I'm Anas L.</h1>
-<h3 align="center">I'm a Junior Learning Developer.</h3>
+# myCode
 
-<p>🕐 Recentemente ho Scoperto di aver un Hobby! <br>✅ quindi A Settembre, finalmente ho iniziato a provare a creare dei mini-progetti.</p>
+🕐 Recentemente ho Scoperto di aver un Hobby!
 
-<hr>
-<h3 align="center">Languages, I am learning:</h3>
-<p align="center">
-    <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /> </a>
-    <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /> </a>
-    <a href="https://www.cplusplus.com/" target="_blank"> <img src="https://cdn.freebiesupply.com/logos/large/2x/c-logo-png-transparent.png" alt="cpp" height="32" /> </a>
-    <!-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a> -->
-</p>
+✅ quindi A Settembre, finalmente ho iniziato a provare a creare dei mini-progetti.
 
-<h3 align="center">Courses, I am taking:</h3>
-<p align="center">
-    <a href="https://github.com/Laaouatni/myCode/tree/main/HTML-CSS/Corsi-HTML/FreeCodeCamp.org" target="_blank"> <img src="https://avatars3.githubusercontent.com/u/9892522?s=280&v=4" alt="anas" width="40" height="40" /> </a>
-</p>
-<h3 align="center">Github Account:</h3>
-<p align="center">
-<!--     <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /> </a> -->
-    <a href="https://github.com/Laaouatni" target="_blank"> <img src="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" alt="git" width="40" height="40" /> </a>
-</p>
+-----
 
-<h3 align="center">Where I can Contact You?</h3>
-<p align="center">
-    <a href="https://linkedin.com/in/anas-laaouatni" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anas" height="30" width="40" /></a>
-    <a href="mailto:laaouatni.anas@outlook.it" target="blank"><img align="center" src="https://www.google.com/gmail/about/static/images/logo-gmail.png?cache=1adba63" alt="anas" height="30" width="40" /></a>
-</p>
+👨‍💻 GitHub: laaouatni
 
+-----
 
-<h3 align="center">Most Used Languages:</h3>
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Laaouatni&show_icons=true&locale=en&layout=compact" alt="anas" /></p>
-<hr>
+📈 per adesso sono alle BASI,
 
-<h3 align="center">Tree of 'myCode' Repesitory:</h3>
+ma con la il Tempo e la Costanza,
+
+è possibile Imparare qualcosa di Interessante!
+
+-----
 
 ```
 C:.
