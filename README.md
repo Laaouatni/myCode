@@ -50,8 +50,8 @@ C:.
 │   │   │   ├───Versione-Con-Calcoli
 │   │   │   └───Versione-Minimal
 │   │   ├───GeneratoreRandom
-│   │   │   ├───letterGenerator
-│   │   │   ├───PasswordGenerator
+│   │   │   ├───letterGenerator       
+│   │   │   ├───PasswordGenerator     
 │   │   │   │   ├───IndovinaLaPassword
 │   │   │   │   └───Random
 │   │   │   │       ├───RandomMaiuscolo
@@ -236,7 +236,12 @@ C:.
 │   │           ├───128-Livello-FreeCodeCamp(4)
 │   │           ├───129-Livello-FreeCodeCamp(5)
 │   │           ├───130-Livello-FreeCodeCamp(6)
-│   │           └───131-Livello-FreeCodeCamp(7)
+│   │           ├───131-Livello-FreeCodeCamp(7)
+│   │           ├───132-Livello-FreeCodeCamp(8)
+│   │           ├───133-Livello-FreeCodeCamp(9)
+│   │           ├───134-Livello-FreeCodeCamp(10)
+│   │           ├───135-Livello-FreeCodeCamp(11)
+│   │           └───136-Livello-FreeCodeCamp(12)
 │   └───RisorseProgrammazioneHTML
 │       └───TAG
 │           ├───!DOCTYPE
