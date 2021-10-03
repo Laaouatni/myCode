@@ -12,8 +12,7 @@
 
 📈 per adesso sono alle BASI,
 
-ma con la il Tempo e la Costanza,
-
+ma con la il Tempo, 
 è possibile Imparare qualcosa di Interessante!
 
 -----
