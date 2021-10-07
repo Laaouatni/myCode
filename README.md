@@ -61,8 +61,8 @@ C:.
 │   │       └───RandomGraficoX
 │   ├───Esercizi-Base
 │   │   ├───0-CIAO+NOME[laaouatni]
-│   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]       
-│   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]     
+│   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]
+│   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]
 │   │   ├───1-ciao-nome-INPUT[laaouatni]
 │   │   ├───2-Multi-Linea_Output[laaouatni]
 │   │   │   ├───[2.1]multi-linea-NORMAL_[laaouatni].cpp
@@ -290,7 +290,13 @@ C:.
 │   │           ├───179-Livello-FreeCodeCamp(12)
 │   │           ├───180-Livello-FreeCodeCamp(13)
 │   │           ├───181-Livello-FreeCodeCamp(14)
-│   │           └───182-Livello-FreeCodeCamp(15)
+│   │           ├───182-Livello-FreeCodeCamp(15)
+│   │           ├───183-Livello-FreeCodeCamp(16)
+│   │           ├───184-Livello-FreeCodeCamp(17)
+│   │           ├───185-Livello-FreeCodeCamp(18)
+│   │           ├───186-Livello-FreeCodeCamp(19)
+│   │           ├───187-Livello-FreeCodeCamp(20)
+│   │           └───188-Livello-FreeCodeCamp(21)
 │   └───RisorseProgrammazioneHTML
 │       └───TAG
 │           ├───!DOCTYPE
