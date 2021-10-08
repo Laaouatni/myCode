@@ -47,9 +47,30 @@
             }
             
             #image {
-                border-radius: 7%;
-                border: 1em solid white;
+                /* grandezza immagine */
+                max-width: 30%;
+                max-height: auto;
                 box-shadow: rgba(75, 102, 255, 0.1) 0px 0em 1em 1em;
+                margin-bottom: 5px;
+            }
+            
+            #image:hover {
+                /* grandezza immagine */
+                max-width: 30%;
+                max-height: auto;
+                border-radius: 15%;
+                border: 1em solid white;
+                box-shadow: rgba(0, 38, 253, 0.1) 0px 0em 1em 1em;
+                margin-bottom: 5px;
+            }
+            
+            figcaption {
+                color: blue;
+                font-size: 11px;
+            }
+            
+            figcaption::before {
+                content: "- "
             }
         </style>
 
@@ -59,8 +80,14 @@
             <p>a <u>FreeCodeCamp</u> Student.</p>
         </div>
 
-        <div class="img-div">
-            <img id="image" src="https://avatars.githubusercontent.com/u/87947051?v=4" alt="Anas Laaouatni Image Profile">
+
+        <div class="img-container">
+            <a href="https://github.com/Laaouatni">
+                <div class="img-div">
+                    <!-- https://avatars.githubusercontent.com/u/87947051?v=4 -->
+                    <img id="image" src="github-anas.jpg" alt="Anas Laaouatni Image Profile">
+                </div>
+            </a>
             <figcaption>Immagine di Profilo GitHub, di Laaouatni Anas.</figcaption>
         </div>
     </main>
