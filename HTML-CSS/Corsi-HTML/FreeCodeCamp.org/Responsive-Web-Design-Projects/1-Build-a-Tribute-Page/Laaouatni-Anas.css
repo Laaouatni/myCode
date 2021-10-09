@@ -168,7 +168,7 @@ con HOVER CSS   -> quando il cursore è supra "FreeCodeCamp" appare ".org", face
 }
 
 #descriptionP:hover:not(.org-link) {
-    color: rgba(0, 0, 0-, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     transition-duration: 0.4s;
 }
 
