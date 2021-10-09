@@ -20,7 +20,7 @@ permette di centrare il testo usando CSS GRID
 - CSS 
 */
 
-.title {
+.TitleContainer {
     display: grid;
     justify-content: center;
 }
@@ -39,11 +39,11 @@ h1 {
     font-weight: bolder;
 }
 
-#H1-MioNome {
+#title {
     transition-duration: 0.3s;
 }
 
-#H1-MioNome:hover {
+#title:hover {
     font-size: 3.5em;
     color: rgb(0, 123, 255);
     transition-duration: 0.3s;
@@ -131,7 +131,7 @@ ID img - Immagine di Profilo Github
 - CSS 
 */
 
-.img-div {
+#img-div {
     display: grid;
     justify-content: center;
 }
