@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', monospace;
+    background-color: rgb(239, 251, 255);
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+}
+
+p {
+    position: relative;
+    bottom: 2em;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+p::after {
+    content: ".";
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h1::after {
+    content: ".";
+}
+
+u {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.img-div {
+    display: grid;
+    justify-content: center;
+}
+
+#image {
+    box-shadow: rgba(75, 102, 255, 0.1) 0px 0em 1em 1em;
+    margin-bottom: 5px;
+    border: 10px solid white;
+    transition-duration: 0.5s;
+    border-radius: 10%;
+}
+
+#image:hover {
+    transition-duration: 200ms;
+    border: 1em solid white;
+    box-shadow: rgba(0, 143, 253, 0.15) 0px 0em 1em 1em;
+    border-radius: 50%;
+}
+
+#image:hover+figcaption {
+    opacity: 1;
+    transition-duration: 1000ms;
+    left: 0px;
+}
+
+figcaption {
+    position: relative;
+    top: 3em;
+    color: blue;
+    font-size: 11px;
+    opacity: 0;
+    transition-duration: 1s;
+    left: 40%;
+}
+
+figcaption::before {
+    content: "- "
+}
+
+figcaption::after {
+    content: ".";
+}
+
+a {
+    text-decoration: none;
+}
+
+.org-link:hover,
+.org-link:hover::after {
+    content: ".org";
+    transition-duration: 0.4s;
+    color: rgba(0, 17, 255, 0.919);
+}
+
+#description:hover:not(.org-link) {
+    color: rgba(0, 0, 0, 0.9);
+    transition-duration: 0.4s;
+}
+
+#H1-MioNome {
+    transition-duration: 0.3s;
+}
+
+#H1-MioNome:hover {
+    font-size: 3.5em;
+    color: rgb(3, 0, 160);
+    transition-duration: 0.3s;
+}
