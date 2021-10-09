@@ -15,6 +15,11 @@
 <body>
     <main id="main">
         <style>
+            @keyframes blue-to-light-bg {
+                from {}
+                to {}
+            }
+            
             html {
                 font-family: 'Poppins', monospace;
                 background-color: rgb(239, 251, 255);
@@ -32,8 +37,16 @@
                 color: rgba(0, 0, 0, 0.6);
             }
             
+            p::after {
+                content: ".";
+            }
+            
             h1 {
                 font-weight: bolder;
+            }
+            
+            h1::after {
+                content: ".";
             }
             
             u {
@@ -42,26 +55,23 @@
             
             .img-div {
                 display: grid;
-                align-items: center;
                 justify-content: center;
             }
             
             #image {
-                /* grandezza immagine */
-                max-width: 30%;
-                max-height: auto;
                 box-shadow: rgba(75, 102, 255, 0.1) 0px 0em 1em 1em;
                 margin-bottom: 5px;
+                border: 10px solid white;
+                border-radius: 10%;
+                transition-duration: 0.5s;
             }
             
             #image:hover {
-                /* grandezza immagine */
-                max-width: 30%;
-                max-height: auto;
-                border-radius: 15%;
+                transition-duration: 200ms;
                 border: 1em solid white;
-                box-shadow: rgba(0, 38, 253, 0.1) 0px 0em 1em 1em;
-                margin-bottom: 5px;
+                box-shadow: rgba(0, 143, 253, 0.15) 0px 0em 1em 1em;
+                margin-bottom: 10px;
+                border-radius: 15%;
             }
             
             figcaption {
@@ -72,23 +82,30 @@
             figcaption::before {
                 content: "- "
             }
+            
+            figcaption::after {
+                content: ".";
+            }
+            
+            a {
+                text-decoration: none;
+            }
         </style>
 
 
         <div class="title">
-            <h1>Laaouatni Anas.</h1>
-            <p>a <u>FreeCodeCamp</u> Student.</p>
+            <h1>Laaouatni Anas</h1>
+            <p>a <u>FreeCodeCamp</u> Student</p>
         </div>
 
 
         <div class="img-container">
             <a href="https://github.com/Laaouatni">
                 <div class="img-div">
-                    <!-- https://avatars.githubusercontent.com/u/87947051?v=4 -->
-                    <img id="image" src="github-anas.jpg" alt="Anas Laaouatni Image Profile">
+                    <img id="image" src="https://avatars.githubusercontent.com/u/87947051?v=4" alt="Anas Laaouatni Image Profile">
+                    <figcaption>Immagine di Profilo GitHub, di Laaouatni Anas</figcaption>
                 </div>
             </a>
-            <figcaption>Immagine di Profilo GitHub, di Laaouatni Anas.</figcaption>
         </div>
     </main>
 
