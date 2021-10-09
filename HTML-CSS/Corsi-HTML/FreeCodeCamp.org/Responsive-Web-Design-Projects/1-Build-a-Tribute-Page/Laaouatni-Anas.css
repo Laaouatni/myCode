@@ -168,7 +168,7 @@ con HOVER CSS   -> quando il cursore è supra "FreeCodeCamp" appare ".org", face
 }
 
 #descriptionP:hover:not(.org-link) {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0-, 0.9);
     transition-duration: 0.4s;
 }
 
@@ -200,4 +200,25 @@ Usiamo ::before
 
 figcaption::before {
     content: "- "
+}
+
+
+/* 
+footer images
+-> 40px di altezza
+*/
+
+.footer-icons {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 5em;
+    display: inline-block;
+    background-color: rgb(197, 239, 253);
+    width: 100%;
+    padding: 1em;
+    ;
 }
