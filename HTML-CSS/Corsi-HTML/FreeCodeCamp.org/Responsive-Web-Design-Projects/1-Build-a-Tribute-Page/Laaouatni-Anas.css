@@ -241,7 +241,7 @@ footer , cioè la parte, più in basso di ogni sito!
 }
 
 
-/*responive with @medi */
+/* responive layout with @media CSS */
 
 @media(max-width:550px) {
     img {
@@ -287,4 +287,59 @@ footer , cioè la parte, più in basso di ogni sito!
         transition-duration: 0.2s;
         margin-left: 1em;
     }
+}
+
+
+/* tribute-info id margins */
+
+#tribute-info {
+    margin-top: 3rem;
+    margin-left: 5em;
+    transition-duration: 0.3s;
+}
+
+
+/* lista con ::after e ::before con periodo */
+
+.periodo-lista::before {
+    content: "Completato in: ";
+}
+
+.periodo-lista::after {
+    content: " giorni(circa)."
+}
+
+
+/* lista con ::after e ::before con inzio corso */
+
+.inizio-lista::before {
+    content: "Iniziato il: ";
+}
+
+.inizio-lista::after {
+    content: ".";
+}
+
+
+/* in grassetto */
+
+.important-items {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin: 0.5em;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.153);
+    color: blue;
+    transition-duration: 0.3s;
+}
+
+
+/*summary CSS*/
+
+summary {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
 }
