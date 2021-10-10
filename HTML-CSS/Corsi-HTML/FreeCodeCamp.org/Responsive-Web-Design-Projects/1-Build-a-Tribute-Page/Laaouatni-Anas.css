@@ -1,4 +1,4 @@
-            /* 
+/* 
 HTML - Tag principale 
 -> Animazione di Scrolling (tra le Sezioni, della stessa pagina Web)
 -> lo Sfondo della Pagina NON è Bianco, ma un BLU(Azzurro) molto CHIARO.
@@ -6,23 +6,27 @@ HTML - Tag principale
 e se NON c'è connessione, oppure Browser vecchio (Internet Explorer,ecc...) utilizzo Font MONOSPACE.
 - CSS 
 */
-            
-            html {
-                scroll-behavior: smooth;
-                font-family: 'Poppins', monospace;
-                background-color: rgb(239, 251, 255);
-            }
-            /* 
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', monospace;
+    background-color: rgb(239, 251, 255);
+}
+
+
+/* 
 DIV che contiene H1 (header) + PARAGRAFO 
 permette di centrare il testo usando CSS GRID
 - CSS 
 */
-            
-            .TitleContainer {
-                display: grid;
-                justify-content: center;
-            }
-            /* 
+
+.TitleContainer {
+    display: grid;
+    justify-content: center;
+}
+
+
+/* 
 H1 (Header Tag)  
 - Output: Laaouatni Anas. 
 Include un'animazione breve (:hover) 
@@ -30,82 +34,94 @@ Include un'animazione breve (:hover)
 -> da Grandezza NORMALE a Grandezza OVERSIZE (3.5em, cioè quasi 56px)
 - CSS 
 */
-            
-            h1 {
-                font-weight: bolder;
-            }
-            
-            #title {
-                transition-duration: 0.3s;
-            }
-            
-            #title:hover {
-                font-size: 3.5em;
-                color: rgb(0, 123, 255);
-                transition-duration: 0.3s;
-            }
-            /* paragrafo - 
+
+h1 {
+    font-weight: bolder;
+}
+
+#title {
+    transition-duration: 0.3s;
+}
+
+#title:hover {
+    font-size: 3.5em;
+    color: rgb(0, 123, 255);
+    transition-duration: 0.3s;
+}
+
+
+/* paragrafo - 
 Output: a ... Student.
 Tutti i Paragrafi Avranno   -> Font LIGHTER (in questo caso 500)
                             -> una posizione RELATIVA, così si possono creare delle animazioni facilmente.
 - CSS */
-            
-            p {
-                position: relative;
-                bottom: 2em;
-                font-weight: lighter;
-                color: rgba(0, 0, 0, 0.6);
-            }
-            /* 
+
+p {
+    position: relative;
+    bottom: 2em;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* 
 Link Ancorati - 
 Output: ... FreeCodeCamp.org ... + Immagine Profilo Github 
 -> adesso i link non hanno la linea Sottolineata
 - CSS 
 */
-            
-            a {
-                text-decoration: none;
-            }
-            /* 
+
+a {
+    text-decoration: none;
+}
+
+
+/* 
 Sottolineato - 
 Output: ... FreeCodeCamp_.org ... 
 -> ciò che fa <a> graficamente, lo facciamo con <u>.
 - CSS 
 */
-            
-            u {
-                color: rgba(0, 0, 0, 0.8);
-            }
-            /* Sottotitoli dell'Immagine (Accessibilità) 
+
+u {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Sottotitoli dell'Immagine (Accessibilità) 
 -> il Testo è molto più piccolo rispetto a un Normale Paragrafo (ma ancora leggibile)
 -> colore BLU
 -> animazione INVERSA in caso il Cursore NON è più supra l'immagine
 -> un pò di margine rispetto alla foto. (Posizione Relativa)
 - CSS */
-            
-            figcaption {
-                position: relative;
-                top: 2em;
-                color: blue;
-                font-size: 11px;
-                opacity: 0;
-                transition-duration: 0.6s;
-                left: 40%;
-            }
-            /* 
+
+figcaption {
+    position: relative;
+    top: 2em;
+    color: blue;
+    font-size: 11px;
+    opacity: 0;
+    transition-duration: 0.6s;
+    left: 40%;
+}
+
+
+/* 
 Animazione per: Sottotitoli dell'Immagine (Accessibilità) 
 -> da INVISIBILE a NORMALE
 -> da Destra a Sinista (con Posizione Relativa)
 -> l'Animazione dura molto, perchè è un'elemento meno importante (che è comunque leggibile dai TEXT-READER)
 - CSS 
 */
-            
-            #image:hover+figcaption {
-                opacity: 1;
-                transition-duration: 1000ms;
-                left: 0px;
-            }
-            /* 
+
+#image:hover+figcaption {
+    opacity: 1;
+    transition-duration: 1000ms;
+    left: 0px;
+}
+
+
+/* 
 ID img - Immagine di Profilo Github 
 -> Utilizzo DIV e CSS GRID per Centrare l'Immagine 
 -> Quando il Cursore è supra l'immagine, Creo un'Animazione da QUADRATO (con Curvature) A CERCHIO.
@@ -114,151 +130,161 @@ ID img - Immagine di Profilo Github
 -> Creo un'Animazione INVERSA, quando il cursore non è più supra l'immagine.
 - CSS 
 */
-            
-            #img-div {
-                display: grid;
-                justify-content: center;
-            }
-            
-            #image {
-                box-shadow: rgba(75, 102, 255, 0.1) 0px 0em 1em 1em;
-                margin-bottom: 5px;
-                border: 10px solid white;
-                transition-duration: 0.5s;
-                border-radius: 10%;
-            }
-            
-            #image:hover {
-                transition-duration: 200ms;
-                border: 1em solid white;
-                box-shadow: rgba(0, 143, 253, 0.15) 0px 0em 1em 1em;
-                border-radius: 50%;
-            }
-            /*
+
+#img-div {
+    display: grid;
+    justify-content: center;
+}
+
+#image {
+    box-shadow: rgba(75, 102, 255, 0.1) 0px 0em 1em 1em;
+    margin-bottom: 5px;
+    border: 10px solid white;
+    transition-duration: 0.5s;
+    border-radius: 10%;
+}
+
+#image:hover {
+    transition-duration: 200ms;
+    border: 1em solid white;
+    box-shadow: rgba(0, 143, 253, 0.15) 0px 0em 1em 1em;
+    border-radius: 50%;
+}
+
+
+/*
 Paragrafo con Link incorporato
 - Output: a FreeCodeCamp.org Student.
 con HOVER CSS   -> quando il cursore è supra "FreeCodeCamp" appare ".org", facendo capire all'utente che è un LINK
                 -> il Link diventa BLU, così l'utente capisce che è un LINK.
                 -> animazione Paragrafo, da GRIGIO a NERO, ma NON colora il link (:not CSS)
 - CSS*/
-            
-            .org-link:hover,
-            .org-link:hover::after {
-                content: ".org";
-                transition-duration: 0.4s;
-                color: rgba(0, 13, 196, 0.919);
-            }
-            
-            #descriptionP:hover:not(.org-link) {
-                color: rgba(0, 0, 0, 0.9);
-                transition-duration: 0.4s;
-            }
-            /* 
+
+.org-link:hover,
+.org-link:hover::after {
+    content: ".org";
+    transition-duration: 0.4s;
+    color: rgba(0, 13, 196, 0.919);
+}
+
+#descriptionP:hover:not(.org-link) {
+    color: rgba(0, 0, 0, 0.9);
+    transition-duration: 0.4s;
+}
+
+
+/* 
 Usiamo ::after 
 -> Creiamo un PUNTO davanti all'elemento Automaticamente.
 - CSS
 */
-            
-            p::after,
-            h1::after,
-            figcaption::after {
-                content: ".";
-            }
-            /* 
+
+p::after,
+h1::after,
+figcaption::after {
+    content: ".";
+}
+
+
+/* 
 Usiamo ::before 
 -> Creiamo un SLASH prima dell'elemento Automaticamente.
 - CSS
 */
-            
-            figcaption::before {
-                content: "- "
-            }
-            /* 
+
+figcaption::before {
+    content: "- "
+}
+
+
+/* 
 footer , cioè la parte, più in basso di ogni sito!
 -> usando la posizione "sticky" possiamo mettere footer sempre in basso
 -> 40px di altezza ogni foto
 -> animazione di rotazione, 10 gradi, a destra.
 -> animazione Inversa di rotazione 10 gradi (adesso verso sinista)
 */
-            
-            .footer-icons {
-                max-width: 40px;
-                height: auto;
-                margin-right: 10px;
-                border-radius: 10%;
-                transition-duration: 0.2s;
-            }
-            
-            .footer-icons:hover {
-                transition-duration: 0.3s;
-                transform: rotate(10deg)
-            }
-            
-            .footer-div {
-                margin-top: 5em;
-                display: flex;
-                background-color: rgba(197, 239, 253, 0.804);
-                width: 100%;
-                padding: 1em;
-                justify-items: center;
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                align-items: center;
-            }
-            
-            .footer-text {
-                margin-right: 3em;
-                margin-left: 1em;
-                bottom: 0em !important;
-                font-size: 1.1em;
-                font-weight: bold;
-                color: rgba(0, 0, 255, 0.893);
-            }
-            /*responive with @medi */
-            
-            @media(max-width:550px) {
-                img {
-                    transition-duration: 0.2s;
-                    max-width: 80%;
-                    height: auto;
-                    margin: auto;
-                }
-                .footer-text {
-                    transition-duration: 0.2s;
-                    margin-right: 1em;
-                    font-size: small;
-                    margin-left: 0;
-                    ;
-                }
-                #title:hover {
-                    font-size: 210%;
-                }
-            }
-            
-            @media (max-width:400px) {
-                .footer-text {
-                    transition-duration: 0.2s;
-                    font-size: 10px;
-                    margin-right: 10px;
-                }
-            }
-            
-            @media (max-width:350px) {
-                .footer-icons {
-                    transition-duration: 0.2s;
-                    width: 30px;
-                    height: auto;
-                }
-            }
-            
-            @media (max-width: 315px) {
-                .footer-text {
-                    transition-duration: 0.2s;
-                    display: none;
-                }
-                .footer-icons {
-                    transition-duration: 0.2s;
-                    margin-left: 1em;
-                }
-            }
+
+.footer-icons {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10%;
+    transition-duration: 0.2s;
+}
+
+.footer-icons:hover {
+    transition-duration: 0.3s;
+    transform: rotate(10deg)
+}
+
+.footer-div {
+    margin-top: 5em;
+    display: flex;
+    background-color: rgba(197, 239, 253, 0.804);
+    width: 100%;
+    padding: 1em;
+    justify-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+}
+
+.footer-text {
+    margin-right: 3em;
+    margin-left: 1em;
+    bottom: 0em !important;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.893);
+}
+
+
+/*responive with @medi */
+
+@media(max-width:550px) {
+    img {
+        transition-duration: 0.2s;
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .footer-text {
+        transition-duration: 0.2s;
+        margin-right: 1em;
+        font-size: small;
+        margin-left: 0;
+        ;
+    }
+    #title:hover {
+        font-size: 210%;
+    }
+}
+
+@media (max-width:400px) {
+    .footer-text {
+        transition-duration: 0.2s;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:350px) {
+    .footer-icons {
+        transition-duration: 0.2s;
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media (max-width: 315px) {
+    .footer-text {
+        transition-duration: 0.2s;
+        display: none;
+    }
+    .footer-icons {
+        transition-duration: 0.2s;
+        margin-left: 1em;
+    }
+}
