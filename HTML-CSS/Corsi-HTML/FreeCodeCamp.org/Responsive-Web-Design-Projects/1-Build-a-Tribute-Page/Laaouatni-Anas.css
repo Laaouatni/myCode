@@ -391,4 +391,5 @@ summary {
 .summary-container {
     position: relative;
     bottom: 0 !important;
+    padding-bottom: 2em !important;
 }
