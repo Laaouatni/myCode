@@ -58,7 +58,6 @@ Tutti i Paragrafi Avranno   -> Font LIGHTER (in questo caso 500)
 
 p {
     position: relative;
-    bottom: 2em;
     font-weight: lighter;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -170,6 +169,13 @@ con HOVER CSS   -> quando il cursore è supra "FreeCodeCamp" appare ".org", face
 #descriptionP:hover:not(.org-link) {
     color: rgba(0, 0, 0, 0.9);
     transition-duration: 0.4s;
+}
+
+
+/*DESCRIPTIONp */
+
+#descriptionP {
+    bottom: 2em;
 }
 
 
@@ -303,10 +309,13 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .periodo-lista::before {
     content: "Completato in: ";
+    opacity: 0.7;
+    padding-right: 1em;
 }
 
 .periodo-lista::after {
-    content: " giorni(circa)."
+    content: " giorni(circa).";
+    opacity: 0.7;
 }
 
 
@@ -314,10 +323,27 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .inizio-lista::before {
     content: "Iniziato il: ";
+    opacity: 0.7;
+    padding-right: 1em;
 }
 
 .inizio-lista::after {
     content: ".";
+    opacity: 0.7;
+}
+
+
+/*fine lista con ::after e ::before */
+
+.fine-lista::before {
+    content: "Completato il: ";
+    opacity: 0.7;
+    padding-right: 1em;
+}
+
+.fine-lista::after {
+    content: ".";
+    opacity: 0.7;
 }
 
 
@@ -333,6 +359,7 @@ footer , cioè la parte, più in basso di ogni sito!
     background-color: rgba(0, 0, 255, 0.153);
     color: blue;
     transition-duration: 0.3s;
+    font-weight: bold;
 }
 
 
@@ -342,4 +369,12 @@ summary {
     font-size: 1.5em;
     font-weight: bold;
     cursor: pointer;
+}
+
+
+/* summary div */
+
+.summary-container {
+    position: relative;
+    bottom: 0 !important;
 }
