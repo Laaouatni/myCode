@@ -347,6 +347,20 @@ footer , cioè la parte, più in basso di ogni sito!
 }
 
 
+/*github lista con ::after e ::before */
+
+.github::before {
+    content: "repesitory Github: ";
+    opacity: 0.7;
+    padding-right: 1em;
+}
+
+.github::after {
+    content: ".";
+    opacity: 0.7;
+}
+
+
 /* in grassetto e background blu interessante */
 
 .important-items {
