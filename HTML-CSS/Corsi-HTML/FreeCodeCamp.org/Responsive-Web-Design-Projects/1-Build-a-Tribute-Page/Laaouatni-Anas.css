@@ -307,13 +307,13 @@ footer , cioè la parte, più in basso di ogni sito!
 
 /* lista con ::after e ::before con periodo */
 
-.periodo-lista::before {
+.periodo::before {
     content: "Completato in: ";
     opacity: 0.7;
     padding-right: 1em;
 }
 
-.periodo-lista::after {
+.periodo::after {
     content: " giorni(circa).";
     opacity: 0.7;
 }
@@ -321,13 +321,13 @@ footer , cioè la parte, più in basso di ogni sito!
 
 /* lista con ::after e ::before con inzio corso */
 
-.inizio-lista::before {
+.inizio::before {
     content: "Iniziato il: ";
     opacity: 0.7;
     padding-right: 1em;
 }
 
-.inizio-lista::after {
+.inizio::after {
     content: ".";
     opacity: 0.7;
 }
@@ -335,19 +335,19 @@ footer , cioè la parte, più in basso di ogni sito!
 
 /*fine lista con ::after e ::before */
 
-.fine-lista::before {
+.fine::before {
     content: "Completato il: ";
     opacity: 0.7;
     padding-right: 1em;
 }
 
-.fine-lista::after {
+.fine::after {
     content: ".";
     opacity: 0.7;
 }
 
 
-/* in grassetto */
+/* in grassetto e background blu interessante */
 
 .important-items {
     padding-left: 1em;
