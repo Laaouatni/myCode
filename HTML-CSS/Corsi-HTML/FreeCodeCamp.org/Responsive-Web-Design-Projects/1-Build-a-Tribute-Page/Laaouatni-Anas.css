@@ -303,8 +303,10 @@ footer , cioè la parte, più in basso di ogni sito!
 
 /* lista con ::after e ::before con periodo */
 
-.periodo::before,
-.periodo-giorno::before {
+
+/* .periodo-giorno::before */
+
+.periodo::before {
     content: "Completato in: ";
     opacity: 0.7;
     padding-right: 1em;
@@ -316,12 +318,14 @@ footer , cioè la parte, più in basso di ogni sito!
 }
 
 
-/*periodo ma con giorno al posti di giorni */
+/*periodo ma con giorno al posti di giorni 
 
 .periodo-giorno {
     content: " giorno(circa).";
     opacity: 0.7;
 }
+
+*/
 
 
 /* lista con ::after e ::before con inzio corso */
