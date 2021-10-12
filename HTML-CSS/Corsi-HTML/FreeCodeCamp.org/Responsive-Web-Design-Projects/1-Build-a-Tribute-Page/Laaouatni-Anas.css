@@ -70,10 +70,6 @@ Output: ... FreeCodeCamp.org ... + Immagine Profilo Github
 - CSS 
 */
 
-a {
-    text-decoration: none;
-}
-
 
 /* 
 Sottolineato - 
@@ -327,11 +323,6 @@ footer , cioè la parte, più in basso di ogni sito!
     padding-right: 1em;
 }
 
-.inizio::after {
-    content: ".";
-    opacity: 0.7;
-}
-
 
 /*fine lista con ::after e ::before */
 
@@ -339,11 +330,6 @@ footer , cioè la parte, più in basso di ogni sito!
     content: "Completato il: ";
     opacity: 0.7;
     padding-right: 1em;
-}
-
-.fine::after {
-    content: ".";
-    opacity: 0.7;
 }
 
 
@@ -355,9 +341,15 @@ footer , cioè la parte, più in basso di ogni sito!
     padding-right: 1em;
 }
 
-.github::after {
+
+/* after di tre elementi */
+
+.github::after,
+.fine::after,
+.inizio::after {
     content: ".";
     opacity: 0.7;
+    text-decoration: none;
 }
 
 
@@ -385,7 +377,7 @@ summary {
     cursor: pointer;
 }
 
-details {
+details:nth-last-of-type(1) {
     margin-bottom: 20%;
 }
 
