@@ -70,6 +70,10 @@ Output: ... FreeCodeCamp.org ... + Immagine Profilo Github
 - CSS 
 */
 
+a {
+    text-decoration: none;
+}
+
 
 /* 
 Sottolineato - 
@@ -200,10 +204,6 @@ figcaption::before {
 
 
 /*img-caption */
-
-.no-visible-link {
-    text-decoration: none;
-}
 
 
 /* 
