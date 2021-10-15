@@ -269,9 +269,32 @@ footer , cioè la parte, più in basso di ogni sito!
     #title:hover {
         font-size: 210%;
     }
+    #tribute-info {
+        margin-left: 3em !important;
+    }
+    .link-long {
+        font-size: 0.8em;
+        transition-duration: 0.2s;
+    }
 }
 
-@media (max-width:400px) {
+@media (max-width:507px) {
+    #tribute-info {
+        margin-left: 1.5em !important;
+    }
+}
+
+@media (max-width:485px) {
+    #tribute-info {
+        margin-left: 0.7em !important;
+    }
+    summary {
+        font-size: 1.2em !important;
+        transition-duration: 0.3s;
+    }
+}
+
+@media (max-width: 400px) {
     .footer-text {
         transition-duration: 0.2s;
         font-size: 10px;
@@ -397,7 +420,7 @@ summary {
 }
 
 details:nth-last-of-type(1) {
-    margin-bottom: 25%;
+    margin-bottom: 35%;
 }
 
 
@@ -406,4 +429,11 @@ details:nth-last-of-type(1) {
 .summary-container {
     position: relative;
     bottom: 0 !important;
+}
+
+
+/*link underline class */
+
+.link-underline {
+    text-decoration: underline;
 }
