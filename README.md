@@ -35,8 +35,8 @@ C:.
 │   │           └───blocks
 │   │               ├───JAVA
 │   │               │   └───MainActivityJAVA
-│   │               │       ├───VERSIONE_ATTUALE        
-│   │               │       └───VERSIONI_VECCHIE        
+│   │               │       ├───VERSIONE_ATTUALE
+│   │               │       └───VERSIONI_VECCHIE
 │   │               └───XML
 │   │                   ├───VERSIONE_ATTUALE
 │   │                   └───VERSIONE_VECCHIE
