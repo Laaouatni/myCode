@@ -342,13 +342,15 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .periodo::before {
     content: "Completato in: ";
-    opacity: 0.7;
+    opacity: 0.6;
     padding-right: 1em;
+    font-weight: 300;
 }
 
 .periodo::after {
     content: " giorni(circa).";
-    opacity: 0.7;
+    opacity: 0.6;
+    font-weight: 300;
 }
 
 
@@ -356,13 +358,15 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .periodo-giorno::before {
     content: "Completato in: ";
-    opacity: 0.7;
+    opacity: 0.6;
     padding-right: 1em;
+    font-weight: 300;
 }
 
 .periodo-giorno::after {
     content: " giorno(circa).";
-    opacity: 0.7;
+    opacity: 0.6;
+    font-weight: 300;
 }
 
 
@@ -370,8 +374,9 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .inizio::before {
     content: "Iniziato il: ";
-    opacity: 0.7;
+    opacity: 0.6;
     padding-right: 1em;
+    font-weight: 300;
 }
 
 
@@ -379,8 +384,9 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .fine::before {
     content: "Completato il: ";
-    opacity: 0.7;
+    opacity: 0.6;
     padding-right: 1em;
+    font-weight: 300;
 }
 
 
@@ -388,8 +394,9 @@ footer , cioè la parte, più in basso di ogni sito!
 
 .github::before {
     content: "repesitory Github: ";
-    opacity: 0.7;
+    opacity: 0.6;
     padding-right: 1em;
+    font-weight: 300;
 }
 
 
@@ -399,7 +406,8 @@ footer , cioè la parte, più in basso di ogni sito!
 .fine::after,
 .inizio::after {
     content: ".";
-    opacity: 0.7;
+    opacity: 0.6;
+    font-weight: 300;
 }
 
 
