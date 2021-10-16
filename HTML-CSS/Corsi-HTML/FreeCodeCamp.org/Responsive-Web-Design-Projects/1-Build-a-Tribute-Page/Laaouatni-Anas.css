@@ -91,6 +91,7 @@ img {
 
 #descriptionP {
     bottom: 2em;
+    font-weight: 500 !important;
 }
 
 p::after,
