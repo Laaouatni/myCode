@@ -11,7 +11,6 @@ html {
 
 h1 {
     font-weight: bolder;
-    overflow-x: scroll;
 }
 
 #title {
@@ -28,7 +27,6 @@ p {
     position: relative;
     font-weight: lighter;
     color: rgba(0, 0, 0, 0.6);
-    overflow-x: scroll;
 }
 
 a {
@@ -130,7 +128,6 @@ figcaption::before {
     left: 0;
     bottom: 0;
     align-items: center;
-    overflow-x: scroll;
 }
 
 .footer-text {
@@ -220,7 +217,6 @@ summary {
     font-size: 1.5em;
     font-weight: bold;
     cursor: pointer;
-    overflow-x: scroll;
 }
 
 details:nth-last-of-type(1) {
@@ -302,5 +298,20 @@ details:nth-last-of-type(1) {
     .footer-icons {
         transition-duration: 0.2s;
         margin-left: 1em;
+    }
+}
+
+@media (max-width: 150px) {
+    h1 {
+        overflow-x: scroll;
+    }
+    summary {
+        overflow-x: scroll;
+    }
+    p {
+        overflow-x: scroll;
+    }
+    .footer-div {
+        overflow-x: scroll;
     }
 }
