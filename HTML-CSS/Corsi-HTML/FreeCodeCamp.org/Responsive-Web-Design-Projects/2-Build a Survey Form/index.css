@@ -110,6 +110,8 @@ textarea {
     font-weight: 300;
     margin-bottom: 5%;
     transition-duration: 0.3s;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
 }
 
 label::after {
@@ -164,6 +166,13 @@ input[type="checkbox"] {
     }
 }
 
+@media(max-width:215px) {
+    label {
+        font-size: 0.7em;
+        transition-duration: 0.3s;
+    }
+}
+
 @media(max-height:900px) {
     #description {
         transform: translateY(-1.5em);
@@ -174,4 +183,13 @@ input[type="checkbox"] {
     }
 }
 
-@media(max-height:815px) {}
+@media(max-height:815px) {
+    input[type]:not([type="submit"], [type="checkbox"]),
+    select,
+    textarea {
+        height: 2.5em;
+    }
+    label {
+        font-size: 0.8em;
+    }
+}
