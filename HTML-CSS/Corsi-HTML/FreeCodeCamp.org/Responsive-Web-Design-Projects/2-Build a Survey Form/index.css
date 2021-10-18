@@ -137,6 +137,29 @@ input[type="checkbox"] {
     margin: 0 !important;
 }
 
+hr {
+    opacity: 0.3;
+}
+
+.div-small-radio>input {
+    height: 2em !important;
+}
+
+.grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label[for="f"] {
+    color: rgb(255, 128, 149);
+    font-weight: 700;
+}
+
+label[for="m"] {
+    color: rgb(0, 30, 255);
+    font-weight: 700;
+}
+
 @media(max-width:600px) {
     .div-center {
         margin: 1em;

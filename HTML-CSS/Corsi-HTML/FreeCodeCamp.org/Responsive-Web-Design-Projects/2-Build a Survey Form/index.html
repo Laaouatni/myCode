@@ -50,9 +50,27 @@
                 <label for="textarea">la tua Opinione:</label><br>
                 <textarea id="textarea" placeholder="Scrivi la tua opinione qui!"></textarea><br><br>
 
+                <hr>
+
+                <!-- radio buttons -->
+                <div class="grid-two-columns">
+                    <div class="div-small-radio">
+                        <label for="m">Maschio</label>
+                        <input id="m" type="radio" name="radio">
+                    </div>
+                    <div class="div-small-radio">
+                        <label for="f">Femmina</label>
+                        <input id="f" type="radio" name="radio">
+                    </div>
+                </div>
+
+                <hr>
+
                 <!-- checkboxes -->
                 <label for="checkbox" id="checkbox-label">accetta la privacy:</label>
-                <input type="checkbox" id="checkbox" required checked><br><br>
+                <input type="checkbox" id="checkbox0" name="checkbox" required checked value="OK">
+                <label for="checkbox" id="checkbox-label1">accetta i termini di servizio:</label>
+                <input type="checkbox" id="checkbox1" name="checkbox" required checked value="OK"><br><br>
 
                 <!-- buttone per mandare il form -->
                 <input type="submit" placeholder="mandare il form" id="submit">
