@@ -95,7 +95,7 @@ textarea {
     justify-content: center;
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     padding: 2em;
-    margin: 1.5em;
+    margin: 2em;
     border-radius: 0.5em;
     transition-duration: 0.5s;
 }
@@ -132,4 +132,33 @@ img {
 input[type="checkbox"] {
     height: 2em;
     margin: 0 !important;
+}
+
+@media(max-width:600px) {
+    .div-center {
+        margin: 1em;
+        padding: 1.5em 1.2em 1.5em 0.7em;
+    }
+    form {
+        margin: auto;
+    }
+}
+
+@media(max-width:450px) {
+    label[for="checkbox"] {
+        font-size: 0.8em;
+        transition-duration: 0.3s;
+    }
+}
+
+@media(max-width:380px) {
+    .div-center {
+        margin: 0.3em;
+    }
+    .div-center:hover {
+        border-radius: 1.3em;
+    }
+    label[for="checkbox"] {
+        font-size: 0.6em;
+    }
 }
