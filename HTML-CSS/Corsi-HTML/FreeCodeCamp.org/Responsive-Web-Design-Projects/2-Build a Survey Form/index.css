@@ -109,6 +109,7 @@ textarea {
 #description {
     font-weight: 300;
     margin-bottom: 5%;
+    transition-duration: 0.3s;
 }
 
 label::after {
@@ -162,3 +163,15 @@ input[type="checkbox"] {
         font-size: 0.6em;
     }
 }
+
+@media(max-height:900px) {
+    #description {
+        transform: translateY(-1.5em);
+        transition-duration: 0.3s;
+    }
+    .div-center {
+        transform: translateY(-1.4em);
+    }
+}
+
+@media(max-height:815px) {}
