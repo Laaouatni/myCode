@@ -20,36 +20,42 @@
         <h1 id="title">hello world</h1>
         <p id="description">hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world</p>
     </div>
-
-    <form id="survey-form">
-        <!-- nome -->
-        <label for="name" id="name-label">Come ti Chiami?:</label>
-        <input type="text" id="name" placeholder="nome" required>
-        <br><br>
-        <!-- email -->
-        <label for="email" id="email-label">Digita la tua mail:</label>
-        <input type="email" id="email" placeholder="email" required>
-        <br><br>
-        <!-- numero -->
-        <label for="number" id="number-label">Digita un numero:</label>
-        <input type="number" id="number" placeholder="da 10 a 20" min="10" max="20" required>
-        <br><br>
-        <!-- dropdown -->
-        <label for="dropdown">Scegli un Colore:</label>
-        <select name="dropdown" id="dropdown">
-            <option value="scelta" selected disabled>scegli un'opzione</option>
-            <option value="R">rosso</option>
-            <option value="G">verde</option>
-            <option value="B">blu</option>
-        </select>
-        <br><br>
-        <!-- textarea -->
-        <label for="textarea">la tua Opinione?</label>
-        <textarea id="textarea" rows="1">sito beta Laaouatni</textarea>
-        <br><br>
-        <!-- buttone per mandare il form -->
-        <input type="submit" placeholder="mandare il form" id="submit">
-    </form>
+    <div class="div-center">
+        <form id="survey-form ">
+            <!-- nome -->
+            <label for="name" id="name-label">Come ti Chiami?:</label>
+            <br>
+            <input type="text" id="name" placeholder="nome" required>
+            <br><br>
+            <!-- email -->
+            <label for="email" id="email-label">Digita la tua mail:</label>
+            <br>
+            <input type="email" id="email" placeholder="email" required>
+            <br><br>
+            <!-- numero -->
+            <label for="number" id="number-label">Digita un numero:</label>
+            <br>
+            <input type="number" id="number" placeholder="da 10 a 20" min="10" max="20" required>
+            <br><br>
+            <!-- dropdown -->
+            <label for="dropdown">Scegli un Colore:</label>
+            <br>
+            <select name="dropdown" id="dropdown" required>
+                <option value="scelta" selected disabled>scegli un'opzione</option>
+                <option value="R">rosso</option>
+                <option value="G">verde</option>
+                <option value="B">blu</option>
+            </select>
+            <br><br>
+            <!-- textarea -->
+            <label for="textarea">la tua Opinione?</label>
+            <br>
+            <textarea id="textarea" placeholder="Scrivi la tua opinione qui! "></textarea>
+            <br><br>
+            <!-- buttone per mandare il form -->
+            <input type="submit" placeholder="mandare il form " id="submit ">
+        </form>
+    </div>
 </body>
 
 </html>

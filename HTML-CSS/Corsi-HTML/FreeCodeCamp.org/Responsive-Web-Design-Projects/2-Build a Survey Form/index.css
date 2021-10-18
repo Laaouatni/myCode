@@ -1,0 +1,87 @@
+html {
+    font-family: poppins, monospace;
+    background-color: rgba(0, 17, 255, 0.159);
+}
+
+input[type],
+select,
+textarea {
+    width: 100%;
+    margin: auto;
+    height: 3em;
+    overflow-x: auto;
+}
+
+input,
+select {
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+textarea {
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border: 0px solid #fff;
+    height: 5em !important;
+}
+
+input[type="submit"],
+select,
+input[placeholder],
+textarea {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+    font-family: poppins, monospace;
+    transition-duration: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+option[value="R"] {
+    background: rgb(255, 0, 20);
+}
+
+option[value="G"] {
+    background: rgb(0, 255, 85);
+}
+
+option[value="B"] {
+    background: rgb(34, 0, 255);
+}
+
+select option:disabled {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background: linear-gradient(to left, rgba(0, 164, 228, 1), rgb(13, 0, 255));
+    transition-duration: 0.2s;
+}
+
+textarea {
+    margin-bottom: 3%;
+}
+
+textarea {
+    color: rgba(0, 0, 0, 0.674);
+}
+
+.div-center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
