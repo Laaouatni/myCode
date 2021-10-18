@@ -57,7 +57,7 @@ option[value="B"] {
 
 select option:disabled {
     color: rgb(0, 0, 0);
-    font-weight: bold;
+    font-weight: 700;
     background-color: transparent;
 }
 
@@ -66,10 +66,19 @@ input[type="submit"] {
     transition-duration: 0.5s;
 }
 
+label {
+    font-weight: 400;
+}
+
 input[type="submit"]:hover {
     color: white;
     background: linear-gradient(to left, rgba(0, 164, 228, 1), rgb(13, 0, 255));
-    transition-duration: 0.2s;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    border-radius: 2em;
+    font-weight: 500;
+    height: 60px;
+    font-size: 1.2em;
 }
 
 textarea {
@@ -83,5 +92,45 @@ textarea {
 .div-center {
     display: grid;
     align-items: center;
+    grid-template-columns: 50% 50%;
     justify-content: center;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    padding: 2em;
+    margin: 2em;
+    border-radius: 1em;
+    transition-duration: 0.5s;
+}
+
+.div-center:hover {
+    border-radius: 3em;
+    transition-duration: 0.3s;
+}
+
+#description {
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+label::after {
+    content: "*";
+    margin-left: 3px;
+    color: rgb(0, 0, 255);
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+    transition-duration: 0.3s;
+    border-radius: 0.7em;
+}
+
+.div-image {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 99%;
+    margin: auto;
 }
