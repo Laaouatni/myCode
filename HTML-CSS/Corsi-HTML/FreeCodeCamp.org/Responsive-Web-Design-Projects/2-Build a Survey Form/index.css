@@ -92,18 +92,19 @@ textarea {
 .div-center {
     display: grid;
     align-items: center;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr;
     justify-content: center;
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     padding: 2em;
-    margin: 2em;
-    border-radius: 1em;
+    margin: 1.5em;
+    border-radius: 0.5em;
     transition-duration: 0.5s;
 }
 
 .div-center:hover {
-    border-radius: 3em;
+    border-radius: 2em;
     transition-duration: 0.3s;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
 }
 
 #description {
@@ -134,3 +135,13 @@ img {
     max-width: 99%;
     margin: auto;
 }
+
+.div-form {
+    /* padding: 0em 1em; */
+}
+
+
+/* .div-image {
+    height: 100%;
+    width: 100%;
+} */
