@@ -92,7 +92,6 @@ textarea {
 .div-center {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr;
     justify-content: center;
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     padding: 2em;
@@ -125,23 +124,12 @@ textarea:hover {
     border-radius: 0.7em;
 }
 
-.div-image {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
 img {
     max-width: 99%;
     margin: auto;
 }
 
-.div-form {
-    /* padding: 0em 1em; */
+input[type="checkbox"] {
+    height: 2em;
+    margin: 0 !important;
 }
-
-
-/* .div-image {
-    height: 100%;
-    width: 100%;
-} */
