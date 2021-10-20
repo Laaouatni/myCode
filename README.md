@@ -35,8 +35,8 @@ C:.
 │   │           └───blocks
 │   │               ├───JAVA
 │   │               │   └───MainActivityJAVA
-│   │               │       ├───VERSIONE_ATTUALE
-│   │               │       └───VERSIONI_VECCHIE
+│   │               │       ├───VERSIONE_ATTUALE        
+│   │               │       └───VERSIONI_VECCHIE        
 │   │               └───XML
 │   │                   ├───VERSIONE_ATTUALE
 │   │                   └───VERSIONE_VECCHIE
@@ -61,8 +61,8 @@ C:.
 │   │       └───RandomGraficoX
 │   ├───Esercizi-Base
 │   │   ├───0-CIAO+NOME[laaouatni]
-│   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]
-│   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]
+│   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]       
+│   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]     
 │   │   ├───1-ciao-nome-INPUT[laaouatni]
 │   │   ├───2-Multi-Linea_Output[laaouatni]
 │   │   │   ├───[2.1]multi-linea-NORMAL_[laaouatni].cpp
@@ -299,12 +299,12 @@ C:.
 │   │       │   └───188-Livello-FreeCodeCamp(21)
 │   │       └───Responsive-Web-Design-Projects
 │   │           ├───1-Build-a-Tribute-Page
-│   │           └───2-
+│   │           ├───2-Build a Survey Form
+│   │           └───3-Build-a-Product-Landing-Page
 │   └───RisorseProgrammazioneHTML
 │       └───TAG
 │           ├───!DOCTYPE
 │           ├───CSS
-│           │   └───SCROLL VIEW
 │           ├───HeaderTags
 │           │   ├───H1
 │           │   ├───H2
