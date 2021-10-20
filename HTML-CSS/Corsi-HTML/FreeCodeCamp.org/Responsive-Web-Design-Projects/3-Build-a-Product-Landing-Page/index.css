@@ -1,8 +1,51 @@
 html {
     scroll-behavior: smooth;
+    background-color: rgba(0, 132, 255, 0.192);
+    font-family: Poppins, monospace;
 }
 
 iframe {
     aspect-ratio: 16/9;
-    /* max-width: 350px; */
+    height: 400px;
+    margin-bottom: 1em;
+}
+
+.div-image {
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+#header-img {
+    height: 100%;
+}
+
+nav {
+    background-color: rgba(0, 255, 255, 0.263);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 1em;
+}
+
+.div-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+input {
+    height: 2.5em;
+    font-family: Poppins, monospace;
+    max-width: 75%;
+    margin: 1em;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background: linear-gradient(to left, rgba(0, 164, 228, 1), rgb(13, 0, 255));
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    border-radius: 0.5em;
+    font-weight: 500;
 }
