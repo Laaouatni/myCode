@@ -2,16 +2,17 @@ html {
     scroll-behavior: smooth;
     background-color: rgba(0, 132, 255, 0.192);
     font-family: Poppins, monospace;
+    overflow-x: hidden;
 }
 
 iframe {
     aspect-ratio: 16/9;
-    height: 400px;
+    width: 100%;
     margin-bottom: 1em;
 }
 
 .div-image {
-    height: 40px;
+    height: 3.5em;
     align-items: center;
     justify-items: center;
 }
@@ -25,6 +26,8 @@ nav {
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-bottom: 1em;
+    border-radius: 0.5em;
+    overflow: hidden;
 }
 
 .div-link {
@@ -34,18 +37,37 @@ nav {
     justify-items: center;
 }
 
-input {
-    height: 2.5em;
+input,
+button {
+    height: 100%;
     font-family: Poppins, monospace;
-    max-width: 75%;
-    margin: 1em;
+    font-size: 1em;
+    border-color: rgba(0, 89, 255, 0.056);
 }
 
-input[type="submit"]:hover {
+[type="email"] {
+    transition-duration: 0.5s;
+    border-radius: 0.5em;
+}
+
+.div-iframe {
+    padding: 1em;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    margin: 0em 1em;
+    grid-gap: 0.5em;
+}
+
+[type="submit"] {
     color: white;
     background: linear-gradient(to left, rgba(0, 164, 228, 1), rgb(13, 0, 255));
     background-repeat: no-repeat;
     transition-duration: 0.5s;
     border-radius: 0.5em;
     font-weight: 500;
+    padding: 1em 0em;
 }
