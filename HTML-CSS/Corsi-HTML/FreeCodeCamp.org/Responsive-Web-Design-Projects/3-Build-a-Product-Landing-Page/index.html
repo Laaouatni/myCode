@@ -13,9 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <!-- TEST da cancellare dopo -->
-    <meta http-equiv="refresh" content="1">
-    <!-- cancella il codice supra, dopo aver finito la prototipazione -->
 </head>
 
 <header id="header">
@@ -24,18 +21,18 @@
             <img src="https://avatars.githubusercontent.com/u/87947051?v=4" alt="immagine profilo di github con scritto anas." title="github icon  — Laaouatni Anas." id="header-img">
         </div>
         <div class="div-link">
-            <a href="http://" class="nav-link">1</a>
-            <a href="http://" class="nav-link">2</a>
+            <a href="#video-container" class="nav-link">video</a>
+            <a href="#form-container" class="nav-link">form</a>
             <a href="http://" class="nav-link">3</a>
         </div>
     </nav>
 </header>
 
 <body>
-    <div class="div-iframe">
+    <div class="div-iframe" id="video-container">
         <iframe src="https://www.youtube.com/embed/rspKW7Mpw2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
     </div>
-    <div class="div-centered">
+    <div class="div-centered" id="form-container">
         <form id="form" action="https://www.freecodecamp.com/email-submit">
             <input type="email" name="email" id="email" placeholder="inserisci la tua mail.">
             <button type="submit" mame="submit" id="submit-btn">hello world</button>
