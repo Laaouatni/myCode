@@ -9,12 +9,20 @@ iframe {
     aspect-ratio: 16/9;
     width: 100%;
     margin-bottom: 1em;
+    transition-duration: 0.5s;
+    border-radius: 0.3em;
+}
+
+iframe:hover {
+    transition-duration: 0.3s;
+    border-radius: 1.2em;
 }
 
 .div-image {
     height: 3.5em;
     align-items: center;
     justify-items: center;
+    transition-duration: 0.5s;
 }
 
 #header-img {
@@ -26,8 +34,16 @@ nav {
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-bottom: 1em;
-    border-radius: 0.5em;
+    border-radius: 0.6em;
     overflow: hidden;
+    margin-left: 1em;
+    margin-right: 1em;
+    transition-duration: 0.5s;
+}
+
+nav:hover {
+    border-radius: 4em;
+    transition-duration: 0.3s;
 }
 
 .div-link {
@@ -63,11 +79,17 @@ form {
 }
 
 [type="submit"] {
-    color: white;
-    background: linear-gradient(to left, rgba(0, 164, 228, 1), rgb(13, 0, 255));
-    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
     transition-duration: 0.5s;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     font-weight: 500;
     padding: 1em 0em;
+    background-color: white;
+}
+
+[type="submit"]:hover {
+    color: white;
+    border-radius: 1em;
+    background-color: blue;
+    transition-duration: 0.3s;
 }
