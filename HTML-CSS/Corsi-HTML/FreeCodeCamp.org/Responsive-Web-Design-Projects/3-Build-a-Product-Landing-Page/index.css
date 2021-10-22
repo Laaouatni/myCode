@@ -42,8 +42,8 @@ nav {
 }
 
 nav:hover {
-    border-radius: 4em;
-    transition-duration: 0.3s;
+    border-radius: 2em;
+    transition-duration: 1s;
 }
 
 .div-link {
@@ -53,12 +53,18 @@ nav:hover {
     justify-items: center;
 }
 
-input,
-button {
+input {
     height: 100%;
     font-family: Poppins, monospace;
     font-size: 1em;
     border-color: rgba(0, 89, 255, 0.056);
+    transition-duration: 0.5s;
+}
+
+input:hover {
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 1em;
 }
 
 [type="email"] {
