@@ -16,6 +16,7 @@ iframe {
 iframe:hover {
     transition-duration: 0.3s;
     border-radius: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 .div-image {
@@ -44,6 +45,7 @@ nav {
 nav:hover {
     border-radius: 2em;
     transition-duration: 1s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 .div-link {
