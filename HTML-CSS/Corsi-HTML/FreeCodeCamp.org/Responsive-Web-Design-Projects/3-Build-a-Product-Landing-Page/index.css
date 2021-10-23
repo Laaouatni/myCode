@@ -34,7 +34,7 @@ iframe:hover {
 nav {
     background-color: rgba(0, 255, 255, 0.263);
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: auto 3fr;
     margin-bottom: 1em;
     border-radius: 0.6em;
     overflow: hidden;
@@ -83,7 +83,7 @@ form {
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
-    margin: 0em 1em;
+    margin: 0em 0em 0em 1em;
     grid-gap: 0.5em;
 }
 
@@ -102,4 +102,27 @@ form {
     border-radius: 1em;
     background-color: blue;
     transition-duration: 0.3s;
+}
+
+.div-two-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 1em 1em 1em 1em;
+    background-color: rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 1em;
+    border-radius: 0.2em;
+    transition-duration: 0.5s;
+}
+
+.div-two-grid:hover {
+    background-color: rgba(0, 17, 255, 0.3);
+    transition-duration: 0.3s;
+    border-radius: 1em;
+}
+
+span {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-right: 1em;
 }
