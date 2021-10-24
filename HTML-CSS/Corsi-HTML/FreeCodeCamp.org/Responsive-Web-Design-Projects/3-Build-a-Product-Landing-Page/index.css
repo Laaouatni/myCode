@@ -27,6 +27,12 @@ iframe:hover {
     transition-duration: 0.5s;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    opacity: 0.98;
+}
+
 #header-img {
     height: 100%;
 }
