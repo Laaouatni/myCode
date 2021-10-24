@@ -190,3 +190,39 @@ label {
     justify-items: center;
     margin: 1em;
 }
+
+.div-card>svg {
+    color: blue !important;
+    padding: 0.5em;
+}
+
+.div-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+    background-color: white;
+    box-shadow: rgba(0, 0, 255, 0.44) 0 10px 2em;
+    min-height: 80px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    transition-duration: 0.2s;
+    border-radius: 0.3em;
+}
+
+.card-text {
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.div-card:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    border-radius: 0.7em;
+}
+
+span::after {
+    content: ".";
+}
