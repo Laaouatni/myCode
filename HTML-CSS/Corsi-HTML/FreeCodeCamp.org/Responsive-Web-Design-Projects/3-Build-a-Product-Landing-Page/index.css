@@ -204,6 +204,24 @@ hr {
     margin: 1em 2em 1em 0.5em;
 }
 
+@media (max-width:1350px) {
+    .div-card {
+        min-height: 130px;
+    }
+}
+
+@media (max-width:1150px) {
+    .div-card {
+        min-height: 110px;
+    }
+}
+
+@media (max-width:1050px) {
+    .div-card {
+        min-height: 95px;
+    }
+}
+
 @media (max-width: 950px) {
     .card-text {
         font-size: 0.8em;
