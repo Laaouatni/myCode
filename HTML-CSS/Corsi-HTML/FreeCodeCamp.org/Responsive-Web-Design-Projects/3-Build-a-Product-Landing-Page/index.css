@@ -204,6 +204,12 @@ hr {
     margin: 1em 2em 1em 0.5em;
 }
 
+footer {
+    margin-top: 10%;
+    width: 100%;
+    font-weight: lighter;
+}
+
 @media (max-width:1350px) {
     .div-card {
         min-height: 130px;
