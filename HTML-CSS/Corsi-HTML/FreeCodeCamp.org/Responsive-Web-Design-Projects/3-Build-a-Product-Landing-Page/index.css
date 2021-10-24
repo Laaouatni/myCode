@@ -74,6 +74,8 @@ nav:hover {
     background-color: blue;
     color: white;
     transition-duration: 0.2s;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 input {
@@ -179,4 +181,12 @@ label {
         margin-left: 0.3em;
         margin-right: 0.3em;
     }
+}
+
+.div-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 1em;
 }
