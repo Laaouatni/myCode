@@ -7,4 +7,17 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-@media(max-width: px) {}
+@media(max-width: 500px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: auto repeat(5, 1fr);
+        justify-items: center;
+        align-items: center;
+        background-color: lightblue;
+    }
+}
