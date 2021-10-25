@@ -28,19 +28,6 @@ C:.
 │               └───AutoPCH
 │                   └───ceae9151b52fdc49
 ├───.vscode
-├───Android-App
-│   ├───No-Code
-│   │   └───SketchWare
-│   │       └───Adhan-App
-│   │           └───blocks
-│   │               ├───JAVA
-│   │               │   └───MainActivityJAVA
-│   │               │       ├───VERSIONE_ATTUALE        
-│   │               │       └───VERSIONI_VECCHIE        
-│   │               └───XML
-│   │                   ├───VERSIONE_ATTUALE
-│   │                   └───VERSIONE_VECCHIE
-│   └───With-Code
 ├───C++
 │   ├───complex-things
 │   │   ├───3x+1algoritm
@@ -61,8 +48,8 @@ C:.
 │   │       └───RandomGraficoX
 │   ├───Esercizi-Base
 │   │   ├───0-CIAO+NOME[laaouatni]
-│   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]       
-│   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]     
+│   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]
+│   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]
 │   │   ├───1-ciao-nome-INPUT[laaouatni]
 │   │   ├───2-Multi-Linea_Output[laaouatni]
 │   │   │   ├───[2.1]multi-linea-NORMAL_[laaouatni].cpp
@@ -300,7 +287,8 @@ C:.
 │   │       └───Responsive-Web-Design-Projects
 │   │           ├───1-Build-a-Tribute-Page
 │   │           ├───2-Build a Survey Form
-│   │           └───3-Build-a-Product-Landing-Page
+│   │           ├───3-Build-a-Product-Landing-Page
+│   │           └───4-Build-a-Technical-Documentation
 │   └───RisorseProgrammazioneHTML
 │       └───TAG
 │           ├───!DOCTYPE
@@ -312,8 +300,6 @@ C:.
 │           │   ├───H4
 │           │   ├───H5
 │           │   └───H6
-│           ├───JustForFun
-│           │   └───test.html
 │           └───META
 └───JavaScript
 ```
