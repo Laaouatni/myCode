@@ -15,9 +15,8 @@ body {
     }
     nav {
         display: grid;
-        grid-template-columns: auto repeat(5, 1fr);
+        grid-template-columns: auto;
         justify-items: center;
         align-items: center;
-        background-color: lightblue;
     }
 }
