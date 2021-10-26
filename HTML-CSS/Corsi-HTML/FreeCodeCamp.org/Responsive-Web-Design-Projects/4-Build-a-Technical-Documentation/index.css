@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     font-family: poppins, sans-serif, arial, monospace;
+    background-color: rgb(210, 244, 255);
 }
 
 body {
@@ -24,6 +25,12 @@ header {
 .div-link-nav {
     border: 2px solid blue;
     padding: 1em;
+}
+
+p,
+ul {
+    opacity: 0.8;
+    font-weight: 300;
 }
 
 @media(max-width: 500px) {
