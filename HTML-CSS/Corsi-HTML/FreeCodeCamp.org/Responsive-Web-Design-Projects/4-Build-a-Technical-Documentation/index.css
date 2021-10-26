@@ -33,6 +33,12 @@ ul {
     font-weight: 300;
 }
 
+code {
+    background-color: rgba(255, 255, 255, 0.94);
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
 @media(max-width: 500px) {
     body {
         display: grid;
