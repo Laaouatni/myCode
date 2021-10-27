@@ -4,13 +4,18 @@ html {
     background-color: rgb(210, 244, 255);
 }
 
-body {
-    display: grid;
-    grid-template-columns: auto 1fr;
-}
+body {}
 
 nav {
+    float: left;
     margin-right: 4em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.166);
+    backdrop-filter: blur(20px);
 }
 
 section {
