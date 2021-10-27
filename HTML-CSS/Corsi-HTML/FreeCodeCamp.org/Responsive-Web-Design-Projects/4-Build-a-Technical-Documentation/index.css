@@ -4,18 +4,20 @@ html {
     background-color: rgb(210, 244, 255);
 }
 
-body {}
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
 
-nav {
-    float: left;
-    margin-right: 4em;
-    position: fixed;
+#navbar {
+    margin-right: 3em;
     top: 0;
-    left: 0;
-    display: block;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.166);
-    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.412);
+    box-shadow: rgba(0, 0, 255, 0.193) 0 0 50px;
+}
+
+#navbar:first-child {
+    border-radius: 1em;
 }
 
 section {
@@ -28,7 +30,10 @@ header {
 }
 
 .div-link-nav {
-    border: 2px solid blue;
+    padding: 1em;
+}
+
+#first-nav-div {
     padding: 1em;
 }
 
