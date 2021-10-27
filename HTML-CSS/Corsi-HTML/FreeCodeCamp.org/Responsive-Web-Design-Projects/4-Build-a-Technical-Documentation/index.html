@@ -126,7 +126,7 @@
         </section>
 
         <section class="main-section" id="6">
-            <header>Declaring variables</header>
+            <header id="Declaring_variables">Declaring variables</header>
             <p>You can declare a variable in three ways: </p>
             <p>With the keyword var. For example, </p>
             <code>var x = 42.</code>
@@ -135,7 +135,7 @@
             <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
         </section>
         <section class="main-section" id="7">
-            <header>Variable scope</header>
+            <header id="Variable_scope">Variable scope</header>
             <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it
                 is available only within that function.</p>
             <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because
@@ -146,13 +146,13 @@
                 defined</code>
         </section>
         <section class="main-section" id="8">
-            <header>Global variables</header>
+            <header id="Global_variables">Global variables</header>
             <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax. </p>
             <p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document, you can refer to this
                 variable from an iframe as parent.phoneNumber. </p>
         </section>
         <section class="main-section" id="9">
-            <header>Constants</header>
+            <header id="Constants">Constants</header>
             <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or
                 underscore characters.</p>
             <code>const PI = 3.14;</code>
@@ -172,7 +172,7 @@
             <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
         </section>
         <section class="main-section" id="10">
-            <header>Data types</header>
+            <header id="Data_types">Data types</header>
             <p>The latest ECMAScript standard defines seven data types:</p>
             <ul>
                 <li>Six data types that are primitives:</li>
