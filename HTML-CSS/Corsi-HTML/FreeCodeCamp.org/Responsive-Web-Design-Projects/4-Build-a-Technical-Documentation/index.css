@@ -12,7 +12,7 @@ body {
 #navbar {
     margin-right: 3em;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.412);
+    background-color: rgb(110, 78, 255);
     box-shadow: rgba(0, 0, 255, 0.193) 0 0 50px;
 }
 
@@ -29,11 +29,35 @@ header {
     font-size: 2em;
 }
 
+#first-nav-div header {
+    color: white;
+    text-shadow: white 0 0 1em;
+    ;
+}
+
 .div-link-nav {
     background-color: white;
     margin: 0.3em 0.5em;
     border-radius: 0.5em;
     box-shadow: rgba(0, 0, 255, 0.193) 0 0 1em;
+    transition-duration: 1s;
+}
+
+.div-link-nav:hover {
+    transform: translateY(-0.5em);
+    box-shadow: rgba(0, 0, 255, 0.597) 0 0 2em;
+    background-color: blue;
+    transition-duration: 0.3s;
+    border-radius: 0.8em;
+}
+
+.nav-link {
+    transition-duration: 1s;
+}
+
+.nav-link:hover {
+    color: white;
+    transition-duration: 0.3s;
 }
 
 a {
