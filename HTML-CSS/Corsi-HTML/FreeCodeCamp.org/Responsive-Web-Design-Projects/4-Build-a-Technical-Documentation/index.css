@@ -32,7 +32,6 @@ header {
 #first-nav-div header {
     color: white;
     text-shadow: white 0 0 1em;
-    ;
 }
 
 .div-link-nav {
@@ -95,16 +94,32 @@ aside {
     top: 0;
 }
 
-@media(max-width: 500px) {
+footer {
+    margin-top: 1em;
+}
+
+@media(max-width: 800px) {
     body {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     nav {
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
         justify-items: center;
         align-items: center;
+    }
+    aside {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div-link-nav {
+        flex-grow: 1;
+    }
+    #navbar {
+        margin: 0.5em;
     }
 }
