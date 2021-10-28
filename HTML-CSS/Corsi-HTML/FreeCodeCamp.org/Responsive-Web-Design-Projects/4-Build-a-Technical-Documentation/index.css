@@ -53,14 +53,6 @@ header {
 
 .nav-link {
     transition-duration: 1s;
-}
-
-.nav-link:hover {
-    color: white;
-    transition-duration: 0.3s;
-}
-
-a {
     width: 100%;
     height: 100%;
     font-weight: 700;
@@ -72,8 +64,18 @@ a {
     cursor: pointer;
 }
 
+.nav-link:hover {
+    color: white;
+    transition-duration: 0.3s;
+}
+
 #first-nav-div {
     padding: 1em;
+}
+
+#mdn {
+    font-weight: 500;
+    color: blue;
 }
 
 p,
