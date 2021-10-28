@@ -67,6 +67,7 @@
     </nav>
 
     <main id="main-doc">
+        <!-- 1 -->
         <section class="main-section" id="1">
             <header id="Introduction">Introduction</header>
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic
@@ -85,6 +86,7 @@
             </ul>
         </section>
 
+        <!-- 2 -->
         <section class="main-section" id="2">
             <header id="What_you_should_already_know">What you should already know</header>
             <p>This guide assumes you have the following basic background:</p>
@@ -95,6 +97,7 @@
             </ul>
         </section>
 
+        <!-- 3 -->
         <section class="main-section" id="3">
             <header id="JavaScript_and_Java">JavaScript and Java</header>
             <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax,
@@ -109,6 +112,7 @@
             </p>
         </section>
 
+        <!-- 4 -->
         <section class="main-section" id="4">
             <header id="Hello_world">Hello World</header>
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
@@ -119,6 +123,7 @@
             <p>Select the code in the pad and hit <kbd>Ctrl+R</kbd> to watch it unfold in your browser!</p>
         </section>
 
+        <!-- 5 -->
         <section class="main-section" id="5">
             <header id="Variables">Variables</header>
             <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
@@ -127,6 +132,7 @@
             <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name. </p>
         </section>
 
+        <!-- 6 -->
         <section class="main-section" id="6">
             <header id="Declaring_variables">Declaring variables</header>
             <p>You can declare a variable in three ways: </p>
@@ -136,6 +142,8 @@
             <p>With the keyword let. For example,</p>
             <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
         </section>
+
+        <!-- 7 -->
         <section class="main-section" id="7">
             <header id="Variable_scope">Variable scope</header>
             <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it
@@ -147,12 +155,16 @@
             <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
                 defined</code>
         </section>
+
+        <!-- 8 -->
         <section class="main-section" id="8">
             <header id="Global_variables">Global variables</header>
             <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax. </p>
             <p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document, you can refer to this
                 variable from an iframe as parent.phoneNumber. </p>
         </section>
+
+        <!-- 9 -->
         <section class="main-section" id="9">
             <header id="Constants">Constants</header>
             <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or
@@ -169,6 +181,8 @@
             <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
             <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
         </section>
+
+        <!-- 10 -->
         <section class="main-section" id="10">
             <header id="Data_types">Data types</header>
             <p>The latest ECMAScript standard defines seven data types:</p>
@@ -187,6 +201,8 @@
                     for values, and functions as procedures that your application can perform.</p>
             </ul>
         </section>
+
+        <!-- 11 -->
         <section class="main-section" id="11">
             <header id="if...else_statement">if...else statement</header>
             <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
@@ -203,6 +219,8 @@
                 statement_4_runs_if_condition_is_false; }
             </code>
         </section>
+
+        <!-- 12 -->
         <section class="main-section" id="12">
             <header id="while_statement">while statement</header>
             <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows: </p>
@@ -223,6 +241,8 @@
             <p>After completing the third pass, the condition n
                 < 3 is no longer true, so the loop terminates.</p>
         </section>
+
+        <!-- 13 -->
         <section class="main-section" id="13">
             <header id="Function_declarations">Function declarations</header>
             <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by: </p>
@@ -238,6 +258,8 @@
             <code>return number * number;</code>
             <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function. </p>
         </section>
+
+        <!-- 14 -->
         <section class="main-section" id="14">
             <header id="Reference">Reference</header>
             <ul>
