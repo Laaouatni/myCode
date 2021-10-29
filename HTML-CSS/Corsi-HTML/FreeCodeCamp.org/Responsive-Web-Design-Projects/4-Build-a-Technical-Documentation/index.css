@@ -125,6 +125,7 @@ footer {
     }
     .div-link-nav {
         flex-grow: 1;
+        font-size: 0.7em;
     }
     #navbar {
         margin: 0.5em;
@@ -132,5 +133,9 @@ footer {
     section {
         margin-left: 1em;
         margin-right: 1em;
+    }
+    aside {
+        max-height: 40vh;
+        overflow: scroll;
     }
 }
