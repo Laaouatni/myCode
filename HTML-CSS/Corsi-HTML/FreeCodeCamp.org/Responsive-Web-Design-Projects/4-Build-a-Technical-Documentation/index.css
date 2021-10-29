@@ -14,6 +14,7 @@ body {
     top: 0;
     background-color: rgb(110, 78, 255);
     box-shadow: rgba(0, 0, 255, 0.193) 0 0 50px;
+    float: left;
 }
 
 #navbar:first-child {
