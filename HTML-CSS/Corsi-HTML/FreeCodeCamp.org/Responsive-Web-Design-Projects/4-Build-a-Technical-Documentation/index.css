@@ -31,7 +31,14 @@ header {
 
 #first-nav-div header {
     color: white;
+    text-shadow: rgba(255, 255, 255, 0.091) 0 0 0.2em;
+    transition-duration: 0.5s;
+}
+
+#first-nav-div header:hover {
+    color: white;
     text-shadow: white 0 0 1em;
+    transition-duration: 0.2s;
 }
 
 .div-link-nav {
@@ -121,5 +128,9 @@ footer {
     }
     #navbar {
         margin: 0.5em;
+    }
+    section {
+        margin-left: 1em;
+        margin-right: 1em;
     }
 }
