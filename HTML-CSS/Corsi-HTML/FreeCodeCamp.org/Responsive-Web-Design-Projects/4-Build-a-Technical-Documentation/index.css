@@ -15,7 +15,6 @@ body {
     background-color: rgb(110, 78, 255);
     box-shadow: rgba(0, 0, 255, 0.193) 0 0 50px;
     float: left;
-    overflow-y: scroll;
 }
 
 #navbar:first-child {
@@ -101,6 +100,7 @@ code {
 aside {
     position: sticky;
     top: 0;
+    overflow-y: scroll;
 }
 
 footer {
