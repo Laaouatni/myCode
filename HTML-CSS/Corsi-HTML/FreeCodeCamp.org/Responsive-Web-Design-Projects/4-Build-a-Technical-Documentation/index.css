@@ -100,11 +100,16 @@ code {
 aside {
     position: sticky;
     top: 0;
-    overflow-y: scroll;
 }
 
 footer {
     margin-top: 1em;
+}
+
+@media (max-height: 1000px) {
+    aside {
+        overflow-y: scroll;
+    }
 }
 
 @media(max-width: 800px) {
