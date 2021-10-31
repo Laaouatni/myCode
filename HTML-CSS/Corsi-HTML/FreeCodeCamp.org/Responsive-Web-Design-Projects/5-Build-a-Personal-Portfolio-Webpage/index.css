@@ -4,7 +4,6 @@ body {
     font-family: poppins, monospace;
     color: blue;
     font-weight: bolder;
-    font-size: 2em;
 }
 
 #welcome-section {
@@ -31,15 +30,44 @@ body {
 #projects {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: white 0 0 1em;
+    margin: 1em;
+    border-radius: 1em;
+    padding: 0 0 0.3em;
+    transition-duration: 0.5s;
+}
+
 iframe {
     width: 40vh;
     height: 40vh;
-    margin: 1em;
     border-radius: 1em;
+    flex-grow: 1;
+    padding: 0.5em 0.5em 1em 0.5em;
+}
+
+.span-project-name {
+    margin: 0 0 0 0.5em;
+    transition-duration: 0.5s;
+}
+
+.project-tile {
+    font-size: 1.5em;
+    transition-duration: 0.5s;
+}
+
+#welcome-h1 {
+    font-size: 3em;
+}
+
+span::after {
+    content: ".";
 }
