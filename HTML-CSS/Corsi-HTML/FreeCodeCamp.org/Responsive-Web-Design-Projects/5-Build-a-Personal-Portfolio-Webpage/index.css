@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(200, 240, 250);
+    cursor: wait;
+    height: 100vh;
+    width: auto;
+    font-family: poppins, monospace;
+    color: blue;
+    font-weight: bolder;
+    font-size: 2em;
+}
