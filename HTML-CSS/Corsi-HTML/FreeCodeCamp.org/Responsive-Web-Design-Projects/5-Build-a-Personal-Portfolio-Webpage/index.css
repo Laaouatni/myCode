@@ -1,10 +1,29 @@
 body {
     background-color: rgb(200, 240, 250);
     cursor: wait;
-    height: 100vh;
-    width: auto;
     font-family: poppins, monospace;
     color: blue;
     font-weight: bolder;
     font-size: 2em;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    animation: bgmove 10s ease infinite alternate-reverse;
+}
+
+@keyframes bgmove {
+    0% {
+        background-color: #fff;
+        color: blue;
+    }
+    100% {
+        background-color: blue;
+        color: #fff;
+    }
 }
