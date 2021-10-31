@@ -27,3 +27,19 @@ body {
         color: #fff;
     }
 }
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 40vh;
+    height: 40vh;
+    margin: 1em;
+    border-radius: 1em;
+}
