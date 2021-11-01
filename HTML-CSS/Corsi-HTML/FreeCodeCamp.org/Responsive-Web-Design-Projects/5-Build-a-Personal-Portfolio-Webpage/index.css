@@ -42,26 +42,19 @@ body {
     box-shadow: white 0 0 1em;
     margin: 1em;
     border-radius: 1em;
-    padding: 0 0 0.3em;
     transition-duration: 0.5s;
 }
 
-iframe {
+.img-project {
     width: 40vh;
-    height: 40vh;
-    border-radius: 1em;
-    flex-grow: 1;
-    padding: 0.5em 0.5em 1em 0.5em;
-}
-
-.span-project-name {
-    margin: 0 0 0 0.5em;
-    transition-duration: 0.5s;
+    height: auto;
+    border-radius: 0.7em;
 }
 
 .project-tile {
     font-size: 1.5em;
     transition-duration: 0.5s;
+    padding: 0.5em 0.5em 0 0.5em;
 }
 
 #welcome-h1 {
@@ -70,4 +63,12 @@ iframe {
 
 span::after {
     content: ".";
+}
+
+.span-container {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
