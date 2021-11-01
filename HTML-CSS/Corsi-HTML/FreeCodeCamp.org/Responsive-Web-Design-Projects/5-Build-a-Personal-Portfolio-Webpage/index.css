@@ -72,3 +72,16 @@ span::after {
     align-items: center;
     justify-content: center;
 }
+
+.project-tile:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    box-shadow: rgb(0, 8, 255) 0 0 2em;
+    background-color: blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
