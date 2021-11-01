@@ -116,3 +116,14 @@ h2 {
     transform: translateY(-1em);
     box-shadow: rgb(255, 255, 255) 0 -1em 2em;
 }
+
+#footer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    font-size: 2em;
+    font-weight: lighter;
+}
