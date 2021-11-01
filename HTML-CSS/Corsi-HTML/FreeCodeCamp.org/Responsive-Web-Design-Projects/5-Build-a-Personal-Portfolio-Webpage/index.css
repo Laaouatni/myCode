@@ -129,7 +129,7 @@ h2 {
 }
 
 .div-image {
-    height: 3em;
+    height: 3.5em;
 }
 
 #header-img {
@@ -170,4 +170,20 @@ nav {
     color: white;
     background-color: blue;
     transition-duration: 0.5s;
+}
+
+svg {
+    height: 3em;
+    position: absolute;
+    right: calc(50%);
+    animation: up-down 2s ease infinite alternate-reverse;
+}
+
+@keyframes up-down {
+    0% {
+        top: calc(95%);
+    }
+    100% {
+        top: calc(85%);
+    }
 }
