@@ -127,3 +127,47 @@ h2 {
     font-size: 2em;
     font-weight: lighter;
 }
+
+.div-image {
+    height: 3em;
+}
+
+#header-img {
+    height: 100%;
+    width: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    opacity: 0.95;
+    backdrop-filter: blur(1em);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow: white 0 0 2em;
+}
+
+.div-link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-links {
+    display: grid;
+    color: blue;
+    background-color: white;
+    transition-duration: 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links:hover {
+    color: white;
+    background-color: blue;
+    transition-duration: 0.5s;
+}
