@@ -119,17 +119,6 @@ h2 {
     box-shadow: rgb(255, 255, 255) 0 -1em 2em;
 }
 
-#footer {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: blue;
-    font-size: 2em;
-    font-weight: lighter;
-}
-
 .div-image {
     height: 3.5em;
 }
@@ -177,7 +166,7 @@ nav {
     text-transform: uppercase;
 }
 
-svg {
+.arrow {
     height: 3em;
     position: absolute;
     right: calc(50% + 36/2);
@@ -211,7 +200,7 @@ h2:hover {
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:550px) {
     .img-project {
         width: 30vh;
     }
@@ -242,4 +231,34 @@ h2:hover {
     .span-project-name {
         font-size: 0.6em;
     }
+}
+
+.white-link {
+    color: white !important;
+    transition-duration: 0.7s;
+}
+
+.white-link:hover {
+    text-decoration: underline;
+    padding: 0.5em;
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+}
+
+.white-icon {
+    color: white;
+    height: 3em;
+}
+
+#footer {
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(0, 153, 255), blue);
+    font-size: 2em;
+    font-weight: lighter;
+    grid-gap: 1em;
 }
