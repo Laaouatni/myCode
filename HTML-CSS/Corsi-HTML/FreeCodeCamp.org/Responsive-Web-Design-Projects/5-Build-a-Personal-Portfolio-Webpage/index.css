@@ -71,6 +71,7 @@ body {
 
 #welcome-h1 {
     font-size: 3em;
+    transition-duration: 0.3s
 }
 
 span::after {
@@ -104,6 +105,7 @@ h2 {
     display: flex;
     justify-content: center;
     line-height: 0.5;
+    transition-duration: 0.7s;
 }
 
 .img-project {
@@ -142,6 +144,7 @@ header {
     top: 0;
     opacity: 0.95;
     backdrop-filter: blur(1em);
+    z-index: 1;
 }
 
 nav {
@@ -149,7 +152,7 @@ nav {
     grid-template-columns: auto 1fr;
     overflow: hidden;
     border-radius: 0.5em;
-    box-shadow: white 0 0 2em;
+    box-shadow: rgba(0, 30, 255, 0.35) 0 0 2em;
 }
 
 .div-link {
@@ -170,20 +173,73 @@ nav {
     color: white;
     background-color: blue;
     transition-duration: 0.5s;
+    font-size: 1.4em;
+    text-transform: uppercase;
 }
 
 svg {
     height: 3em;
     position: absolute;
-    right: calc(50%);
+    right: calc(50% + 36/2);
     animation: up-down 2s ease infinite alternate-reverse;
 }
 
 @keyframes up-down {
     0% {
-        top: calc(95%);
+        top: calc(90%);
     }
     100% {
-        top: calc(85%);
+        top: calc(80%);
+    }
+}
+
+h2:hover {
+    opacity: 1;
+    text-shadow: rgb(255, 255, 255) 0 0 1EM;
+    transition-duration: 0.5s;
+}
+
+@media(max-width: 973px) {
+    #projects a:nth-last-of-type(1) {
+        margin-bottom: 2em;
+    }
+}
+
+@media(max-width: 650px) {
+    #welcome-h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width:480px) {
+    .img-project {
+        width: 30vh;
+    }
+    .span-project-name {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:440px) {
+    .nav-links:hover {
+        font-size: 1.1em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 380px) {
+    #welcome-h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:370px) {
+    .img-project {
+        width: 25vh;
+    }
+    .span-project-name {
+        font-size: 0.6em;
     }
 }
