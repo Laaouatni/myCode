@@ -1,10 +1,13 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(200, 240, 250);
     cursor: wait;
     font-family: poppins, monospace;
     color: blue;
     font-weight: bolder;
-    scroll-behavior: smooth;
 }
 
 #welcome-section {
