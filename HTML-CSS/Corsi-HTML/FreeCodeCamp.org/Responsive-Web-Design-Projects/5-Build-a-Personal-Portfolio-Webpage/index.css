@@ -39,7 +39,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    box-shadow: white 0 0 1em;
     margin: 1em;
     border-radius: 1em;
     transition-duration: 0.5s;
@@ -53,8 +52,9 @@ body {
 
 .project-tile {
     font-size: 1.5em;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     padding: 0.5em 0.5em 0 0.5em;
+    box-shadow: rgb(255, 255, 255) 0 0 1em;
 }
 
 #welcome-h1 {
