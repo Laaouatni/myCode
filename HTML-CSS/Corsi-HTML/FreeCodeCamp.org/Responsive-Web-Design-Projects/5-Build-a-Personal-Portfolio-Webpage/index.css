@@ -4,7 +4,7 @@ body {
     font-family: poppins, monospace;
     color: blue;
     font-weight: bolder;
-    scroll-behavior: scroll;
+    scroll-behavior: smooth;
 }
 
 #welcome-section {
