@@ -4,7 +4,6 @@
 
 body {
     background-color: rgb(200, 240, 250);
-    cursor: wait;
     font-family: poppins, monospace;
     color: blue;
     font-weight: bolder;
@@ -16,10 +15,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: bgmove 10s ease infinite alternate-reverse;
+    animation: bgchange 10s ease infinite alternate-reverse;
 }
 
-@keyframes bgmove {
+@keyframes bgchange {
     0% {
         background-color: #fff;
         color: blue;
@@ -97,6 +96,7 @@ span::after {
 a {
     text-decoration: none;
     color: blue;
+    text-overflow: ellipsis;
 }
 
 h2 {
@@ -156,6 +156,7 @@ nav {
     transition-duration: 0.2s;
     align-items: center;
     justify-content: center;
+    text-overflow: ellipsis;
 }
 
 .nav-links:hover {
@@ -170,7 +171,7 @@ nav {
     height: 3em;
     position: absolute;
     right: calc(50% + 36/2);
-    animation: up-down 2s ease infinite alternate-reverse;
+    animation: up-down 1.5s ease infinite alternate-reverse;
 }
 
 @keyframes up-down {
@@ -215,6 +216,10 @@ h2:hover {
     }
     h2 {
         font-size: 2.5em;
+    }
+    .white-icon {
+        color: white;
+        height: 2em !important;
     }
 }
 
