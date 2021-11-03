@@ -288,7 +288,8 @@ C:.
 │   │           ├───1-Build-a-Tribute-Page
 │   │           ├───2-Build a Survey Form
 │   │           ├───3-Build-a-Product-Landing-Page
-│   │           └───4-Build-a-Technical-Documentation
+│   │           ├───4-Build-a-Technical-Documentation
+│   │           └───5-Build-a-Personal-Portfolio-Webpage
 │   └───RisorseProgrammazioneHTML
 │       └───TAG
 │           ├───!DOCTYPE
@@ -300,6 +301,27 @@ C:.
 │           │   ├───H4
 │           │   ├───H5
 │           │   └───H6
-│           └───META
+│           ├───META
+│           └───test
 └───JavaScript
+    └───Corsi-JAVASCRIPT
+        └───FreeCodeCamp.org
+            └───0-Basic-JavaScript
+                ├───0-Livello-FreeCodeCamp
+                ├───1-Livello-FreeCodeCamp
+                ├───10-Livello-FreeCodeCamp
+                ├───11-Livello-FreeCodeCamp
+                ├───12-Livello-FreeCodeCamp
+                ├───13-Livello-FreeCodeCamp
+                ├───14-Livello-FreeCodeCamp
+                ├───15-Livello-FreeCodeCamp
+                ├───16-Livello-FreeCodeCamp
+                ├───2-Livello-FreeCodeCamp
+                ├───3-Livello-FreeCodeCamp
+                ├───4-Livello-FreeCodeCamp
+                ├───5-Livello-FreeCodeCamp
+                ├───6-Livello-FreeCodeCamp
+                ├───7-Livello-FreeCodeCamp
+                ├───8-Livello-FreeCodeCamp
+                └───9-Livello-FreeCodeCamp
 ```
