@@ -1,19 +1,8 @@
 # myCode
 
-🕐 Recentemente ho Scoperto di aver un Hobby!
+Grazie per aver aperto myCode!
 
-✅ quindi A Settembre, finalmente ho iniziato a provare a creare dei mini-progetti.
-
------
-
-👨‍💻 GitHub: laaouatni
-
------
-
-📈 per adesso sono alle BASI,
-
-ma con la il Tempo,
-è possibile Imparare qualcosa di Interessante!
+in questa Repository, ci trovate tutto il codice sorgente.
 
 -----
 
