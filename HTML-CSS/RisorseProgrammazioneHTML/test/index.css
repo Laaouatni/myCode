@@ -30,7 +30,7 @@ input:checked~div span {
 }
 
 .container {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 
 input {
