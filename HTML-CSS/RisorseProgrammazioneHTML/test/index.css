@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 0 0.7em 2em red;
+    display: grid;
+    transition-duration: 1s;
+    transform: translateX(-5em);
+}
+
+input:checked~div span {
+    background-color: rgb(0, 255, 94) !important;
+    box-shadow: 0 0.7em 2em rgb(0, 255, 64);
+    transition-duration: 1s;
+    transform: translateX(5em);
+}
+
+.rectangle {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.container {
+    background-color: grey;
+}
+
+input {
+    display: none
+}
