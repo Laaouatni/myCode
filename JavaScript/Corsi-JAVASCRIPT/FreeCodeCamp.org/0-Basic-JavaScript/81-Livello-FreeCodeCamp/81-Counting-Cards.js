@@ -1,6 +1,5 @@
 let count = 0;
-const Bet = "Bet";
-const Hold = "Hold";
+var myStr = " Hold";
 
 function cc(card) {
     // Only change code below this line
@@ -10,22 +9,19 @@ function cc(card) {
         case 4:
         case 5:
         case 6:
-            console.log(card + Bet);
-            return card + Bet;
-        case 7:
-        case 8:
-        case 9:
-            console.log(card + Hold);
-            return card + Hold;
+            count++;
         case 10:
         case 'J':
         case 'Q':
         case 'K':
         case 'A':
-            console.log(card + Hold);
-            return card + Hold;
+            count--;
     }
-    return "Change Me";
+    if (count > 0) {
+        myStr = " Belt";
+    }
+    console.log(count + myStr);
+    return count + myStr;
     // Only change code above this line
 }
 
