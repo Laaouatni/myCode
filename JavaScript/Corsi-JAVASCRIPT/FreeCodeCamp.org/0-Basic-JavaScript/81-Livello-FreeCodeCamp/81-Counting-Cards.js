@@ -21,7 +21,7 @@ function cc(card) {
 
     var myStr = " Hold";
     if (count > 0) {
-        myStr = " Belt";
+        myStr = " Bet";
     }
 
     return count + myStr;
