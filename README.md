@@ -17,7 +17,7 @@ C:.
 │               └───AutoPCH
 │                   └───ceae9151b52fdc49
 ├───.vscode
-├───C++
+├───c++
 │   ├───complex-things
 │   │   ├───3x+1algoritm
 │   │   │   ├───Beta-Con-Testo
@@ -72,7 +72,6 @@ C:.
 │   │       └───SpegniComputer
 │   └───ProgrammazioneRisorse
 │       ├───ArrayAlfabeto
-│       ├───ColoriC++
 │       └───KeyDefine
 ├───HTML-CSS
 │   ├───Corsi-HTML
@@ -280,18 +279,18 @@ C:.
 │   │           ├───4-Build-a-Technical-Documentation
 │   │           └───5-Build-a-Personal-Portfolio-Webpage
 │   └───RisorseProgrammazioneHTML
-│       └───TAG
-│           ├───!DOCTYPE
-│           ├───CSS
-│           ├───HeaderTags
-│           │   ├───H1
-│           │   ├───H2
-│           │   ├───H3
-│           │   ├───H4
-│           │   ├───H5
-│           │   └───H6
-│           ├───META
-│           └───test
+│       ├───CARATTERI SPECIALI
+│       ├───TAG
+│       │   ├───!DOCTYPE
+│       │   ├───HeaderTags
+│       │   │   ├───H1
+│       │   │   ├───H2
+│       │   │   ├───H3
+│       │   │   ├───H4
+│       │   │   ├───H5
+│       │   │   └───H6
+│       │   └───META
+│       └───test
 └───JavaScript
     └───Corsi-JAVASCRIPT
         └───FreeCodeCamp.org
@@ -344,8 +343,42 @@ C:.
                 ├───5-Livello-FreeCodeCamp
                 ├───50-Livello-FreeCodeCamp
                 ├───51-Livello-FreeCodeCamp
+                ├───52-Livello-FreeCodeCamp
+                ├───53-Livello-FreeCodeCamp
+                ├───54-Livello-FreeCodeCamp
+                ├───55-Livello-FreeCodeCamp
+                ├───56-Livello-FreeCodeCamp
+                ├───57-Livello-FreeCodeCamp
+                ├───58-Livello-FreeCodeCamp
+                ├───59-Livello-FreeCodeCamp
                 ├───6-Livello-FreeCodeCamp
+                ├───60-Livello-FreeCodeCamp
+                ├───61-Livello-FreeCodeCamp
+                ├───62-Livello-FreeCodeCamp
+                ├───63-Livello-FreeCodeCamp
+                ├───64-Livello-FreeCodeCamp
+                ├───65-Livello-FreeCodeCamp
+                ├───66-Livello-FreeCodeCamp
+                ├───67-Livello-FreeCodeCamp
+                ├───68-Livello-FreeCodeCamp
+                ├───69-Livello-FreeCodeCamp
                 ├───7-Livello-FreeCodeCamp
+                ├───70-Livello-FreeCodeCamp
+                ├───71-Livello-FreeCodeCamp
+                ├───72-Livello-FreeCodeCamp
+                ├───73-Livello-FreeCodeCamp
+                ├───74-Livello-FreeCodeCamp
+                ├───75-Livello-FreeCodeCamp
+                ├───76-Livello-FreeCodeCamp
+                ├───77-Livello-FreeCodeCamp
+                ├───78-Livello-FreeCodeCamp
+                ├───79-Livello-FreeCodeCamp
                 ├───8-Livello-FreeCodeCamp
+                ├───80-Livello-FreeCodeCamp
+                ├───81-Livello-FreeCodeCamp
+                ├───82-Livello-FreeCodeCamp
+                ├───83-Livello-FreeCodeCamp
+                ├───84-Livello-FreeCodeCamp
+                ├───85-Livello-FreeCodeCamp
                 └───9-Livello-FreeCodeCamp
 ```
