@@ -1,17 +1,21 @@
 <div id="d">
     <div class="b">
-        <div class="a"></div>
-        <div class="a"></div>
+        <div class="a left top"></div>
+        <div class="a right top"></div>
     </div>
     <div class="b">
-        <div class="a"></div> id="left"
-        <div class="a" id="right"></div>
+        <div class="a left bottom"></div>
+        <div class="a right bottom"></div>
     </div>
 </div>
 
 <style>
     body {
         background: #62374e;
+    }
+    
+    div {
+        position: relative;
     }
     
     #d {
@@ -24,14 +28,29 @@
     
     .a {
         background: #fdc57b;
-        height: 3em;
-        width: 3em;
+        height: calc(3em + 2px);
+        width: calc(3em + 3px);
         margin: 1em;
     }
     
     .b {
         display: flex;
         flex-direction: rows;
-        align-items:
+    }
+    
+    .right {
+        left: calc(5em + 3px);
+    }
+    
+    .top {
+        top: -4px
+    }
+    
+    .left {
+        left: calc(-5em - 3px);
+    }
+    
+    .bottom {
+        bottom: -4px
     }
 </style>
