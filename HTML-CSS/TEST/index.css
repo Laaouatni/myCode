@@ -2,19 +2,21 @@
     font-family: poppins, Arial, Helvetica, sans-serif, monospace;
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
+    --afp: #e17f37;
 }
 
 html {
-    background-color: 7;
+    background-color: #e17e371b;
 }
 
 header {
-    background: #e17f37;
+    background: var(--afp, orange);
+    opacity: 0.99;
     width: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    box-shadow: #e17f37 0 0.1em 2em;
+    box-shadow: var(--afp, orange) 0 0.1em 2em;
     z-index: 1;
 }
 
@@ -22,12 +24,12 @@ header {
     width: 4em;
     height: auto;
     transition-duration: 0.5s;
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.5em;
     filter: drop-shadow(0 0 2em white);
 }
 
 .img-small:hover {
-    filter: grayscale(10) drop-shadow(0 0 3em rgb(255, 255, 255));
+    filter: grayscale(0.6) drop-shadow(0 0 3em rgb(255, 255, 255));
     width: 5em;
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
@@ -43,13 +45,15 @@ header {
     justify-content: center;
     text-transform: capitalize;
     transition-duration: 0.5s;
+    text-shadow: 0 0 1.5em white;
 }
 
 .nav-links:hover {
-    background-color: hsla(240, 100%, 50%, 1);
-    text-shadow: 0 0 1.5em white;
+    background-color: white;
+    color: var(--afp, orange);
     text-transform: uppercase;
     transition-duration: 0.2s;
+    box-shadow: 0 0 1em white;
 }
 
 .grid-navbar {
@@ -62,4 +66,52 @@ header {
     width: 100%;
     height: auto;
     top: 94px;
+    box-shadow: 0 0 2em white;
+    border-radius: 1em;
+    transition-duration: 1s;
+    max-height: 95vh;
+}
+
+#first-image-large:hover {
+    transform: translatey(-1em);
+    transition-duration: 0.5s;
+}
+
+@media (max-width:900px) {
+    .nav-links {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 700px) {
+    .img-small {
+        margin: 0.5em 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-links {
+        display: none;
+    }
+    .grid-navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img-small {
+        width: 3em;
+        filter: drop-shadow(0 0 1em white);
+    }
+    .img-small:hover {
+        filter: grayscale(0.6) drop-shadow(0 0 3em rgb(255, 255, 255));
+        width: 3.2em;
+        transform: rotate(-360deg);
+    }
+    #first-image-large {
+        top: 75px;
+    }
+    #first-image-large:hover {
+        transform: translatey(-1em);
+        transition-duration: 0.5s;
+    }
 }
