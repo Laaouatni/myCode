@@ -89,6 +89,34 @@ header {
     display: none;
 }
 
+#storia {
+    margin-top: 10vh;
+}
+
+#paragrafo-storia {
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 1.3em;
+}
+
+#storia-image {
+    height: 15em;
+}
+
+#div-storia {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    align-content: center;
+    margin: 2em 0 2em 2em;
+}
+
+#storia-header {
+    color: var(--afp);
+    font-size: 2em;
+    text-shadow: 0 0 2em var(--afp);
+}
+
 @media (max-width:900px) {
     .nav-links {
         font-size: 0.8em;
