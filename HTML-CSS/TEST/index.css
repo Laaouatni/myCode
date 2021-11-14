@@ -3,6 +3,8 @@
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
     --afp: #e17f37;
+    --afp-blue: #005c85;
+    --afp-light-blue: #e7e7e7;
 }
 
 html {
@@ -46,6 +48,10 @@ header {
     text-transform: capitalize;
     transition-duration: 0.5s;
     text-shadow: 0 0 1.5em white;
+}
+
+[alt] {
+    color: rgb(255, 0, 0);
 }
 
 .nav-links:hover {
@@ -97,6 +103,12 @@ header {
     font-weight: 300;
     opacity: 0.6;
     font-size: 1.3em;
+    transition-duration: 0.2s;
+}
+
+#paragrafo-storia:hover {
+    opacity: 1;
+    transition-duration: 0.2s;
 }
 
 #storia-image {
@@ -129,8 +141,7 @@ header {
 }
 
 #div-storia {
-    display: grid;
-    grid-template-columns: 1fr auto;
+    display: flex;
     align-items: center;
     align-content: center;
     margin: 2em 0 2em 2em;
@@ -144,12 +155,43 @@ header {
 
 #corsi {
     height: 50vh;
-    background-color: blue;
+    background-color: var(--afp-light-blue);
 }
 
-@media (max-width:900px) {
+#corsi-header {
+    color: var(--afp-blue);
+    font-size: 2rem;
+}
+
+.center-vertical {
+    display: flex;
+    justify-content: center;
+}
+
+#seleziona-sede {
+    color: var(--afp-blue);
+}
+
+.div-sedi {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--afp-blue);
+}
+
+@media (max-width: 900px) {
     .nav-links {
         font-size: 0.8em;
+    }
+}
+
+@media (max-width:860px) {
+    #div-storia {
+        padding-top: 1vh;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
     }
 }
 
