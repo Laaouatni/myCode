@@ -10,14 +10,14 @@ html {
 }
 
 header {
+    z-index: 1;
     background: var(--afp, orange);
     opacity: 0.99;
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     box-shadow: var(--afp, orange) 0 0.1em 2em;
-    z-index: 1;
 }
 
 .img-small {
@@ -101,6 +101,31 @@ header {
 
 #storia-image {
     height: 15em;
+    animation: img-move 1s ease-out;
+    transition-duration: 0.2s;
+}
+
+@keyframes img-move {
+    from {
+        transform: translatey(-15em);
+    }
+    to {
+        transform: translateY(0em);
+    }
+}
+
+#storia-image:hover {
+    animation: img-loop 1s ease-out infinite alternate;
+    transition-duration: 0.2s;
+}
+
+@keyframes img-loop {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #div-storia {
@@ -115,6 +140,11 @@ header {
     color: var(--afp);
     font-size: 2em;
     text-shadow: 0 0 2em var(--afp);
+}
+
+#corsi {
+    height: 50vh;
+    background-color: blue;
 }
 
 @media (max-width:900px) {
