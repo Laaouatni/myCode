@@ -208,7 +208,7 @@ input[name="radio-sedi-afp"]:checked~span {
     transition-duration: 0.3s;
 }
 
-input[id="1-radio"]:checked~article {
+input[id="1-radio"]:checked~ {
     color: red;
 }
 
