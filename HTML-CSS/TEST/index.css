@@ -208,9 +208,15 @@ input[name="radio-sedi-afp"]:checked~span {
     transition-duration: 0.3s;
 }
 
-input[id="1-radio"]:checked~ {
+
+/* dont working :( bottom */
+
+input[id="1-radio"]:checked~section div div#bergamo-corsi-div {
     color: red;
 }
+
+
+/* dont working :( above*/
 
 @media (max-width: 900px) {
     .nav-links {
