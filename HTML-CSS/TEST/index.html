@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <header id="top">
+    <div id="top"></div>
+    <header>
         <input type="checkbox" name="checkbox" id="checkbox-menu">
         <label for="checkbox-menu">
             <div class="menu-div">
@@ -66,10 +67,24 @@
                     <span id="seleziona-sede">SELEZIONA UNA SEDE</span>
                 </div>
                 <div class="div-sedi">
-                    <span class="nome-sede-afp">BERGAMO</span>
-                    <span class="nome-sede-afp">CLUSONE</span>
-                    <span class="nome-sede-afp">ENDINE</span>
+                    <label for="1-radio">
+                        <input type="radio" id="1-radio" name="radio-sedi-afp" checked>
+                        <span class="nome-sede-afp">BERGAMO</span>
+                    </label>
+                    <label for="2-radio">
+                        <input type="radio" id="2-radio" name="radio-sedi-afp">
+                        <span class="nome-sede-afp">CLUSONE</span>
+                    </label>
+                    <label for="3-radio">
+                        <input type="radio" id="3-radio" name="radio-sedi-afp">
+                        <span class="nome-sede-afp">ENDINE</span>
+                    </label>
                 </div>
+                <article id="corsi-container">
+                    <div id="bergamo-corsi-div" class="corsi-div">bergamo</div>
+                    <div id="clusone-corsi-div" class="corsi-div">clusone</div>
+                    <div id="endine-corsi-div" class="corsi-div">endine</div>
+                </article>
             </div>
         </section>
     </main>
