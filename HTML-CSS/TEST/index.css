@@ -208,10 +208,6 @@ input[name="radio-sedi-afp"]:checked~span {
     transition-duration: 0.3s;
 }
 
-input[name="radio-sedi-afp"]:checked~div {
-    text-decoration: underline;
-}
-
 @media (max-width: 900px) {
     .nav-links {
         font-size: 0.8em;
