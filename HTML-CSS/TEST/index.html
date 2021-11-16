@@ -28,7 +28,7 @@
             </div>
         </label>
         <nav class="grid-navbar">
-            <a href="http:// " class="nav-links">open day</a>
+            <a href="#first-image-large" class="nav-links">open day</a>
             <a href="#storia" class="nav-links">storia</a>
             <a href="#corsi" class="nav-links">corsi</a>
             <a href="#top" id="afp-link">
@@ -68,25 +68,25 @@
                 </div>
                 <div class="div-sedi">
                     <label for="1-radio">
-                        <input type="radio" id="1-radio" name="radio-sedi-afp" checked>
+                        <input type="radio" id="1-radio" data="1" name="radio-sedi-afp" onclick="javascript:radioCheck(this);" checked>
                         <span class="nome-sede-afp">BERGAMO</span>
                         <!-- <div class="uno-div">non cancellare</div> -->
                     </label>
                     <label for="2-radio">
-                        <input type="radio" id="2-radio" name="radio-sedi-afp">
+                        <input type="radio" id="2-radio" data="2" onclick="javascript:radioCheck(this);" name="radio-sedi-afp">
                         <span class="nome-sede-afp">CLUSONE</span>
                         <!-- <div class="due-div">non cancellare</div> -->
                     </label>
                     <label for="3-radio">
-                        <input type="radio" id="3-radio" name="radio-sedi-afp">
+                        <input type="radio" id="3-radio" data="3" onclick="javascript:radioCheck(this);"  name="radio-sedi-afp">
                         <span class="nome-sede-afp">ENDINE</span>
                         <!-- <div class="tre-div">non cancellare</div> -->
                     </label>
                 </div>
                 <div id="corsi-container">
-                    <div id="bergamo-corsi-div" class="corsi-div uno-div">bergamo</div>
-                    <div id="clusone-corsi-div" class="corsi-div due-div">clusone</div>
-                    <div id="endine-corsi-div" class="corsi-div tre-div">endine</div>
+                    <div id="1-corsi-div" class="corsi-div uno-div">bergamo</div>
+                    <div id="2-corsi-div" class="corsi-div due-div">clusone</div>
+                    <div id="3-corsi-div" class="corsi-div tre-div">endine</div>
                 </div>
             </div>
         </section>
