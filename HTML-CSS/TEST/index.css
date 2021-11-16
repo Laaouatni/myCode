@@ -240,8 +240,16 @@ input[id="1-radio"]:checked~section div div#bergamo-corsi-div {
 }
 
 @media (max-width: 650px) {
+    header {
+        opacity: 0.99;
+    }
     .nav-links {
         padding: 0 0.6em;
+        transition-duration: 0.1s;
+    }
+    .nav-links:hover {
+        padding: 0 1.5em;
+        transition-duration: 0.2s;
     }
     .grid-navbar {
         width: 100%;
@@ -273,16 +281,7 @@ input[id="1-radio"]:checked~section div div#bergamo-corsi-div {
     }
 }
 
-@media(max-width: 500px) {
-    .nav-links {
-        font-size: 0.7em;
-    }
-    #div-storia {
-        margin: 0.5em;
-    }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     .nav-links {
         display: none;
     }
@@ -327,5 +326,11 @@ input[id="1-radio"]:checked~section div div#bergamo-corsi-div {
     }
     to {
         transform: translatey(0);
+    }
+}
+
+@media(max-width: 500px) {
+    #div-storia {
+        margin: 0.5em;
     }
 }
