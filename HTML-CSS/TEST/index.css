@@ -211,7 +211,7 @@ input[name="radio-sedi-afp"]:checked~span {
 
 /* dont working :( bottom */
 
-input[id="1-radio"]:checked~section div div#bergamo-corsi-div {
+input[name="radio-sedi-afp"]:checked~div {
     color: red;
 }
 
