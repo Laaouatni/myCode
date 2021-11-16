@@ -208,15 +208,9 @@ input[name="radio-sedi-afp"]:checked~span {
     transition-duration: 0.3s;
 }
 
-
-/* dont working :( bottom */
-
 input[name="radio-sedi-afp"]:checked~div {
-    color: red;
+    text-decoration: underline;
 }
-
-
-/* dont working :( above*/
 
 @media (max-width: 900px) {
     .nav-links {
