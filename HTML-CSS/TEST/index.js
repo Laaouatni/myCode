@@ -1,24 +1,25 @@
 function radioCheck(radio) {
-    /*     switch (radio) {
-            case "1":
-                alert("1");
-                break;
-            case "2":
-                alert("2");
-                break;
-            case "3":
-                alert("3");
-                break;
-            default:
-                alert("Invalid radio")
-                break;
-        } */
+    const uno = document.getElementById("1-corsi-div");
+    const due = document.getElementById("2-corsi-div");
+    const tre = document.getElementById("3-corsi-div");
+
     if (radio == "1") {
-        alert("1");
-    } else if (radio == "2") {
-        alert("2");
-    } else if (radio == "3") {
-        alert("3");
+        uno.classList.add("on");
+        due.classList.add("off");
+        tre.classList.add("off");
+        console.log("1");
+    } else
+    if (radio == "2") {
+        uno.classList.add("off");
+        due.classList.add("on");
+        tre.classList.add("off");
+        console.log("2");
+    } else
+    if (radio == "3") {
+        uno.classList.add("off");
+        due.classList.add("off");
+        tre.classList.add("on");
+        console.log("3")
     } else {
         alert("something go wrong");
     }

@@ -215,7 +215,7 @@ input[name="radio-sedi-afp"]:checked~span {
 }
 
 .on {
-    display: grid;
+    display: grid !important;
     animation: on 1s ease-out;
 }
 
