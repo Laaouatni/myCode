@@ -1,15 +1,12 @@
 function radioCheck(radio) {
-    data = radio
-
-    // Hide all divs
-
-    for (var i = 0; i < 3; i++) { // assuming your data attr 1,2,3,..,N
-        var el = (i + 1) + '-corsi-div'; // ifRadio1, ifRadio2, etc
-        document.getElementById(el).style.display = "none";
+    data = radio;
+    if (data == 1) {
+        alert("1");
+    } else if (data == 2) {
+        alert("2");
+    } else if (data == 3) {
+        alert("3");
+    } else {
+        alert("something go wrong");
     }
-
-    // Show the current div
-
-    var el = (data) + '-corsi-div'; // ifRadio1, ifRadio2, etc
-    document.getElementById(el).style.display = "block";
 }

@@ -1,7 +1,6 @@
 * {
     font-family: poppins, Arial, Helvetica, sans-serif, monospace;
     scroll-behavior: smooth;
-    scroll-snap-type: proximity;
     --afp: #e17f37;
     --afp-blue: #005c85;
     --afp-light-blue: #e7e7e7;
@@ -206,6 +205,33 @@ input[name="radio-sedi-afp"]:checked~span {
     color: var(--afp-cyan);
     font-size: 1.2em;
     transition-duration: 0.3s;
+}
+
+#corsi-container {
+    height: 34vh;
+    display: grid;
+    place-content: center;
+    border-bottom: 2px solid blue;
+}
+
+.on {
+    display: grid;
+    animation: on 1s ease-out;
+}
+
+@keyframes on {
+    from {
+        opacity: 0;
+        transform: translateX(-50vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0vh);
+    }
+}
+
+.off {
+    display: none !important;
 }
 
 @media (max-width: 900px) {
