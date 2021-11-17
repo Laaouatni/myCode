@@ -159,7 +159,7 @@ header {
 
 #corsi-header {
     color: var(--afp-blue);
-    font-size: 2rem;
+    font-size: 4vw;
 }
 
 .center-vertical {
@@ -177,7 +177,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     color: var(--afp-blue);
-    font-size: 1.1em;
+    font-size: 1.7vw;
 }
 
 .nome-sede-afp:hover {
