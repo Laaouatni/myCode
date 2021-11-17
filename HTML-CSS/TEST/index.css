@@ -207,16 +207,14 @@ input[name="radio-sedi-afp"]:checked~span {
     transition-duration: 0.3s;
 }
 
-#corsi-container {
-    height: 34vh;
-    display: grid;
-    place-content: center;
-    border-bottom: 2px solid blue;
-}
-
 .on {
     display: grid !important;
     animation: on 1s ease-out;
+}
+
+svg {
+    height: 2em;
+    width: 2em;
 }
 
 @keyframes on {
