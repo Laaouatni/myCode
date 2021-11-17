@@ -1,7 +1,7 @@
 function radioCheck(radio) {
-    const uno = document.getElementById("1-corsi-div");
-    const due = document.getElementById("2-corsi-div");
-    const tre = document.getElementById("3-corsi-div");
+    const uno = document.getElementById("uno-corsi-div");
+    const due = document.getElementById("due-corsi-div");
+    const tre = document.getElementById("tre-corsi-div");
 
     if (radio == "1") {
         uno.className = 'corsi-div on';
