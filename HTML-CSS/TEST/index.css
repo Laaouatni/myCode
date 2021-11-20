@@ -552,6 +552,14 @@ textarea {
     height: 5em !important;
 }
 
+.tel-sede-info span::before {
+    content: "+39 ";
+}
+
+.fax-sede-info span::before {
+    content: "Fax: ";
+}
+
 @media (min-width: 1500px) {
     #all-servizi-div {
         display: grid;
