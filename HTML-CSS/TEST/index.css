@@ -313,6 +313,26 @@ svg {
     transition-duration: 0.3s;
     color: white;
     background-color: var(--afp-blue);
+    animation-delay: 0.2s !important;
+    animation: gradient-blue 10s ease-in infinite;
+}
+
+@keyframes gradient-blue {
+    0% {
+        background: linear-gradient(250deg, transparent, var(--afp-blue));
+        background-size: 600% 600%;
+        background-position: 0% 51%
+    }
+    50% {
+        background: linear-gradient(250deg, transparent, var(--afp-blue));
+        background-size: 600% 600%;
+        background-position: 100% 50%
+    }
+    100% {
+        background: linear-gradient(250deg, transparent, var(--afp-blue));
+        background-size: 600% 600%;
+        background-position: 0% 51%
+    }
 }
 
 @media (max-width: 900px) {
