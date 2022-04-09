@@ -2,7 +2,7 @@
 
 Grazie per aver aperto myCode!
 
-in questa Repository, ci trovate tutto il codice sorgente.
+in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi (quando ho iniziato a imparare a programmare).
 
 -----
 
