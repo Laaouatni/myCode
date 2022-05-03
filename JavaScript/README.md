@@ -1,5 +1,2 @@
-# come eseguire JS in VsCode?
+# FreeCodeCamp
 
-il modo più semplice, è scrivere:
-
-```node ./NomeProgramma.js```
