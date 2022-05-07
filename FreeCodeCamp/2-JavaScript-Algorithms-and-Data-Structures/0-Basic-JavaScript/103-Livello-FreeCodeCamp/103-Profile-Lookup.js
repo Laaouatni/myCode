@@ -28,17 +28,35 @@ const contacts = [{
 
 function lookUpProfile(name, prop) {
     // Only change code below this line
+
+    let returnedValue;
+    let isNameFound = false;
+
     contacts.forEach((el) => {
         if (el.firstName == name) {
+            isNameFound = true;
+
             if (el.hasOwnProperty(prop)) {
-                return el[prop];
+                returnedValue = el[prop];
             } else {
-                return "No such property";
+                returnedValue = "No such property";
+            }
+        } else {
+            if (isNameFound != true) {
+                returnedValue = "No such contact";
             }
         }
-        return "No such contact";
     });
+
+    return returnedValue;
 }
 // Only change code above this line
 
-lookUpProfile("Akira", "likes");
+console.log({
+    test0: lookUpProfile("Kristian", "lastName"),
+    test1: lookUpProfile("Sherlock", "likes"),
+    test2: lookUpProfile("Harry", "likes"),
+    test3: lookUpProfile("Bob", "number"),
+    test4: lookUpProfile("Bob", "potato"),
+    test5: lookUpProfile("Akira", "address")
+})
