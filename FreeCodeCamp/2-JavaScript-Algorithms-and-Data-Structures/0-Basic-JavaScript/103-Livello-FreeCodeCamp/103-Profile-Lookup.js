@@ -1,3 +1,4 @@
+let obj = {};
 // Setup
 const contacts = [{
         firstName: "Akira",
@@ -27,8 +28,17 @@ const contacts = [{
 
 function lookUpProfile(name, prop) {
     // Only change code below this line
-
-    // Only change code above this line
+    contacts.forEach((el) => {
+        if (el.firstName == name) {
+            if (el.hasOwnProperty(prop)) {
+                return el[prop];
+            } else {
+                return "No such property";
+            }
+        }
+        return "No such contact";
+    });
 }
+// Only change code above this line
 
 lookUpProfile("Akira", "likes");
