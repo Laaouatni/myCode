@@ -7,12 +7,12 @@ function spamMessage(props) {
 }
 
 let n = 0;
+
 setInterval(() => {
     n++;
 
     let props = {
-        "num": n,
-        "text": `✅ ${this.num}`,
+        "text": `✅ ${n/2}`,
         "input": document.querySelectorAll("._13NKt")[1],
         "button": document.querySelectorAll("._3HQNh")[1].querySelectorAll("button")[0],
         "event": () => {
@@ -21,4 +21,4 @@ setInterval(() => {
     }
 
     spamMessage(props);
-}, 500);
+}, 100);
