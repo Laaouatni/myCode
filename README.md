@@ -218,7 +218,19 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
 │   │       ├───0-Livello-FreeCodeCamp
 │   │       ├───1-Livello-FreeCodeCamp
 │   │       ├───10-Livello-FreeCodeCamp
+│   │       ├───100-Livello-FreeCodeCamp
+│   │       ├───101-Livello-FreeCodeCamp
+│   │       ├───102-Livello-FreeCodeCamp
+│   │       ├───103-Livello-FreeCodeCamp
+│   │       ├───104-Livello-FreeCodeCamp
+│   │       ├───105-Livello-FreeCodeCamp
+│   │       ├───106-Livello-FreeCodeCamp
+│   │       ├───107-Livello-FreeCodeCamp
+│   │       ├───108-Livello-FreeCodeCamp
+│   │       ├───109-Livello-FreeCodeCamp
 │   │       ├───11-Livello-FreeCodeCamp
+│   │       ├───110-Livello-FreeCodeCamp
+│   │       ├───111-Livello-FreeCodeCamp
 │   │       ├───12-Livello-FreeCodeCamp
 │   │       ├───13-Livello-FreeCodeCamp
 │   │       ├───14-Livello-FreeCodeCamp
@@ -405,4 +417,8 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
     │       └───test
     │           └───recursive-font-em
     └───JavaScript
+        └───exercise
+            ├───html_to_tables
+            │   └───0
+            └───whatsapp_message_writer
 ```
