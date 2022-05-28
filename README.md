@@ -4,6 +4,8 @@ Grazie per aver aperto myCode!
 
 in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi (quando ho iniziato a imparare a programmare).
 
+ed anche Tutti gli esercizi di FreeCodeCamp.
+
 -----
 
 ## tree di MYCODE
@@ -211,9 +213,9 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
 │   │       ├───1-Build-a-Tribute-Page
 │   │       ├───2-Build a Survey Form
 │   │       ├───3-Build-a-Product-Landing-Page
-│   │       ├───4-Build-a-Technical-Documentation
-│   │       └───5-Build-a-Personal-Portfolio-Webpage
-│   ├───2-JavaScript-Algorithms-and-Data-Structures
+│   │       ├───4-Build-a-Technical-Documentation      
+│   │       └───5-Build-a-Personal-Portfolio-Webpage   
+│   ├───2-JavaScript-Algorithms-and-Data-Structures    
 │   │   └───0-Basic-JavaScript
 │   │       ├───0-Livello-FreeCodeCamp
 │   │       ├───1-Livello-FreeCodeCamp
@@ -357,12 +359,12 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
     │   │       └───RandomGraficoX
     │   ├───Esercizi-Base
     │   │   ├───0-CIAO+NOME[laaouatni]
-    │   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]
-    │   │   │   └───[0.2]ciao-nome_(printf)[laaouatni]
+    │   │   │   ├───[0.1]ciao-nome_(cout)[laaouatni]   
+    │   │   │   └───[0.2]ciao-nome_(printf)[laaouatni] 
     │   │   ├───1-ciao-nome-INPUT[laaouatni]
-    │   │   ├───2-Multi-Linea_Output[laaouatni]
+    │   │   ├───2-Multi-Linea_Output[laaouatni]        
     │   │   │   ├───[2.1]multi-linea-NORMAL_[laaouatni].cpp
-    │   │   │   ├───[2.2]multi-linea_ANSI-ESCAPE
+    │   │   │   ├───[2.2]multi-linea_ANSI-ESCAPE       
     │   │   │   └───[2.3]multi-linea-FOR
     │   │   ├───3-OperazioniAritmetiche
     │   │   │   ├───AddizioneVariabile
@@ -381,14 +383,14 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
     │   │   ├───6-SpazioOgniCarattereStringa
     │   │   ├───7-Array
     │   │   └───8-SystemFunzione
-    │   │       ├───apriTerminale-system[laaouatni]
-    │   │       │   ├───apriTerminale+altrocomando
+    │   │       ├───apriTerminale-system[laaouatni]    
+    │   │       │   ├───apriTerminale+altrocomando     
     │   │       │   ├───apriTerminale-normal
-    │   │       │   └───apriTerminale_Loop[laaouatni]
+    │   │       │   └───apriTerminale_Loop[laaouatni]  
     │   │       │       ├───apriTerminale_FOR
-    │   │       │       └───apriTerminale_While
-    │   │       ├───cancellaTestoPrecedente_System
-    │   │       ├───premiUnTastoPerContinuare_System
+    │   │       │       └───apriTerminale_While        
+    │   │       ├───cancellaTestoPrecedente_System     
+    │   │       ├───premiUnTastoPerContinuare_System   
     │   │       └───SpegniComputer
     │   └───ProgrammazioneRisorse
     │       ├───ArrayAlfabeto
@@ -421,4 +423,5 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
             ├───html_to_tables
             │   └───0
             └───whatsapp_message_writer
+                └───0
 ```
