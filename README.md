@@ -6,7 +6,9 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
 
 ed anche Tutti gli esercizi di FreeCodeCamp.
 
+<!--
 [![wakatime](https://wakatime.com/badge/github/Laaouatni/myCode.svg)](https://wakatime.com/badge/github/Laaouatni/myCode)
+-->
 
 -----
 
