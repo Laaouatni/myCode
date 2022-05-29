@@ -427,3 +427,5 @@ ed anche Tutti gli esercizi di FreeCodeCamp.
             └───whatsapp_message_writer
                 └───0
 ```
+
+![](https://visitor-badge.glitch.me/badge?page_id=myCode)
