@@ -6,6 +6,10 @@ in questa Repository, ci trovate tutto il codice sorgente dei miei primi 3 mesi 
 
 ed anche Tutti gli esercizi di FreeCodeCamp.
 
+<!--
+[![wakatime](https://wakatime.com/badge/github/Laaouatni/myCode.svg)](https://wakatime.com/badge/github/Laaouatni/myCode)
+-->
+
 -----
 
 ## tree di MYCODE
@@ -425,3 +429,5 @@ ed anche Tutti gli esercizi di FreeCodeCamp.
             └───whatsapp_message_writer
                 └───0
 ```
+
+![](https://visitor-badge.glitch.me/badge?page_id=myCode)
