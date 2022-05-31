@@ -17,16 +17,30 @@ function getRandomEmoji() {
 
     let emojiNewArray = emojiStringToArray(emojiStringFull);
 
-    console.log(emojiNewArray.length)
     let randomNumber = Math.floor(Math.random() * emojiNewArray.length);
     let randomEmoji = emojiNewArray[randomNumber];
 
-    for (let index = 0; index < emojiNewArray.length; index++) {
-        if (emojiNewArray[index] == undefined) {
-            console.log("❌❌❌❌")
+    return randomEmoji;
+}
+
+function spamMessage(props) {
+    props.event.input();
+    props.input.innerHTML = props.text;
+    props.input.dispatchEvent(props.event.input());
+    props.button.click();
+}
+
+setInterval(() => {
+    let props = {
+        "text": `${getRandomEmoji()}`,
+        "input": document.querySelectorAll("._13NKt")[1],
+        "button": document.querySelectorAll("._3HQNh")[1].querySelectorAll("button")[0],
+        "event": {
+            "input": () => {
+                return new InputEvent("input", { bubbles: true });
+            }
         }
     }
 
-    return { randomEmoji, randomNumber };
-}
-console.log(getRandomEmoji());
+    spamMessage(props);
+}, 100);
