@@ -2,12 +2,15 @@ let emojiString = "😀😃😄😁😆😅😂🤣🥲😊😇🙂🙃😉😌�
 
 var emojiStringToArray = (emojiString) => {
     let splited = emojiString.split(/([\uD800-\uDBFF][\uDC00-\uDFFF])/);
+
     emojiString = [];
 
     splited.forEach(element => {
         if (element != "") {
             emojiString.push(element);
-        }
+            console.log(`${element.length == 1 ? "❌❌❌" + element.toString() : "✅✅✅✅✅✅✅✅✅✅✅✅" }`);
+        } else {}
+        // if invisible character 
     });
 
     return emojiString;
