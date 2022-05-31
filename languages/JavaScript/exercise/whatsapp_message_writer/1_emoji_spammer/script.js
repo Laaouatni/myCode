@@ -6,18 +6,15 @@ var emojiStringToArray = (emojiString) => {
     emojiString = [];
 
     splited.forEach(element => {
-        if (element != "") {
+        if (element != "" && element.length > 1) {
             emojiString.push(element);
-            console.log(`${element.length == 1 ? "❌❌❌" + element.toString() : "✅✅✅✅✅✅✅✅✅✅✅✅" }`);
-        } else {}
-        // if invisible character 
+        }
     });
 
     return emojiString;
 };
 
 let emojiNewArray = emojiStringToArray(emojiString);
-console.log(emojiNewArray);
 
 let randomNumber = Math.floor(Math.random() * emojiString.length);
 let randomEmoji = emojiNewArray[randomNumber];
