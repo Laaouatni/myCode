@@ -23,14 +23,12 @@ function getRandomEmoji(emojiString) {
     return randomEmoji;
 }
 
-document.querySelector("body").textContent = getRandomEmoji(emojiString);
-
-
+// document.querySelector("body").textContent = getRandomEmoji(emojiString);
 
 
 function spamMessage(props) {
     props.event.input();
-    props.input.innerHTML = props.text;
+    props.text == undefined ? console.log("❌❌❌❌") : props.input.innerHTML = props.text;
     props.input.dispatchEvent(props.event.input());
     props.button.click();
 }
@@ -48,4 +46,5 @@ setInterval(() => {
     }
 
     spamMessage(props);
+
 }, 100);
