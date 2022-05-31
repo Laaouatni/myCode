@@ -11,7 +11,7 @@ setInterval(() => {
     n++;
 
     let props = {
-        "text": `✅ test ${n/2}`,
+        "text": `${n/2}`,
         "input": document.querySelectorAll("._13NKt")[1],
         "button": document.querySelectorAll("._3HQNh")[1].querySelectorAll("button")[0],
         "event": () => {
