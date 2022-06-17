@@ -6,10 +6,10 @@ document.querySelectorAll("image")
         openImage(link);
 
         arr.push(link);
-        console.log(`✅ ${index + 1} - ${link}`);
+        console.log(`✅ ${index + 1}/${arr.length} - ${link}`);
     });
 
-console.log(`✅✅✅ finished downloading ${arr.length} images`, arr);
+console.log(`✅✅✅ finished opening ${arr.length} images`, arr);
 
 
 function openImage(link) {
