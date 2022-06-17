@@ -14,7 +14,7 @@ function download(source) {
     var el = document.createElement("a");
 
     el.setAttribute("href", source);
-    el.setAttribute("download");
+    el.setAttribute("download", "");
 
     document.body.appendChild(el);
 
