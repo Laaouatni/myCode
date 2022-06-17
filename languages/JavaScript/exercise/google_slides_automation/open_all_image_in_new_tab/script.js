@@ -1,21 +1,22 @@
 let arr = [];
 
 document.querySelectorAll("image")
-    .forEach((a) => {
+    .forEach((a, index) => {
         let link = a.href.baseVal;
-        download(link);
+        openImage(link);
 
         arr.push(link);
+        console.log(`✅ ${index + 1} - ${link}`);
     });
 
-console.log(arr);
+console.log(`✅✅✅ finished downloading ${arr.length} images`, arr);
 
-function download(source) {
+
+function openImage(link) {
     var el = document.createElement("a");
 
-    el.setAttribute("href", source);
+    el.setAttribute("href", link);
     el.setAttribute("target", "_blank");
-    el.setAttribute("download", "");
 
     document.body.appendChild(el);
 
