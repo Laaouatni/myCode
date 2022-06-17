@@ -14,6 +14,7 @@ function download(source) {
     var el = document.createElement("a");
 
     el.setAttribute("href", source);
+    el.setAttribute("target", "_blank");
     el.setAttribute("download", "");
 
     document.body.appendChild(el);
