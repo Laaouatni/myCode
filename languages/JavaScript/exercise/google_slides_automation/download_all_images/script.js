@@ -3,10 +3,14 @@ let arr = [];
 document.querySelectorAll("image")
     .forEach((a, index) => {
         let link = a.href.baseVal;
-        downloadImage(link, index);
+        if (link != "//ssl.gstatic.com/docs/presentations/images/animation_indicator.svg") {
+            downloadImage(link, index);
 
-        arr.push(link);
-        console.log(`✅ ${index + 1}/${arr.length} - ${link}`);
+            arr.push(link);
+            console.log(`✅ ${index + 1}/${arr.length} - ${link}`);
+        } else {
+            console.log(`❌ ${index + 1}/${arr.length} - ${link}`);
+        }
     });
 
 console.log(`✅✅✅ finished downloading ${arr.length} images`, arr);
